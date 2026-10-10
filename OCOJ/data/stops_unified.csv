@@ -1,0 +1,3289 @@
+stop_id,name,lat,lon,agency,mode,n_routes
+GMRC_01,Vastral Gam,22.9971313,72.6674512,metro,metro,0
+GMRC_02,Nirant Cross Road,22.9998991,72.6585088,metro,metro,0
+GMRC_03,Vastral,23.0034916,72.6476943,metro,metro,0
+GMRC_04,Rabari Colony,23.005413,72.6355917,metro,metro,0
+GMRC_05,Amraivadi,23.0078462,72.6283735,metro,metro,0
+GMRC_06,Apparel Park,23.0106557,72.6182366,metro,metro,0
+GMRC_07,Kankaria East,23.0154573,72.6070016,metro,metro,0
+GMRC_08,Kalupur Metro Station,23.0246913,72.6031447,metro,metro,0
+GMRC_09,Gheekanta,23.028794,72.5867752,metro,metro,0
+GMRC_10,Shahpur,23.0392105,72.5810327,metro,metro,0
+GMRC_11,Old High Court,23.0372892,72.5672065,metro,metro,0
+GMRC_12,SP Stadium,23.0398414,72.5616768,metro,metro,0
+GMRC_13,Commerce Six Road,23.0407013,72.552973,metro,metro,0
+GMRC_14,Gujarat University,23.0448477,72.5435296,metro,metro,0
+GMRC_15,Gurukul Road,23.0458829,72.5348734,metro,metro,0
+GMRC_16,Doordarshan Kendra,23.0481764,72.5244209,metro,metro,0
+GMRC_17,Thaltej,23.049748,72.5160152,metro,metro,0
+GMRC_18,Thaltej Gam,23.0502062,72.5070123,metro,metro,0
+GMRC_19,APMC,22.9977445,72.5371222,metro,metro,0
+GMRC_20,Jivraj Park,23.0054989,72.5334928,metro,metro,0
+GMRC_21,Rajivnagar,23.0097229,72.5367523,metro,metro,0
+GMRC_22,Shreyas,23.0135977,72.5492225,metro,metro,0
+GMRC_23,Paldi,23.0185053,72.5624076,metro,metro,0
+GMRC_24,Gandhigram,23.0270955,72.5690238,metro,metro,0
+GMRC_25,Usmanpura,23.0458371,72.564982,metro,metro,0
+GMRC_26,Vijaynagar,23.0561913,72.5623389,metro,metro,0
+GMRC_27,Vadaj,23.0676671,72.5657588,metro,metro,0
+GMRC_28,Ranip,23.0676741,72.5740838,metro,metro,0
+GMRC_30,AEC,23.0856303,72.592206,metro,metro,0
+GMRC_31,Sabarmati,23.0751088,72.593291,metro,metro,0
+GMRC_32,Motera Stadium,23.0967726,72.596692,metro,metro,0
+GMRC_33,Koteshwar Road,23.1031114,72.6021329,metro,metro,0
+GMRC_34,Vishwakarma College,23.1141999,72.6083864,metro,metro,0
+GMRC_35,Tapovan Circle,23.1201271,72.6157987,metro,metro,0
+GMRC_36,Narmada Canal,23.1251457,72.6220979,metro,metro,0
+GMRC_37,Koba Circle,23.1322508,72.631042,metro,metro,0
+GMRC_38,Juna Koba,23.1419718,72.6386122,metro,metro,0
+GMRC_39,Koba Gam,23.1476098,72.6439055,metro,metro,0
+GMRC_40,GNLU,23.1544724,72.6474689,metro,metro,0
+GMRC_41,Raysan,23.1663954,72.6483252,metro,metro,0
+GMRC_42,Randesan,23.1790845,72.6472905,metro,metro,0
+GMRC_43,Dholakuva Circle,23.1859445,72.6433202,metro,metro,0
+GMRC_44,Infocity,23.1922574,72.6397126,metro,metro,0
+GMRC_45,Sector-1,23.2049077,72.6431519,metro,metro,0
+GMRC_46,Sector 10A,23.2114841,72.6501927,metro,metro,0
+GMRC_47,Sachivalaya,23.2150688,72.6587511,metro,metro,0
+GMRC_48,Akshardham,23.2236772,72.6641817,metro,metro,0
+GMRC_49,Juna Sachivalaya,23.228926,72.6594151,metro,metro,0
+GMRC_50,Sector-16,23.2338826,72.6501659,metro,metro,0
+GMRC_51,Sector-24,23.2385075,72.6414782,metro,metro,0
+GMRC_52,Mahatama Mandir,23.2339412,72.6338714,metro,metro,0
+GMRC_53,PDEU,23.1548645,72.6612117,metro,metro,0
+GMRC_54,Gift City,23.1533555,72.6855536,metro,metro,0
+AMC_6161,P.D.P.U. Cross Road,23.15995,72.6355,AMTS,amts,7
+AMC_6163,Gandhinagar Kelvani Mandal,23.15614,72.63511,AMTS,amts,7
+AMC_2314,Preksha Bharati,23.15087,72.63487,AMTS,amts,7
+AMC_2315,Kamalam,23.14757,72.63452,AMTS,amts,7
+AMC_2316,Mahavir Hills,23.14594,72.63434,AMTS,amts,2
+AMC_2317,Satnam Motors (Bharat Petrolium),23.1438,72.63411,AMTS,amts,7
+AMC_2318,Jain Aradhana Kendra,23.13971,72.63367,AMTS,amts,7
+AMC_2319,Koba Circle,23.13475,72.63323,AMTS,amts,7
+AMC_2384,Manvar Party Plot,23.1315,72.63263,AMTS,amts,2
+AMC_2320,Sandesh Farm House,23.12064,72.6319,AMTS,amts,2
+AMC_2321,S.P.Ring Road (Sughad),23.11799,72.63167,AMTS,amts,2
+AMC_1958,Swaminarayan Gurukul,23.00405,72.65905,AMTS,amts,9
+AMC_2323,Bhartiya Udhyamita Vikash Sansthan,23.11388,72.63122,AMTS,amts,2
+AMC_2324,Appolo Hospital,23.11058,72.63082,AMTS,amts,4
+AMC_6167,Hotel MinaPlaza,23.10979,72.63047,AMTS,amts,4
+AMC_2326,Jay Bholenath Bunglows,23.10796,72.63059,AMTS,amts,4
+AMC_2327,Shrinath Farm,23.10543,72.63029,AMTS,amts,11
+AMC_2328,Kanoriya Hospital,23.10036,72.62992,AMTS,amts,9
+AMC_2329,Bhat Gam,23.09827,72.62999,AMTS,amts,9
+AMC_2330,Mother Dairy,23.09645,72.62993,AMTS,amts,9
+AMC_2331,Indirabridge Approach,23.08602,72.6307,AMTS,amts,13
+AMC_7001,Hansol,23.0855,72.62396,AMTS,amts,6
+AMC_2341,Talavdi (Sadarnagar),23.08278,72.61983,AMTS,amts,13
+AMC_2361,Sardarnagar Approach,23.08263,72.61764,AMTS,amts,13
+AMC_3948,Garnala,23.07866,72.61,AMTS,amts,8
+AMC_2359,Camp Sadar Bazar,23.07463,72.60556,AMTS,amts,13
+AMC_2345,Wireless Quarters (Camp),23.07109,72.60323,AMTS,amts,13
+AMC_2346,Camp Hanuman,23.06622,72.60064,AMTS,amts,13
+AMC_2347,Telephone Exchange (A.C.B.Office),23.06364,72.59887,AMTS,amts,13
+AMC_3949,Dufnala,23.06217,72.59753,AMTS,amts,22
+AMC_1942,Vitthalnagar,23.05471,72.60066,AMTS,amts,18
+AMC_3955,Civil Hospital Corner,23.05079,72.60077,AMTS,amts,9
+AMC_1111,Baliya Limbdi,23.04756,72.60146,AMTS,amts,67
+AMC_1255,Giradharnagar,23.04734,72.59752,AMTS,amts,46
+AMC_6165,Giradharnagar Overbridge,23.04341,72.5967,AMTS,amts,2
+AMC_1966,Idga Chowki,23.03889,72.59682,AMTS,amts,14
+AMC_1116,Prem Darwaja,23.03667,72.59715,AMTS,amts,126
+AMC_3050,Kalupur Terminus,23.02796,72.59982,AMTS,amts,106
+AMC_1737,Amdupura,23.03513,72.60501,AMTS,amts,50
+AMC_4273,Kutbi Mazar (Vorano Rozo),23.0376,72.60804,AMTS,amts,46
+AMC_3790,D.R.M.Office (Swadeshi Mill),23.03976,72.60956,AMTS,amts,46
+AMC_3791,Chamunda,23.04154,72.612,AMTS,amts,48
+AMC_3792,Arvind Mills (Naroda),23.04297,72.61399,AMTS,amts,48
+AMC_6471,Asarva Railway Station,23.04378,72.61372,AMTS,amts,12
+AMC_5639,Bhakti Circle,23.05194,72.68167,AMTS,amts,33
+AMC_5640,Devsya States,23.0523,72.67938,AMTS,amts,11
+AMC_5641,Shri Saurashtra Patel Samaj,23.05149,72.67702,AMTS,amts,11
+AMC_5642,Prerana Bunglows,23.05075,72.67452,AMTS,amts,11
+AMC_5643,Devsrushti,23.05038,72.67327,AMTS,amts,10
+AMC_7457,Vaikunth Bunglows,23.05004,72.67029,AMTS,amts,25
+AMC_3366,Dynasty Restaurant,23.05335,72.67064,AMTS,amts,11
+AMC_7355,Tirthbhumi Residency,23.05596,72.67111,AMTS,amts,17
+AMC_6094,Oshian Party Plot,23.05621,72.66976,AMTS,amts,7
+AMC_6092,Nikol Fire Station,23.05644,72.66652,AMTS,amts,7
+AMC_5158,Shyam Farm House,23.05695,72.66512,AMTS,amts,11
+AMC_5650,Janseva Kendra,23.05957,72.66491,AMTS,amts,9
+AMC_2852,Bhavani Chowk,23.06093,72.66388,AMTS,amts,13
+AMC_6090,Shri Ram Bunglows,23.06068,72.66158,AMTS,amts,7
+AMC_6088,Mevada Green Party Plot (Shri RamChowk),23.06077,72.65975,AMTS,amts,7
+AMC_6086,Sukh Sahitya Heights,23.06216,72.66024,AMTS,amts,7
+AMC_6084,Sai chowk,23.06371,72.66069,AMTS,amts,7
+AMC_6082,Dharmnath Society,23.06567,72.66104,AMTS,amts,7
+AMC_5531,Adishwarnagar,23.06784,72.66097,AMTS,amts,13
+AMC_6080,Arihantnagar,23.06938,72.65972,AMTS,amts,7
+AMC_6078,Jalpa Society,23.06803,72.65534,AMTS,amts,7
+AMC_6076,Shalin Vidhyalay,23.06611,72.65534,AMTS,amts,7
+AMC_6074,Chaitanya Appartment,23.0651,72.6541,AMTS,amts,7
+AMC_6072,Navyug Char Rasta(Vishvakarma Chowk),23.06334,72.6515,AMTS,amts,7
+AMC_6070,Shri Ram Kutir,23.06285,72.64878,AMTS,amts,7
+AMC_6068,Gangotri Society,23.06234,72.64687,AMTS,amts,7
+AMC_6066,S.R.P. Campus(City Center),23.0614,72.64359,AMTS,amts,7
+AMC_6062,DhanushdhariMandir(KrushnanagarSTstand),23.05987,72.64277,AMTS,amts,7
+AMC_3663,Krushnanagar,23.05614,72.6428,AMTS,amts,23
+AMC_1703,Nayannagar,23.05684,72.64091,AMTS,amts,31
+AMC_3801,G.D.High School,23.0589,72.63764,AMTS,amts,76
+AMC_3737,Kubereshwar Mahadev,23.05702,72.6354,AMTS,amts,60
+AMC_3799,Rajiv Gandhi Bhavan,23.05573,72.63306,AMTS,amts,60
+AMC_2688,Memco,23.05293,72.63125,AMTS,amts,71
+AMC_3797,Bansidhar Mills,23.05255,72.6281,AMTS,amts,43
+AMC_3796,Municipal Chal (Memco),23.05053,72.62506,AMTS,amts,43
+AMC_3795,Vijay Mills,23.04841,72.62179,AMTS,amts,44
+AMC_3794,Ashok Mills,23.04695,72.61955,AMTS,amts,40
+AMC_3793,Geening Press,23.04485,72.61654,AMTS,amts,40
+AMC_1489,Sarangpur,23.02223,72.59863,AMTS,amts,205
+AMC_1845,New Cloth Market,23.01886,72.59892,AMTS,amts,124
+AMC_1846,Mahipatram Ashram,23.01765,72.59717,AMTS,amts,60
+AMC_2276,Raipur Darwaja,23.01693,72.5948,AMTS,amts,83
+AMC_1848,Astodiya Darwaja,23.01673,72.59199,AMTS,amts,82
+AMC_2156,Astodiya Chakla,23.01851,72.58863,AMTS,amts,127
+AMC_3173,Gol Limda (Sardard Bhavan),23.01975,72.58601,AMTS,amts,18
+AMC_2158,Khamasa,23.02141,72.58327,AMTS,amts,61
+AMC_2159,Tilakbag,23.02183,72.58077,AMTS,amts,60
+AMC_5978,Lal Darwaja,23.02452,72.57896,AMTS,amts,297
+AMC_1075,Sardarbag,23.02735,72.57865,AMTS,amts,168
+AMC_1074,Gandhigram Railway Station,23.02479,72.57126,AMTS,amts,123
+AMC_1073,Sanyas Ashram,23.02408,72.57123,AMTS,amts,124
+AMC_3041,Madalpur (Town Hall),23.02341,72.57124,AMTS,amts,52
+AMC_2829,Gujarat College,23.02249,72.56707,AMTS,amts,52
+AMC_3252,Mithakhali,23.03072,72.56614,AMTS,amts,32
+AMC_2826,Maharashtra Society,23.02932,72.56461,AMTS,amts,9
+AMC_2825,Shrimali Society,23.03177,72.56417,AMTS,amts,34
+AMC_1214,Navarangpura,23.03559,72.56337,AMTS,amts,44
+AMC_1215,Swastik Society,23.03688,72.56033,AMTS,amts,44
+AMC_1216,Commerce College Hostel,23.03799,72.55791,AMTS,amts,44
+AMC_1217,Commerce College,23.03881,72.55558,AMTS,amts,44
+AMC_1053,Jain Upashray (Hira Panna Flats),23.04104,72.55265,AMTS,amts,42
+AMC_3251,Suchita Apartment (Vijay Char Rasta),23.04211,72.55046,AMTS,amts,63
+AMC_1221,Dada Sahebna Pagala,23.03944,72.54884,AMTS,amts,42
+AMC_1222,Gujarat University,23.03459,72.54904,AMTS,amts,43
+AMC_2828,Nagari Hospital,23.02588,72.56657,AMTS,amts,8
+AMC_1076,Apna Bazar,23.0254,72.58074,AMTS,amts,138
+AMC_2157,Sardar Bhavan (Gol Limda),23.01979,72.58601,AMTS,amts,41
+AMC_4091,Panchkuva,23.02531,72.59757,AMTS,amts,44
+AMC_4092,Shaher Kotda,23.02631,72.59895,AMTS,amts,48
+AMC_2831,Nutan Mills,23.03388,72.61453,AMTS,amts,63
+AMC_8126,Vora na Roza Char Rasta,23.03642,72.6122,AMTS,amts,2
+AMC_9204,Chamunda Overbridge,23.0383,72.61189,AMTS,amts,4
+AMC_6064,Naroda S.T.Workshop,23.06419,72.64273,AMTS,amts,4
+AMC_7261,Naroda Industrial Township( MuthiyaGam ),23.09429,72.67587,AMTS,amts,12
+AMC_7260,Mecas,23.09632,72.67428,AMTS,amts,4
+AMC_7259,Shriniwas Anviro,23.09939,72.67144,AMTS,amts,6
+AMC_3940,Nana Chiloda,23.10039,72.66828,AMTS,amts,11
+AMC_3934,Ruby Coach Builders,23.09833,72.66598,AMTS,amts,11
+AMC_3941,Tulsi Park,23.09689,72.66391,AMTS,amts,9
+AMC_3942,Dwarkanagar,23.09484,72.66035,AMTS,amts,9
+AMC_8719,Awas park,23.09384,72.65868,AMTS,amts,3
+AMC_3943,Nobalnagar,23.09206,72.65553,AMTS,amts,9
+AMC_3944,Kotarpur Water Works,23.09084,72.65325,AMTS,amts,9
+AMC_4044,Kotarpur Approach,23.09063,72.65104,AMTS,amts,24
+AMC_5347,Meldi Matanu Mandir,22.91821,72.48605,AMTS,amts,10
+AMC_5612,Bhadreshwar,23.08557,72.63902,AMTS,amts,13
+AMC_2335,Samarath Nagar,23.08214,72.63445,AMTS,amts,19
+AMC_2343,Garnala (Camp),23.07866,72.61,AMTS,amts,5
+AMC_7396,Circuit House,23.06032,72.59213,AMTS,amts,11
+AMC_7288,Sardar Patel Smarak Bhavan,23.05896,72.59118,AMTS,amts,9
+AMC_3958,Shahibag Underbridge Approach,23.05602,72.59119,AMTS,amts,38
+AMC_1584,Shahibag Underbridge,23.05244,72.59039,AMTS,amts,38
+AMC_1583,Police Commissioner Office,23.04862,72.58968,AMTS,amts,38
+AMC_1582,Hirabag,23.04669,72.58959,AMTS,amts,18
+AMC_1581,Swaminarayan Mandir (Shahibag),23.04509,72.58954,AMTS,amts,18
+AMC_2354,Hathisingni Wadi,23.04243,72.58914,AMTS,amts,12
+AMC_1580,Delhi Darwaja (Rt.105 Stand),23.03962,72.58834,AMTS,amts,17
+AMC_2353,Delhi Chakla,23.0359,72.58712,AMTS,amts,60
+AMC_1081,Rentiyawadi,23.0343,72.58572,AMTS,amts,60
+AMC_1080,Ahmedabad Gramya Jilla Nyayalay,23.03295,72.58475,AMTS,amts,48
+AMC_1079,Jansatta Karyalay,23.03051,72.58319,AMTS,amts,60
+AMC_1078,Dinbai Tower,23.02829,72.58154,AMTS,amts,51
+AMC_8341,Hirabhai Market,23.0145,72.60067,AMTS,amts,71
+AMC_8339,Vanijya Bhavan,23.01276,72.6008,AMTS,amts,71
+AMC_1334,Zoo Kankariya,23.01052,72.60141,AMTS,amts,106
+AMC_1333,Ramanand Kot,23.0093,72.60442,AMTS,amts,106
+AMC_2263,Apparel Park (Ambika Mills),23.00676,72.61054,AMTS,amts,96
+AMC_2262,Bhalakiya Mills,23.0061,72.61271,AMTS,amts,98
+AMC_8495,Ashima Group,23.00762,72.6145,AMTS,amts,68
+AMC_8343,Saujanya Apartment,23.009,72.61602,AMTS,amts,56
+AMC_8497,New Cotton Mill,23.01082,72.6169,AMTS,amts,82
+AMC_8465,Sukhramnagar Pani ni Tanki,23.01316,72.61841,AMTS,amts,65
+AMC_1164,Government Quarters (Gomtipur),23.01733,72.62056,AMTS,amts,63
+AMC_9196,Arbuda Mills,23.0202,72.62031,AMTS,amts,47
+AMC_8958,Rakhiyal,23.02237,72.61974,AMTS,amts,51
+AMC_1480,Anant Mills,23.02054,72.62627,AMTS,amts,20
+AMC_1479,Soma Textile (National Mills),23.02005,72.62938,AMTS,amts,20
+AMC_2698,Ajit Mills,23.0208,72.63248,AMTS,amts,31
+AMC_3376,Sonini Chali,23.02044,72.6382,AMTS,amts,22
+AMC_1476,Grid Station (C.M.C.),23.02123,72.6424,AMTS,amts,30
+AMC_7547,Quick Metal Industries,23.02157,72.64594,AMTS,amts,27
+AMC_1474,Rabari Vasahat,23.02201,72.64908,AMTS,amts,29
+AMC_7545,Bhikshuk Gruh,23.02262,72.65303,AMTS,amts,29
+AMC_1472,Vallabh Nagar,23.02294,72.65529,AMTS,amts,20
+AMC_1471,Bhram Rushi Kheteshwar Chowk,23.02348,72.65915,AMTS,amts,21
+AMC_1470,Odhav Gam Approach,23.0241,72.66349,AMTS,amts,16
+AMC_8980,Odhav Guj.Mun.School,23.02697,72.66363,AMTS,amts,2
+AMC_3373,Mahakalimata Nu Mndir,23.02826,72.66281,AMTS,amts,2
+AMC_7615,Janatanagar (Manmohanpark),23.0312,72.66262,AMTS,amts,2
+AMC_4231,Manmohan Park,23.03233,72.66202,AMTS,amts,34
+AMC_3370,Ashwamegh Society (Manmohan),23.03547,72.66217,AMTS,amts,10
+AMC_3369,Har Har Gange Flats,23.03858,72.66185,AMTS,amts,10
+AMC_2523,Khodiyar Mandir (Nikol),23.04125,72.66266,AMTS,amts,26
+AMC_3367,Jayshukan Apartments,23.04436,72.6634,AMTS,amts,22
+AMC_7348,Uma Vidyalay,23.04588,72.66322,AMTS,amts,21
+AMC_2475,Krishna Vihar Society,23.04862,72.66356,AMTS,amts,17
+AMC_7467,Shukan Bunglows,23.05057,72.66402,AMTS,amts,21
+AMC_7466,Saurashtra Patel Samajni Wadi,23.05045,72.6651,AMTS,amts,19
+AMC_2472,Shakuntal Bunglows,23.05031,72.66651,AMTS,amts,21
+AMC_7356,Akshardham Residency,23.05834,72.67132,AMTS,amts,10
+AMC_7357,Shyam Villa-2,23.0609,72.67108,AMTS,amts,14
+AMC_3362,Shubham Galaxy,23.06359,72.67151,AMTS,amts,12
+AMC_9348,Satav-3,23.06445,72.67329,AMTS,amts,2
+AMC_9346,Fortune Circle,23.06441,72.67701,AMTS,amts,9
+AMC_9344,Tapi Apartment,23.06539,72.67669,AMTS,amts,9
+AMC_9342,Vedant Bunglows,23.06726,72.67626,AMTS,amts,9
+AMC_9340,Radhe Tenament & Bunglows,23.06938,72.6757,AMTS,amts,10
+AMC_1534,Haridarshan Char Rasta,23.06973,72.6729,AMTS,amts,31
+AMC_1442,St. Xaviers English School,23.07018,72.67044,AMTS,amts,13
+AMC_1536,Gokuldham Society,23.07056,72.66822,AMTS,amts,11
+AMC_1537,Murlidhar Society,23.07096,72.66688,AMTS,amts,11
+AMC_4978,Nobal School,23.05466,72.64777,AMTS,amts,22
+AMC_1539,Vrajvihar Society,23.07197,72.66185,AMTS,amts,11
+AMC_1540,Kathwada Fanta,23.07289,72.65982,AMTS,amts,19
+AMC_3821,Kathwada Turning,23.07435,72.65912,AMTS,amts,37
+AMC_1542,Naroda Gam,23.07508,72.656,AMTS,amts,71
+AMC_1543,Naroda,23.07707,72.65581,AMTS,amts,81
+AMC_3822,Galaxy Cinema,23.07768,72.65395,AMTS,amts,21
+AMC_3358,I.T.I. Railway Underbridge,23.08236,72.65057,AMTS,amts,13
+AMC_7622,Krishna Park,23.02856,72.64867,AMTS,amts,13
+AMC_4037,I.T.I. Approach,23.08612,72.64778,AMTS,amts,15
+AMC_3356,Subhashnagar,23.08927,72.65025,AMTS,amts,15
+AMC_4835,Jogni Matanu Mandir,22.95073,72.61259,AMTS,amts,57
+AMC_2332,Saraswati Park (Samarath Nagar),23.08617,72.63708,AMTS,amts,1
+AMC_1828,Navroji Hall (Chandralok),23.05862,72.59838,AMTS,amts,18
+AMC_3347,Radha Kishan Mandir (Ghevar Complex),23.05643,72.59824,AMTS,amts,2
+AMC_5074,Rajasthan Hospital,23.05478,72.59699,AMTS,amts,2
+AMC_3345,Mahapragnaji Bridge Approach,23.05298,72.59526,AMTS,amts,2
+AMC_3344,Maheshwari Seva Samiti,23.04638,72.59151,AMTS,amts,2
+AMC_311,Delhi Darwaja,23.03766,72.5899,AJL|AMTS,multi,15
+AMC_1157,Madhupura,23.03779,72.58962,AMTS,amts,86
+AMC_1158,Dariyapur Darwaja,23.0378,72.59216,AMTS,amts,86
+AMC_3343,Julta Minara,23.02351,72.59908,AMTS,amts,1
+AMC_5573,Amba Township Sector-5 (Trimandir),23.18774,72.57835,AMTS,amts,19
+AMC_5574,Amba Township Sector-3 C,23.18893,72.57705,AMTS,amts,19
+AMC_5575,Amba Township Gate-1,23.18907,72.57549,AMTS,amts,19
+AMC_9976,Satayam Complex,23.18581,72.5701,AMTS,amts,11
+AMC_9974,Railway Garnalu,23.18298,72.56598,AMTS,amts,11
+AMC_9972,Prabhahanuman Mandir(Trimandir),23.18107,72.5666,AMTS,amts,24
+AMC_1666,Trimandir,23.1763,72.57426,AMTS,amts,28
+AMC_4024,Kalol Mehsana Cross Road,23.17523,72.57593,AMTS,amts,21
+AMC_5578,Adalaj-Gandhinagar Cross Road,23.17166,72.5816,AMTS,amts,21
+AMC_1642,Manekba Adhyapan Mandir,23.16908,72.58578,AMTS,amts,24
+AMC_1643,Adalaj S.T. Stand,23.16679,72.58715,AMTS,amts,24
+AMC_1644,Swagat City,23.16043,72.58797,AMTS,amts,24
+AMC_1645,Central Ware Housing Corporation,23.15151,72.58772,AMTS,amts,24
+AMC_1646,Devdarshan Farm,23.14964,72.58766,AMTS,amts,24
+AMC_1647,Ambapur Bus Stand,23.14096,72.58742,AMTS,amts,24
+AMC_1648,Kalpataru Flats,23.13622,72.58657,AMTS,amts,28
+AMC_1649,Zundal Bus Stand,23.13347,72.58581,AMTS,amts,28
+AMC_1650,S.P.Ring Road (Zundal),23.13012,72.58504,AMTS,amts,30
+AMC_1651,Balbindar Auto,23.12536,72.58352,AMTS,amts,30
+AMC_5742,Suprat Society,23.12393,72.58315,AMTS,amts,5
+AMC_1655,Gokul Dham,23.12268,72.58256,AMTS,amts,30
+AMC_1654,Siddhi Complex,23.12161,72.58232,AMTS,amts,30
+AMC_2196,Satyamev Hospital,23.11959,72.58221,AMTS,amts,36
+AMC_3547,Chandkheda Gam,23.1151,72.58248,AMTS,amts,76
+AMC_2187,Shivshakti Nagar (Chandkheda),23.11048,72.58435,AMTS,amts,61
+AMC_2447,Santokba Hospital,23.10909,72.5856,AMTS,amts,25
+AMC_2446,Sahajanand Bunglows (Chandkheda),23.10907,72.58909,AMTS,amts,25
+AMC_2445,Sakar School,23.10911,72.59095,AMTS,amts,25
+AMC_2444,Swagat Bunglows,23.10917,72.593,AMTS,amts,25
+AMC_2443,Shitiratna Bunglows,23.10876,72.59592,AMTS,amts,25
+AMC_2442,Sarkari Engg. College,23.10655,72.59702,AMTS,amts,30
+AMC_2441,Ashok Vihar,23.10638,72.59877,AMTS,amts,30
+AMC_2440,Visamo Society,23.10726,72.59987,AMTS,amts,30
+AMC_2439,Fire Station Cross Road,23.11125,72.60488,AMTS,amts,30
+AMC_2438,Shrushti Arcade,23.11071,72.6058,AMTS,amts,25
+AMC_2437,Narnarayan Party Plot,23.10859,72.60466,AMTS,amts,25
+AMC_2436,Maruti Nandan-1,23.10705,72.60394,AMTS,amts,25
+AMC_2435,Motera Gam,23.10516,72.60301,AMTS,amts,25
+AMC_4027,Shubham Society,23.10327,72.60489,AMTS,amts,9
+AMC_4028,Sai Sneh Residency,23.10313,72.6067,AMTS,amts,9
+AMC_4029,Sharan Sapphire,23.10107,72.60933,AMTS,amts,9
+AMC_4030,Koteshwar Mahadev Mandir,23.09815,72.6121,AMTS,amts,9
+AMC_4031,Koteshwar Gam,23.0978,72.61395,AMTS,amts,9
+AMC_4032,Dev Trankul,23.10152,72.61549,AMTS,amts,9
+AMC_4033,Sangath Skys,23.10302,72.61617,AMTS,amts,9
+AMC_4034,Koteshwar Cross Road,23.10509,72.61891,AMTS,amts,9
+AMC_4035,Ravi Farm,23.10661,72.621,AMTS,amts,9
+AMC_4036,Torrent Farma.,23.10509,72.62881,AMTS,amts,9
+AMC_3820,Kalagi Park,23.07169,72.67099,AMTS,amts,17
+AMC_9115,Divy Jivan Satsang,23.07199,72.672,AMTS,amts,3
+AMC_9113,Jivanpran Residency,23.07214,72.67379,AMTS,amts,3
+AMC_5623,Shriram Kutir,23.07418,72.6746,AMTS,amts,7
+AMC_9105,Sadhi mata nu mandir,23.07845,72.67296,AMTS,amts,7
+AMC_9107,Vithhal Plaza,23.07991,72.6724,AMTS,amts,7
+AMC_9109,G.E.B (Naroda),23.08055,72.67223,AMTS,amts,7
+AMC_9827,Karai Gam,23.13888,72.65851,AMTS,amts,6
+AMC_9825,Police Academy,23.1371,72.65753,AMTS,amts,6
+AMC_9823,Shivam Cricket Hub,23.13364,72.65892,AMTS,amts,6
+AMC_9821,Maruti Farm,23.12847,72.65971,AMTS,amts,6
+AMC_9819,Accura,23.12366,72.65886,AMTS,amts,6
+AMC_9817,The River side cross road (Keshvam),23.12089,72.65832,AMTS,amts,6
+AMC_9815,Bright School,23.11854,72.65866,AMTS,amts,6
+AMC_9813,S.P. Ring road (Karai Cross road),23.11613,72.65846,AMTS,amts,6
+AMC_9811,Maple Heights,23.11253,72.65729,AMTS,amts,6
+AMC_9829,Someshwar Mahadev,23.11169,72.65995,AMTS,amts,9
+AMC_8976,Global Life Style,23.10972,72.65979,AMTS,amts,9
+AMC_8974,Royal Arcade,23.1079,72.65961,AMTS,amts,9
+AMC_9161,Kanan Residency,23.10692,72.65883,AMTS,amts,9
+AMC_9159,Prince Residency,23.10601,72.65832,AMTS,amts,9
+AMC_9157,Akshar Residency,23.10495,72.66101,AMTS,amts,9
+AMC_9155,Keshar Vatika,23.10432,72.66347,AMTS,amts,9
+AMC_9153,Kailash Rejoice,23.10641,72.66376,AMTS,amts,9
+AMC_8970,Shrinath Classis,23.10733,72.66387,AMTS,amts,9
+AMC_8968,S.B.Farm,23.10709,72.66711,AMTS,amts,9
+AMC_8966,Amardeep Apartment,23.10535,72.66654,AMTS,amts,9
+AMC_8964,Kailash Kunj Bunglows,23.10496,72.66742,AMTS,amts,9
+AMC_3939,Nana Chiloda(Mnu.Octroi),23.10369,72.66979,AMTS,amts,9
+AMC_9384,Shyam Charan Residencny,23.09364,72.6641,AMTS,amts,2
+AMC_5249,Radhakishan Bunglows,23.09255,72.66324,AMTS,amts,2
+AMC_9382,Naroda Railway Station,23.08499,72.6588,AMTS,amts,2
+AMC_9381,Naroda Road Approach,23.08258,72.65713,AMTS,amts,12
+AMC_9378,Jain Derasar(Naroda),23.08012,72.65489,AMTS,amts,2
+AMC_3637,Arjun Complex,23.07395,72.65385,AMTS,amts,45
+AMC_3636,Narannagar,23.07344,72.65266,AMTS,amts,49
+AMC_3635,Bethak (Naroda),23.07218,72.64996,AMTS,amts,46
+AMC_3658,Bangla,23.07094,72.64816,AMTS,amts,55
+AMC_3659,Mayur Park (Raman Cotton Mills),23.06812,72.64577,AMTS,amts,55
+AMC_3660,S.T.Workshop (Naroda),23.06436,72.64251,AMTS,amts,56
+AMC_3661,Exise Chowki (Naroda),23.06259,72.64101,AMTS,amts,57
+AMC_3662,Saijpur,23.06105,72.63976,AMTS,amts,46
+AMC_8851,Torrent Power,23.05417,72.63013,AMTS,amts,10
+AMC_5540,Somnath Mahadev (Rameshwar Mahadev),23.05854,72.62248,AMTS,amts,28
+AMC_5111,Netajinagar,23.0591,72.62076,AMTS,amts,12
+AMC_4850,Meghaninagar,23.05939,72.61791,AMTS,amts,38
+AMC_1249,Government Colony,23.0567,72.61752,AMTS,amts,36
+AMC_4852,Ratnasagar Society,23.05511,72.61806,AMTS,amts,52
+AMC_1588,Kalapinagar,23.05186,72.61784,AMTS,amts,46
+AMC_5032,Omnagar,23.04972,72.61827,AMTS,amts,10
+AMC_9376,Ghanti,23.04846,72.61672,AMTS,amts,2
+AMC_9374,Patravali Chali,23.04697,72.61329,AMTS,amts,2
+AMC_9206,Chamanpura Choktha,23.04524,72.60973,AMTS,amts,4
+AMC_9208,Asarva Talav,23.04442,72.60666,AMTS,amts,4
+AMC_4943,Asarwa Chakla,23.04418,72.60495,AMTS,amts,4
+AMC_4944,Bethak (Asarwa),23.04189,72.60444,AMTS,amts,2
+AMC_4945,Asarwa Mills,23.03927,72.60277,AMTS,amts,2
+AMC_1117,Limdi (Prem Darwaja),23.03494,72.59481,AMTS,amts,17
+AMC_1118,Dariyapur Tower,23.03558,72.5926,AMTS,amts,17
+AMC_1119,Kadiya Naka,23.03543,72.58965,AMTS,amts,17
+AMC_1115,Idga,23.0389,72.59684,AMTS,amts,24
+AMC_3517,Dani Limda Gam,22.99718,72.58391,AMTS,amts,11
+AMC_5112,Gam Kuwo,22.99595,72.58313,AMTS,amts,3
+AMC_5315,Dani Limda Road,22.99657,72.57881,AMTS,amts,7
+AMC_4904,Ganj Sahid Dargah,22.99886,72.57934,AMTS,amts,9
+AMC_4905,S.T.Workshop (Chandola),23.00184,72.57943,AMTS,amts,9
+AMC_5316,Maneknala Garnala,23.00428,72.57936,AMTS,amts,9
+AMC_5113,Gurudwarani Chali,23.00474,72.58165,AMTS,amts,3
+AMC_3515,Jay Jagat Society,23.0044,72.58517,AMTS,amts,5
+AMC_3514,Parikshitlalnagar,23.00481,72.58607,AMTS,amts,5
+AMC_2154,Bhulabhai Park,23.00587,72.59074,AMTS,amts,40
+AMC_2155,Majur Gam,23.00925,72.59158,AMTS,amts,58
+AMC_4826,S.T. Stand,23.01691,72.59144,AMTS,amts,95
+AMC_1110,Civil Hospital,23.04924,72.60283,AMTS,amts,79
+AMC_1098,Chamanpura Housing Colony,23.05055,72.61555,AMTS,amts,44
+AMC_1097,Rohidasnagar,23.04999,72.61462,AMTS,amts,44
+AMC_7299,Umiyanagar,23.05096,72.61305,AMTS,amts,51
+AMC_1095,Mukhini Chali,23.05072,72.61102,AMTS,amts,43
+AMC_1105,M.L.A. Quarters,23.05014,72.60883,AMTS,amts,70
+AMC_4020,Holi Chakla,23.04882,72.60802,AMTS,amts,42
+AMC_1254,Cancer Hospital,23.04883,72.6064,AMTS,amts,72
+AMC_4860,Babupura,23.04419,72.60144,AMTS,amts,21
+AMC_4861,Haripura,23.04237,72.60142,AMTS,amts,21
+AMC_4862,Aryoday Geening (Asarwa),23.04106,72.60073,AMTS,amts,21
+AMC_2271,Kalupur,23.02903,72.59979,AMTS,amts,82
+AMC_1896,Miroli Gam,22.87225,72.52127,AMTS,amts,2
+AMC_5601,Ravalwas,23.12543,72.55997,AMTS,amts,27
+AMC_1898,Baliyadev Mandir (Miroli),22.87349,72.52407,AMTS,amts,2
+AMC_1899,Swaminarayan Paper Mills,22.87353,72.5274,AMTS,amts,2
+AMC_1900,Kasambhaino Kuvo,22.87447,72.53215,AMTS,amts,2
+AMC_1901,Umiya Farm,22.87513,72.53688,AMTS,amts,2
+AMC_1902,Shivpura Lat,22.87733,72.53929,AMTS,amts,2
+AMC_1903,Pirana Vad,22.88019,72.5419,AMTS,amts,2
+AMC_1904,Jetalpur Cross Road,22.88098,72.54324,AMTS,amts,2
+AMC_1905,Pirana Gam,22.88351,72.54354,AMTS,amts,2
+AMC_3248,Gurukul,23.04599,72.53467,AMTS,amts,35
+AMC_1907,Hempuri Lat,22.89372,72.54417,AMTS,amts,2
+AMC_1908,Kalino Lat,22.89741,72.54463,AMTS,amts,2
+AMC_1909,Navsari Lat,22.89983,72.54496,AMTS,amts,2
+AMC_1910,Prerna Rice Mill,22.90451,72.54554,AMTS,amts,2
+AMC_1911,Oad Gam,22.91346,72.54403,AMTS,amts,2
+AMC_1912,Kutch Kadva Patidarni Vadi,22.91542,72.54378,AMTS,amts,2
+AMC_1913,Nil Enterprice,22.92101,72.54346,AMTS,amts,2
+AMC_6058,S.P.Ring Road,22.95594,72.6582,AMTS,amts,10
+AMC_1915,Kamod Gam,22.92889,72.54305,AMTS,amts,8
+AMC_1916,Indiranagar Approach,22.9319,72.54623,AMTS,amts,8
+AMC_1917,Krishna Beverage,22.93583,72.54836,AMTS,amts,8
+AMC_1918,Devraj Park,22.93859,72.54983,AMTS,amts,8
+AMC_1919,Vrundavan Farm,22.94058,72.55092,AMTS,amts,8
+AMC_1920,Bhairavnath Industries,22.94334,72.55156,AMTS,amts,8
+AMC_1870,R.K.Industries,22.94306,72.5516,AMTS,amts,8
+AMC_1922,Piplaj Gam,22.95408,72.55355,AMTS,amts,8
+AMC_1923,Anjali Synthetics,22.9551,72.55376,AMTS,amts,8
+AMC_1924,Poly Fabrics,22.95783,72.55439,AMTS,amts,8
+AMC_1925,Saijpur-Gopalpura Patiya(Chiripal Industries),22.96232,72.55565,AMTS,amts,8
+AMC_1926,Popatkaka House,22.96765,72.55792,AMTS,amts,8
+AMC_1927,Ganeshnagar,22.9703,72.5591,AMTS,amts,8
+AMC_5333,Juna Octroinaka,22.97501,72.56051,AMTS,amts,10
+AMC_1929,Exel Industries,22.98258,72.56484,AMTS,amts,8
+AMC_1930,Suez Farm Approach,22.98593,72.56656,AMTS,amts,8
+AMC_1931,Suez Farm Office,22.99125,72.56983,AMTS,amts,8
+AMC_1932,Hawada,22.99377,72.5714,AMTS,amts,8
+AMC_5124,Suez Treatment Plant,22.99458,72.57191,AMTS,amts,7
+AMC_2938,National Cloth Mills,22.99611,72.57285,AMTS,amts,12
+AMC_1934,Saranagar,22.9973,72.57368,AMTS,amts,8
+AMC_1935,Grid Station,22.99947,72.57497,AMTS,amts,8
+AMC_1936,Chepirog Hospital,23.00125,72.57614,AMTS,amts,8
+AMC_1937,Pumpimg Station,23.00276,72.57701,AMTS,amts,8
+AMC_1938,Calico Mills,23.00578,72.57959,AMTS,amts,14
+AMC_4118,Jamalpur Darwaja,23.01304,72.58193,AMTS,amts,16
+AMC_1852,Transport House Office,23.01046,72.58263,AMTS,amts,8
+AMC_1941,Amts Staff Quarters,23.0112,72.58477,AMTS,amts,65
+AMC_1850,Municipal Chal (S.T.),23.01259,72.58842,AMTS,amts,63
+AMC_1310,Maninagar,22.99855,72.61112,AMTS,amts,83
+AMC_2239,Maninagar Char Rasta,22.99736,72.60831,AMTS,amts,66
+AMC_2714,L.G.Hospital Corner,22.99935,72.60815,AMTS,amts,28
+AMC_2713,Madrasi Mandir,23.00173,72.61384,AMTS,amts,23
+AMC_2260,K.K. Shastri College,23.00375,72.61669,AMTS,amts,38
+AMC_2948,Bihari Mills,23.00316,72.61746,AMTS,amts,34
+AMC_5230,Khokhara Circle,23.00186,72.61878,AMTS,amts,46
+AMC_2258,Bombay Housing,23.00152,72.62221,AMTS,amts,48
+AMC_8253,Hatkeshwar Mahadev,22.99938,72.62497,AMTS,amts,57
+AMC_2312,Hatkeshwar Depo,22.9965,72.62721,AMTS,amts,48
+AMC_2311,Lal Bangla (Ctm),22.99539,72.62864,AMTS,amts,31
+AMC_8231,C.T.M. Cross Road,22.99401,72.63151,AMTS,amts,30
+AMC_3157,Swaminarayan Colony,22.98901,72.6293,AMTS,amts,14
+AMC_3156,Sardar Patel Seva Sankul,22.98805,72.6283,AMTS,amts,14
+AMC_3155,Saraswatinagar,22.98608,72.62621,AMTS,amts,14
+AMC_4425,Jashodanagar Cross Road,22.98293,72.62431,AMTS,amts,31
+AMC_3092,Jashodanagar Patiya,22.98257,72.62647,AMTS,amts,23
+AMC_3093,Kamabhaino Kuvo,22.9821,72.62935,AMTS,amts,23
+AMC_3151,Trikampura Patiya,22.98084,72.63313,AMTS,amts,27
+AMC_3095,Nirma,22.97702,72.63716,AMTS,amts,35
+AMC_3096,Nika Tubes,22.97429,72.6399,AMTS,amts,25
+AMC_3097,P.R. Enterprise,22.97183,72.64238,AMTS,amts,25
+AMC_3098,Vatva Patiya,22.96771,72.64651,AMTS,amts,25
+AMC_3879,Klockner - Windsor,22.96576,72.64841,AMTS,amts,22
+AMC_3880,Hanumanji Mandir,22.96222,72.65195,AMTS,amts,22
+AMC_3101,Vinzol Patiya,22.95828,72.65592,AMTS,amts,18
+AMC_5759,Lalgebi Circle (Hathijan),22.95745,72.65687,AMTS,amts,6
+AMC_3102,Baleshwar city,22.95364,72.66051,AMTS,amts,18
+AMC_3103,Geratnagar,22.95184,72.66224,AMTS,amts,18
+AMC_3104,Ramol Patiya,22.94965,72.66439,AMTS,amts,18
+AMC_3140,Shree swaminarayan vidhyadham,22.94737,72.66635,AMTS,amts,16
+AMC_8559,Indiya Coloni,22.94214,72.67185,AMTS,amts,6
+AMC_8561,Shradha Payoniyar,22.93742,72.67663,AMTS,amts,6
+AMC_8563,Radhe Upvan,22.93485,72.67923,AMTS,amts,6
+AMC_8565,Badodara Patiya,22.92997,72.68424,AMTS,amts,6
+AMC_8567,Wanch - Rampur Cross Road,22.92599,72.68909,AMTS,amts,6
+AMC_8569,D.P.S. School,22.92423,72.69147,AMTS,amts,6
+AMC_8571,Narayan Dham,22.9213,72.69463,AMTS,amts,6
+AMC_8573,Alakhdham,22.91763,72.69849,AMTS,amts,6
+AMC_8575,Hirapur Chokadi,22.91539,72.70087,AMTS,amts,6
+AMC_8577,K.H.S.Mashinari Pvt.LTD,22.91346,72.7029,AMTS,amts,6
+AMC_8579,Khodiyar Dham,22.91081,72.70562,AMTS,amts,6
+AMC_8581,Jagruti PVT. LTD,22.90719,72.70936,AMTS,amts,6
+AMC_8583,Hirapur,22.90405,72.71284,AMTS,amts,6
+AMC_8585,Raska Check Post,22.90077,72.71615,AMTS,amts,6
+AMC_8587,Raska Patiya,22.89424,72.71995,AMTS,amts,6
+AMC_8589,Jain Mandir,22.89194,72.72088,AMTS,amts,6
+AMC_8591,Anmol Ruturaj Club,22.88731,72.72299,AMTS,amts,6
+AMC_8593,Mahalaxmi Fram,22.88436,72.72433,AMTS,amts,6
+AMC_8595,Dabhipura,22.88076,72.726,AMTS,amts,6
+AMC_8597,Kanij Patiya,22.87435,72.72835,AMTS,amts,6
+AMC_8599,Meshvo River Bridge,22.87159,72.73626,AMTS,amts,6
+AMC_8601,Amasaran Gam,22.87056,72.73888,AMTS,amts,6
+AMC_8603,Bhumapura Patiya,22.86877,72.74207,AMTS,amts,6
+AMC_8605,Fuleshwar Mahadev,22.86383,72.74688,AMTS,amts,6
+AMC_8607,Krishi Sansodhan Kendra,22.86064,72.74948,AMTS,amts,6
+AMC_8609,Nenpur Chokdi,22.85708,72.75243,AMTS,amts,6
+AMC_9547,Mathura Nagari,22.8557,72.74875,AMTS,amts,2
+AMC_9549,Gujarat Food Product,22.85329,72.74185,AMTS,amts,6
+AMC_9551,Chudel Ma Mandir,22.85242,72.73926,AMTS,amts,2
+AMC_9553,Jalaram Mandir,22.85157,72.73681,AMTS,amts,2
+AMC_9555,Keshav Laxmi Industries,22.84957,72.73106,AMTS,amts,2
+AMC_9557,Nenpur Railway Station,22.84762,72.72519,AMTS,amts,2
+AMC_9559,Nenpur Gam,22.8458,72.72321,AMTS,amts,2
+AMC_8923,Sitarambapa Chowk (Gopal Chowk),23.04664,72.65731,AMTS,amts,9
+AMC_1753,Sitarambapa Chowk,23.04994,72.65733,AMTS,amts,15
+AMC_1752,Shivaji Chowk,23.0503,72.65373,AMTS,amts,15
+AMC_1751,Maniba Vidyalay,23.05069,72.65077,AMTS,amts,15
+AMC_3231,Sardar Patel Chowk,23.07951,72.57416,AMTS,amts,36
+AMC_1749,Nand Bunglows,23.05295,72.64828,AMTS,amts,9
+AMC_1748,S.R.P.Quarters,23.05668,72.64667,AMTS,amts,11
+AMC_1072,V.S. Hospital,23.02069,72.57043,AMTS,amts,73
+AMC_1725,Congress Bhavan,23.01922,72.56903,AMTS,amts,53
+AMC_1071,Arvind Sales Emporium,23.01777,72.56808,AMTS,amts,73
+AMC_1070,Pritamnagar,23.0173,72.56741,AMTS,amts,72
+AMC_2886,Paldi,23.01502,72.56555,AMTS,amts,125
+AMC_3712,Mahalakshmi Society,23.01155,72.56267,AMTS,amts,108
+AMC_1348,Jain Merchant Society,23.00893,72.56134,AMTS,amts,92
+AMC_1349,Fatehnagar,23.00775,72.55952,AMTS,amts,92
+AMC_1350,Anandnagar,23.00679,72.55749,AMTS,amts,83
+AMC_1351,Bhaththa (Vasna),23.0055,72.55489,AMTS,amts,83
+AMC_1352,Jawaharnagar,23.00313,72.55184,AMTS,amts,73
+AMC_1257,Vasna,23.00144,72.54741,AMTS,amts,81
+AMC_7174,Parshwanath Township,23.05595,72.65216,AMTS,amts,2
+AMC_7175,Toran Party Plot,23.05545,72.64956,AMTS,amts,2
+AMC_5126,Engg./B.Ed.College (Vahelal),23.08383,72.75716,AMTS,amts,10
+AMC_2781,Prathamik Arogya Kendra,23.11365,72.5164,AMTS,amts,28
+AMC_5282,Navi Bhagol,23.07912,72.75782,AMTS,amts,10
+AMC_5127,Vahelal Gam,23.07808,72.76096,AMTS,amts,2
+AMC_5128,Shivdham,23.07648,72.75485,AMTS,amts,2
+AMC_10319,GelAmbe Dham,23.07516,72.75198,AMTS,amts,2
+AMC_5129,Shreeji Farm,23.07334,72.74181,AMTS,amts,2
+AMC_5130,Huka Gam,23.07316,72.7317,AMTS,amts,2
+AMC_5131,Navarangpura Gam Cross Road,23.06151,72.71703,AMTS,amts,2
+AMC_5132,Chudel Matanu Mandir,23.06271,72.71243,AMTS,amts,2
+AMC_5133,Pardhol Cross Road,23.06184,72.70823,AMTS,amts,2
+AMC_1454,Kathwada Gam,23.05788,72.70646,AMTS,amts,6
+AMC_1524,Murlidhar Farm,23.05911,72.7037,AMTS,amts,4
+AMC_1525,Gokul Galaxy Flat,23.06018,72.70127,AMTS,amts,4
+AMC_1527,Suman Royal Industries,23.06403,72.69512,AMTS,amts,4
+AMC_5807,Dastan Circle(S.P.Ring Road),23.06571,72.68907,AMTS,amts,7
+AMC_5809,Sardar Party Plot (S.P.Ring Road),23.06952,72.68883,AMTS,amts,7
+AMC_9101,Swapnil Heights,23.06931,72.68681,AMTS,amts,6
+AMC_9103,Shyam Kutir,23.06896,72.68429,AMTS,amts,6
+AMC_1531,108 Ambulance Seva Office,23.06899,72.68305,AMTS,amts,8
+AMC_1532,Sarathi Bunglows,23.069,72.67907,AMTS,amts,8
+AMC_3361,Paras Galaxy,23.06644,72.67203,AMTS,amts,10
+AMC_4405,Varahi Prathamik School,23.03206,72.65826,AMTS,amts,30
+AMC_4912,Vaibhav Park,23.03198,72.65665,AMTS,amts,30
+AMC_4913,Vinayak Park,23.03192,72.65471,AMTS,amts,30
+AMC_4914,Gokul Park,23.03152,72.6522,AMTS,amts,29
+AMC_4415,Viratnagar Canal (Tapshil Society),23.03049,72.64797,AMTS,amts,30
+AMC_5135,Tejendranagar,23.02993,72.64635,AMTS,amts,30
+AMC_4916,Swaminarayan Mandir (Viratnagar),23.02907,72.64411,AMTS,amts,30
+AMC_4917,Gandhi Park,23.02775,72.64104,AMTS,amts,29
+AMC_5136,Municipal Zonal Office (Viratnagar),23.02709,72.63957,AMTS,amts,16
+AMC_7672,Gauri Cinema,23.01836,72.63832,AMTS,amts,2
+AMC_7660,Rajratna Society,23.01459,72.63872,AMTS,amts,10
+AMC_3673,Rajdeep Park,23.01228,72.63862,AMTS,amts,2
+AMC_1189,Harbholenath Park,23.00984,72.63874,AMTS,amts,10
+AMC_3729,Ramrajyanagar,23.00729,72.63772,AMTS,amts,10
+AMC_95,Rabari Colony,23.00433,72.63692,AJL|AMTS,multi,29
+AMC_3675,Ajay Tenaments,23.00255,72.63646,AMTS,amts,2
+AMC_3613,Jogeshwari Society,23.00059,72.63553,AMTS,amts,2
+AMC_3676,Kailas Colony,22.9976,72.63485,AMTS,amts,2
+AMC_5229,Rukshmaniben Hospital,23.00005,72.61924,AMTS,amts,10
+AMC_5228,Municipal Slum Quarters,22.9978,72.61918,AMTS,amts,10
+AMC_5227,Siyonnagar,22.99606,72.61914,AMTS,amts,10
+AMC_2709,Lakshminarayan Society Turning,22.99433,72.61836,AMTS,amts,9
+AMC_2710,Kashi Vishwanath Mahadev,22.99468,72.6162,AMTS,amts,9
+AMC_7999,Maninagar Railway Crossing,22.99488,72.61464,AMTS,amts,36
+AMC_1533,Radhe Tenament,23.0694,72.67669,AMTS,amts,7
+AMC_1447,Dastan Farm,23.0679,72.68603,AMTS,amts,2
+AMC_9458,Karoli Gam,23.05908,72.80706,AMTS,amts,4
+AMC_9460,Kuha Crossroad,23.0598,72.80601,AMTS,amts,4
+AMC_9462,Aarogya Kendra,23.06093,72.80419,AMTS,amts,4
+AMC_9464,Canal (Pushpakunj Crossroad),23.06498,72.79816,AMTS,amts,4
+AMC_9466,Bahuchar Farm,23.0681,72.78928,AMTS,amts,4
+AMC_9468,Ramnagar Patiya,23.06958,72.78156,AMTS,amts,4
+AMC_9470,Kadaadra Patiya,23.07114,72.77659,AMTS,amts,4
+AMC_9476,Nityanand Baug,23.07296,72.77097,AMTS,amts,4
+AMC_9474,Maa Anantanand Ashram,23.07341,72.76814,AMTS,amts,4
+AMC_9472,Tirthbhumi society,23.07494,72.76368,AMTS,amts,4
+AMC_9456,Bharkunda Crossroad,23.07597,72.76086,AMTS,amts,4
+AMC_5137,Vehlal Gam,23.07817,72.76097,AMTS,amts,8
+AMC_5139,Vahelal G.E.B.,23.08648,72.75526,AMTS,amts,8
+AMC_5284,Kashyap Surgical,23.09078,72.7528,AMTS,amts,8
+AMC_5140,Radhaswami Farm,23.09708,72.74634,AMTS,amts,8
+AMC_5285,Zank Gam,23.10044,72.74542,AMTS,amts,8
+AMC_5141,Zank Industrial Estate,23.10551,72.74051,AMTS,amts,8
+AMC_2556,Khari Nadi Approach,23.03929,72.7384,AMTS,amts,12
+AMC_5142,Raypur Gam,23.1053,72.73022,AMTS,amts,10
+AMC_5287,Pardhol Gam,23.10473,72.7251,AMTS,amts,10
+AMC_5615,Radhaswami Satsang (Pardhol),23.10414,72.71602,AMTS,amts,8
+AMC_5143,Indiranagar Cross Road,23.10239,72.71014,AMTS,amts,10
+AMC_5616,Enasan Gam,23.10006,72.70401,AMTS,amts,10
+AMC_5617,Bilasiya/Singarwa Cross Road,23.09364,72.69402,AMTS,amts,10
+AMC_5618,Bilasiya (Juna Octroinaka),23.0908,72.68983,AMTS,amts,10
+AMC_5619,S.P.Ring Road (Dahegam Circle),23.08849,72.68633,AMTS,amts,8
+AMC_5750,Vraj residency,23.0873,72.6845,AMTS,amts,8
+AMC_5620,Hanspura Cross Road,23.0853,72.68042,AMTS,amts,10
+AMC_5145,Vimal Park,23.0827,72.67508,AMTS,amts,10
+AMC_5146,Nandanvan Society,23.08038,72.67039,AMTS,amts,10
+AMC_3817,Kush Society (New Naroda),23.07582,72.66534,AMTS,amts,24
+AMC_5148,Kadva Patidarni Wadi,23.07565,72.6608,AMTS,amts,20
+AMC_1156,Delhi Darwaja (Rt.77 Stand),23.0385,72.58635,AMTS,amts,133
+AMC_1209,Halimni Khadki,23.03889,72.58345,AMTS,amts,141
+AMC_1210,Shahpur Darwaja,23.03917,72.58112,AMTS,amts,141
+AMC_1211,Shankar Bhuvan,23.03966,72.57711,AMTS,amts,147
+AMC_5150,Bhavans College,23.03697,72.57719,AMTS,amts,10
+AMC_5151,Khanpur,23.03112,72.57714,AMTS,amts,10
+AMC_5621,Sthapatya Elegance,23.08146,72.67254,AMTS,amts,1
+AMC_6183,Dahegam-Bayad Circle,23.17933,72.83081,AMTS,amts,2
+AMC_6185,Palaiya Gam,23.17664,72.82788,AMTS,amts,2
+AMC_6187,Aradhana Society,23.17328,72.8241,AMTS,amts,2
+AMC_6189,Dahegam S.T. Stand,23.17086,72.82122,AMTS,amts,2
+AMC_6192,G.E.B. Vad,23.16603,72.81368,AMTS,amts,2
+AMC_6194,Nehru Chokdi,23.16385,72.81028,AMTS,amts,2
+AMC_6196,G.I.D.C Dahegam,23.16206,72.80759,AMTS,amts,2
+AMC_6197,Dahegam College,23.15952,72.80367,AMTS,amts,2
+AMC_6215,Shrinath Bunglows,23.15575,72.7978,AMTS,amts,2
+AMC_6213,Radhanpur Chokdi,23.15273,72.79304,AMTS,amts,2
+AMC_6199,Vadodara,23.14909,72.78731,AMTS,amts,2
+AMC_6211,Shivnagar,23.14338,72.77852,AMTS,amts,2
+AMC_6209,Jiyapar,23.13798,72.77025,AMTS,amts,2
+AMC_6207,Galudan,23.13347,72.76332,AMTS,amts,2
+AMC_6201,Sonarda Gam,23.12691,72.75325,AMTS,amts,2
+AMC_6205,Anmol Farm,23.12016,72.74659,AMTS,amts,2
+AMC_6203,Rampura Gam,23.11275,72.73933,AMTS,amts,2
+AMC_2339,Sardarnagar,23.08122,72.62313,AMTS,amts,9
+AMC_5610,Nirankari Hall,23.0813,72.62497,AMTS,amts,2
+AMC_5072,Taanki,23.07474,72.621,AMTS,amts,2
+AMC_5611,Vahivati Kacheri,23.08156,72.63118,AMTS,amts,2
+AMC_2336,Ambawadi Police Station,23.08104,72.63302,AMTS,amts,9
+AMC_2334,Bhilwas,23.08338,72.63581,AMTS,amts,9
+AMC_4383,Gopal Park,23.08462,72.64525,AMTS,amts,2
+AMC_5613,Maya Cinema,23.08157,72.64265,AMTS,amts,2
+AMC_5154,G Ward,23.07767,72.6448,AMTS,amts,2
+AMC_4384,Rajavir,23.07549,72.64416,AMTS,amts,2
+AMC_5155,Dholinagar Railway Crossing,23.07004,72.6422,AMTS,amts,2
+AMC_5614,Chharanagar,23.06783,72.64269,AMTS,amts,2
+AMC_5157,Radhika Bunglows,23.05279,72.66446,AMTS,amts,4
+AMC_5159,Manohar Villa,23.06169,72.66434,AMTS,amts,4
+AMC_8773,S.M.School,23.06322,72.66381,AMTS,amts,4
+AMC_5160,Shyamal Park,23.06417,72.66356,AMTS,amts,4
+AMC_5532,Shyamkunj Society,23.06634,72.66309,AMTS,amts,6
+AMC_4370,Dharanendranagar,23.06984,72.6598,AMTS,amts,6
+AMC_9900,Dev Residency,23.05525,72.66496,AMTS,amts,2
+AMC_7262,Vimal (Reliance Textile),23.09193,72.67279,AMTS,amts,10
+AMC_7264,Central Workshop,23.08845,72.66838,AMTS,amts,12
+AMC_7265,N.I.A. Hall,23.08695,72.66635,AMTS,amts,12
+AMC_7266,Igarsol,23.08483,72.66361,AMTS,amts,10
+AMC_9444,Sadvichar Eye Hospital,23.08281,72.66085,AMTS,amts,9
+AMC_7267,Telephone Exchange (Naroda),23.08161,72.65874,AMTS,amts,10
+AMC_5652,Akhand jyot foundation,23.07962,72.65703,AMTS,amts,4
+AMC_261,Saijpur Towers,23.06135,72.63989,AJL|AMTS,multi,19
+AMC_237,Municipal North Zone Office,23.05564,72.63312,AJL|AMTS,multi,12
+AMC_239,Memco Cross Road,23.05335,72.62961,AJL|AMTS,multi,15
+AMC_241,Naroda Fruit Market,23.05075,72.62558,AJL|AMTS,multi,15
+AMC_247,Arvind Mill,23.0418,72.61255,AJL|AMTS,multi,15
+AMC_249,G.C.S. Hospital,23.03924,72.60907,AJL|AMTS,multi,15
+AMC_201,Sarangpur Darwaja,23.02172,72.59912,AJL|AMTS,multi,76
+AMC_199,Karnamukteshwar Mahadev,23.01901,72.59892,AJL|AMTS,multi,75
+AMC_197,Raipur Darwaja,23.01745,72.59605,AJL|AMTS,multi,95
+AMC_1338,Kamnath Mahadev,23.01577,72.59503,AMTS,amts,34
+AMC_4022,Adam Sahebni Dargah,23.01361,72.59618,AMTS,amts,30
+AMC_1303,Parsi Agiyari,23.01213,72.59729,AMTS,amts,54
+AMC_1304,The Arena (Abad Dairy),23.00987,72.59917,AMTS,amts,54
+AMC_3171,Vyayam Vidyalay,23.00909,72.59878,AMTS,amts,20
+AMC_3214,Football Ground,23.00736,72.59697,AMTS,amts,20
+AMC_3163,Pushpakunj-Shukladada Chowk,23.00238,72.59826,AMTS,amts,52
+AMC_5163,Kids City Kankariya,23.00218,72.60133,AMTS,amts,4
+AMC_5164,Machchipir,23.00279,72.60398,AMTS,amts,14
+AMC_5165,Vasantwadi,23.00399,72.60551,AMTS,amts,14
+AMC_1332,Balvatika,23.00444,72.60625,AMTS,amts,17
+AMC_1331,Punit Ashram,23.00325,72.60769,AMTS,amts,10
+AMC_2874,Swaminarayan Mandir (Maninagar),22.99515,72.61026,AMTS,amts,32
+AMC_2873,Radhavallabh Mandir,22.9952,72.60719,AMTS,amts,32
+AMC_3166,Jawahar Chowk (Maninagar),22.99473,72.60417,AMTS,amts,18
+AMC_3079,Prakashnagar,22.99325,72.60393,AMTS,amts,18
+AMC_3218,Hirabhai Tower,22.99112,72.60404,AMTS,amts,14
+AMC_3219,Ishwarnagar,22.98914,72.60385,AMTS,amts,18
+AMC_3220,Vashisthanagar,22.98595,72.60278,AMTS,amts,14
+AMC_3221,Jaymala Society,22.98409,72.60244,AMTS,amts,14
+AMC_3222,Anandwadi,22.98252,72.60325,AMTS,amts,12
+AMC_3223,Ramwadi (Isanpur),22.98057,72.6024,AMTS,amts,12
+AMC_3072,Isanpur,22.97933,72.59965,AMTS,amts,23
+AMC_3071,Vatva Cross Road,22.97622,72.60279,AMTS,amts,19
+AMC_3070,Samratnagar,22.97676,72.60454,AMTS,amts,12
+AMC_3069,Jivan Park,22.97756,72.6069,AMTS,amts,12
+AMC_3235,Royal Tiles,22.97817,72.61094,AMTS,amts,22
+AMC_3236,Smruti Mandir,22.97497,72.61104,AMTS,amts,22
+AMC_3066,Devbhumi Society (Smruti Mandir),22.97219,72.61363,AMTS,amts,20
+AMC_3238,Vandevi Bunglows,22.97168,72.61465,AMTS,amts,28
+AMC_3239,Keshavnagar (Nigam),22.97134,72.61624,AMTS,amts,24
+AMC_3240,Nigam Society,22.97119,72.61974,AMTS,amts,24
+AMC_3229,Ranip Gam,23.08095,72.57706,AMTS,amts,27
+AMC_3539,Maganpura Chowk,23.08002,72.57842,AMTS,amts,14
+AMC_3596,Sarkari Press Colony,23.0783,72.57854,AMTS,amts,14
+AMC_3597,Sarveshwar Mahadev,23.07476,72.57877,AMTS,amts,14
+AMC_3598,Radhaswami Satsang (Ranip),23.07271,72.57774,AMTS,amts,14
+AMC_3599,Umang Park Society,23.07139,72.57733,AMTS,amts,14
+AMC_3692,Dr.Ambedkar Rashtriya Foundation,23.06836,72.57666,AMTS,amts,14
+AMC_8519,Ranip ST Bus Stand,23.06753,72.57524,AMTS,amts,85
+AMC_7404,Nil Complex (Nandanvan Apartment),23.06772,72.5716,AMTS,amts,43
+AMC_3457,N.R.Patel Park,23.06693,72.57162,AMTS,amts,98
+AMC_3456,Nava Vadaj Police Chowki,23.06356,72.57154,AMTS,amts,41
+AMC_3455,Ramapirno Tekro,23.06145,72.5716,AMTS,amts,98
+AMC_2107,Vadaj,23.05408,72.57184,AMTS,amts,198
+AMC_2108,Champaner Society,23.05053,72.57142,AMTS,amts,128
+AMC_2863,Usmanpura,23.0452,72.57018,AMTS,amts,168
+AMC_2110,Gujarat Vidyapith,23.04337,72.5699,AMTS,amts,164
+AMC_1212,Income Tax Office,23.03946,72.56942,AMTS,amts,167
+AMC_5974,Metro Station,23.03742,72.56879,AMTS,amts,47
+AMC_1353,Mount Carmel School,23.03389,72.56967,AMTS,amts,49
+AMC_2219,Mill Owners Association,23.03281,72.57023,AMTS,amts,35
+AMC_2220,Vallabhsadan,23.02985,72.5706,AMTS,amts,44
+AMC_2221,Nataraj Cinema,23.02863,72.57088,AMTS,amts,62
+AMC_9927,Gandhigram (Metro Station),23.02714,72.57127,AMTS,amts,53
+AMC_2153,Mangal Park,23.00369,72.58983,AMTS,amts,37
+AMC_4837,Shahalam Tollnaka,23.00244,72.58944,AMTS,amts,51
+AMC_3907,Somnath Mahadev,23.00201,72.59153,AMTS,amts,16
+AMC_2150,Amrakunj,23.00262,72.59394,AMTS,amts,33
+AMC_2234,Gordhanwadi,23.0033,72.59613,AMTS,amts,33
+AMC_3164,Pranshankar Hall,23.00097,72.59797,AMTS,amts,8
+AMC_3165,Radhanpur Society,22.99838,72.59744,AMTS,amts,8
+AMC_2870,Bhairavnath,22.99589,72.59765,AMTS,amts,10
+AMC_2871,Vallabhwadi,22.99536,72.60136,AMTS,amts,6
+AMC_5046,Lake View Society,22.98104,72.59881,AMTS,amts,12
+AMC_5047,Govindwadi,22.98247,72.59794,AMTS,amts,12
+AMC_9239,Swaminarayan Society,22.98181,72.59469,AMTS,amts,4
+AMC_9237,Vishal Nagar,22.98078,72.59246,AMTS,amts,4
+AMC_9235,Prakash Vidhyalay (Isanpur),22.98047,72.59027,AMTS,amts,4
+AMC_3693,Subhash Bridge Circle,23.06749,72.58282,AMTS,amts,1
+AMC_2215,Collector Office,23.06506,72.58217,AMTS,amts,1
+AMC_2166,Lal Bangla (Abhay Ghat),23.06308,72.58112,AMTS,amts,1
+AMC_2217,Gandhi Ashram,23.06021,72.5801,AMTS,amts,1
+AMC_2218,Chandrabhaga Bridge,23.0586,72.57846,AMTS,amts,1
+AMC_2101,Nava Vadaj,23.06882,72.56126,AMTS,amts,69
+AMC_2038,Krushnanagar (Nava Vadaj),23.0654,72.56375,AMTS,amts,58
+AMC_2037,Punam Party Plot,23.06378,72.56517,AMTS,amts,58
+AMC_2036,Purushottamnagar (Nava Vadaj),23.06256,72.56595,AMTS,amts,58
+AMC_2035,Bhimjipura,23.06077,72.56755,AMTS,amts,83
+AMC_2034,Tulsishyam Society,23.05808,72.56909,AMTS,amts,82
+AMC_2272,Sanjivani Hospital,23.05742,72.57004,AMTS,amts,82
+AMC_6006,Dariyakhan Dhummt Quarters,23.05036,72.5878,AMTS,amts,20
+AMC_1843,Government Press,23.05647,72.60006,AMTS,amts,16
+AMC_3953,Ashishnagar,23.05641,72.62072,AMTS,amts,16
+AMC_7306,Memco Cross Road,23.0542,72.62999,AMTS,amts,14
+AMC_3603,Lambha Gam,22.93436,72.57572,AMTS,amts,18
+AMC_3604,Talavdi (Lambha),22.9393,72.57897,AMTS,amts,18
+AMC_3605,Lambha Mandir,22.94238,72.58108,AMTS,amts,18
+AMC_3606,Khajuri,22.94374,72.58734,AMTS,amts,18
+AMC_3327,Bhammariya Kuva,22.94519,72.59207,AMTS,amts,27
+AMC_3607,Central Ware House,22.9474,72.59154,AMTS,amts,27
+AMC_3329,Electric Sub Station,22.95202,72.5918,AMTS,amts,27
+AMC_3330,Parmarnu Garnalu,22.95489,72.59175,AMTS,amts,27
+AMC_3331,Narol Court,22.95966,72.59143,AMTS,amts,27
+AMC_3332,Narol Gam,22.96241,72.59128,AMTS,amts,27
+AMC_10322,Vayva Turning,22.96356,72.59035,AMTS,amts,12
+AMC_3333,Shahwadi,22.96685,72.58855,AMTS,amts,35
+AMC_3334,Bansidhar,22.96926,72.5883,AMTS,amts,35
+AMC_3335,Narol Circle,22.97375,72.58794,AMTS,amts,39
+AMC_79,Mukesh Industries,22.97402,72.59528,AJL|AMTS,multi,27
+AMC_81,Isanpur,22.97623,72.60239,AJL|AMTS,multi,29
+AMC_83,Ghodasar,22.97853,72.61017,AJL|AMTS,multi,27
+AMC_87,Express Highway Junction,22.98727,72.62767,AJL|AMTS,multi,27
+AMC_89,CTM Cross Road,22.99129,72.63176,AJL|AMTS,multi,27
+AMC_91,Purvdeep Society,22.99612,72.63419,AJL|AMTS,multi,27
+AMC_93,Jogeshwari Society,23.00044,72.63561,AJL|AMTS,multi,27
+AMC_97,Ram Rajya Nagar,23.00799,72.63812,AJL|AMTS,multi,29
+AMC_99,Rameshwar Park,23.01353,72.63851,AJL|AMTS,multi,29
+AMC_101,Geeta Gauri Cinema,23.01735,72.63845,AJL|AMTS,multi,21
+AMC_103,Soni ni Chali,23.02057,72.63843,AJL|AMTS,multi,40
+AMC_105,Viratnagar,23.02754,72.63884,AJL|AMTS,multi,23
+AMC_107,Bapu Nagar Approach,23.03255,72.63927,AJL|AMTS,multi,23
+AMC_109,Lilanagar,23.03694,72.64005,AJL|AMTS,multi,23
+AMC_8637,Thakkarnagar Approach (BRTS),23.04116,72.64055,AMTS,amts,12
+AMC_8635,Hirawadi (BRTS),23.04558,72.641,AMTS,amts,12
+AMC_8633,Vijay Park (BRTS),23.05127,72.6419,AMTS,amts,12
+AMC_8631,Krushnanagar (BRTS),23.05487,72.64253,AMTS,amts,12
+AMC_2073,Anand Flats,22.99904,72.54659,AMTS,amts,7
+AMC_5175,Bajarang Society,23.02897,72.6359,AMTS,amts,2
+AMC_7106,Margha Farm,23.02378,72.63126,AMTS,amts,12
+AMC_5177,Indira Garibnagar,23.0242,72.63048,AMTS,amts,21
+AMC_5178,Stadium Corner,23.02574,72.62933,AMTS,amts,21
+AMC_2695,L.B.Shastri Stadium,23.02851,72.629,AMTS,amts,21
+AMC_5180,Bapunagar General Hospital,23.02843,72.62448,AMTS,amts,10
+AMC_5181,Sonariya Blocks,23.02885,72.62182,AMTS,amts,10
+AMC_5182,Industrial Estate Corner,23.03077,72.62182,AMTS,amts,2
+AMC_6169,Industrial Estate,23.0311,72.62019,AMTS,amts,2
+AMC_5183,Lakshminarayannagar,23.02992,72.61861,AMTS,amts,2
+AMC_5184,Dhulabhaini Chali,23.02739,72.61634,AMTS,amts,2
+AMC_5185,Raypur Mills,23.02647,72.61293,AMTS,amts,2
+AMC_5186,Vishnunagar (Kasturbanagar),23.02798,72.61151,AMTS,amts,2
+AMC_2504,Shardaben Hospital,23.03147,72.61095,AMTS,amts,65
+AMC_2498,Saraspur Char Rasta,23.03079,72.60969,AMTS,amts,65
+AMC_2499,Dr.Ambedkar Hall (Saraspur),23.02994,72.60757,AMTS,amts,65
+AMC_2500,Shrinagar Mills,23.03121,72.60422,AMTS,amts,65
+AMC_2465,Bhakti Raj,23.05349,72.6793,AMTS,amts,17
+AMC_2466,Patel Wadi,23.0549,72.67895,AMTS,amts,17
+AMC_9416,Hill Town Residency,23.05767,72.67855,AMTS,amts,17
+AMC_9414,Khodaldham,23.06014,72.67797,AMTS,amts,17
+AMC_9894,Sarita Residency (New India Colony),23.05734,72.67593,AMTS,amts,9
+AMC_2468,New India Colony (Kelavani Dham),23.05506,72.67441,AMTS,amts,13
+AMC_2469,Ankur Raw House,23.05347,72.67322,AMTS,amts,15
+AMC_2470,Akanksha Tenament,23.0509,72.67274,AMTS,amts,15
+AMC_5394,Aamba Talav,23.04115,72.66156,AMTS,amts,16
+AMC_2522,Municipal Octroinaka (Nikol),23.04087,72.65691,AMTS,amts,16
+AMC_2521,Swaminarayannagar,23.04055,72.65375,AMTS,amts,14
+AMC_2520,Uttamnagar (Nikol),23.0396,72.65039,AMTS,amts,16
+AMC_7476,Bhaththa (Swastiknagar),23.03849,72.64728,AMTS,amts,13
+AMC_5059,New Silk Mills,23.03829,72.64492,AMTS,amts,16
+AMC_2517,Indrajit Society,23.03843,72.64364,AMTS,amts,16
+AMC_3623,Thakkarnagar Approach,23.04007,72.64032,AMTS,amts,30
+AMC_2515,Narayan Chambers,23.03886,72.63539,AMTS,amts,17
+AMC_1550,India Colony,23.03298,72.46134,AMTS,amts,34
+AMC_2489,Pramukh Swaminagar (Bapunagar Tollnaka),23.03869,72.62945,AMTS,amts,11
+AMC_7482,Anil Starch Tenament,23.03973,72.62671,AMTS,amts,8
+AMC_2491,Anil Starch,23.04025,72.62372,AMTS,amts,8
+AMC_5062,Tapovan Society,23.03702,72.62031,AMTS,amts,10
+AMC_2816,Bombay Housing Colony,23.03495,72.61702,AMTS,amts,61
+AMC_2506,Vorano Rozo,23.036,72.61121,AMTS,amts,10
+AMC_7489,Bhagwatinagar Society,23.03445,72.60892,AMTS,amts,10
+AMC_195,Astodiya Darwaja,23.01685,72.59219,AJL|AMTS,multi,119
+AMC_191,Municipal Corporation Office,23.01973,72.58622,AJL|AMTS,multi,84
+AMC_189,Raikhad Char Rasta,23.02162,72.58272,AJL|AMTS,multi,88
+AMC_187,Lokamanya Tilak Baug,23.02201,72.5804,AJL|AMTS,multi,88
+AMC_5031,Pickers Factory,23.05095,72.62231,AMTS,amts,10
+AMC_3977,Sarthak School (Sattadhar Cross Road),23.06313,72.53112,AMTS,amts,39
+AMC_4205,Nirman Tower (Sattadhar),23.06388,72.52896,AMTS,amts,15
+AMC_5472,Gulab Tower,23.0637,72.52562,AMTS,amts,15
+AMC_5657,Shilpi Residency,23.06165,72.52484,AMTS,amts,15
+AMC_3989,Someshwar Park,23.02299,72.53047,AMTS,amts,24
+AMC_4004,New Nikita Park,23.0583,72.52896,AMTS,amts,8
+AMC_4006,Sun And Step Club,23.06171,72.53091,AMTS,amts,8
+AMC_5193,Vaibhav Bunglows,23.06013,72.53255,AMTS,amts,8
+AMC_5194,Income Tax Society,23.05875,72.53424,AMTS,amts,8
+AMC_5195,Vishramnagar,23.05557,72.53408,AMTS,amts,8
+AMC_3026,Maruti Complex (Subhash Chowk),23.05238,72.53433,AMTS,amts,12
+AMC_3025,Nand Apartment,23.04919,72.53358,AMTS,amts,10
+AMC_3249,Niranjan Society,23.04598,72.53678,AMTS,amts,57
+AMC_3250,Manav Mandir,23.04596,72.53939,AMTS,amts,33
+AMC_3031,Kailasnagar,23.04513,72.5427,AMTS,amts,39
+AMC_3032,Saurabh Society,23.04463,72.54575,AMTS,amts,35
+AMC_3397,P.W.D. Workshop,23.03301,72.55021,AMTS,amts,20
+AMC_3856,St. Xaviers College,23.03321,72.55154,AMTS,amts,20
+AMC_3857,St. Xaviers Corner,23.03339,72.55509,AMTS,amts,20
+AMC_5196,Chakradhari Society,23.03302,72.55742,AMTS,amts,6
+AMC_3707,Telephone Exchange (Cg Road),23.03051,72.55912,AMTS,amts,8
+AMC_3708,Lal Bangla (Cg Road),23.02931,72.55834,AMTS,amts,55
+AMC_3709,Patel Society,23.02568,72.55659,AMTS,amts,8
+AMC_3710,Panchvati,23.02351,72.55611,AMTS,amts,8
+AMC_5434,Parimal Garden,23.01933,72.55604,AMTS,amts,8
+AMC_7107,Dr.House (Parimal Crossing),23.01459,72.55916,AMTS,amts,6
+AMC_1135,Nutan Society,23.01404,72.55955,AMTS,amts,16
+AMC_1134,Tolaknagar,23.01272,72.56098,AMTS,amts,16
+AMC_3211,Museum (Sanskar Kendra),23.01272,72.56803,AMTS,amts,57
+AMC_1344,Calico Colony,23.01063,72.57782,AMTS,amts,60
+AMC_8956,Pumping Station,23.02469,72.61921,AMTS,amts,8
+AMC_8954,Ramanni Chali,23.02763,72.61835,AMTS,amts,8
+AMC_8950,Padamshali Soc.(Virat Nagar),23.02634,72.63761,AMTS,amts,10
+AMC_4406,Viratnagar,23.02722,72.63855,AMTS,amts,28
+AMC_3516,Vaikunthdham,23.00062,72.58351,AMTS,amts,6
+AMC_5625,Lakshmi Villa,23.06954,72.67531,AMTS,amts,4
+AMC_5624,Maharshi Sandipani School,23.07189,72.67516,AMTS,amts,4
+AMC_9953,Sarangpur Depot,23.02203,72.59861,AMTS,amts,1
+AMC_4929,Ramdev Masala,22.92084,72.43982,AMTS,amts,47
+AMC_1621,Gujarat High Court,23.0804,72.52675,AMTS,amts,40
+AMC_1622,R.C.Technical,23.08311,72.52695,AMTS,amts,42
+AMC_3533,Sola Bhagwat Vidyapith,23.08638,72.52904,AMTS,amts,35
+AMC_3534,R.C.Technical (Rear),23.08425,72.53208,AMTS,amts,14
+AMC_3535,Nirman Tower (Sola),23.08195,72.53439,AMTS,amts,17
+AMC_3536,Avadhpuri,23.0811,72.53548,AMTS,amts,17
+AMC_3394,Sayona City,23.07891,72.53668,AMTS,amts,17
+AMC_3538,Mrudul Park,23.07755,72.53777,AMTS,amts,17
+AMC_2247,Chhaya Flats,23.07039,72.54304,AMTS,amts,32
+AMC_5292,Simandhar Hall,23.06941,72.5445,AMTS,amts,4
+AMC_4952,Shankarda Hall,23.07098,72.54837,AMTS,amts,15
+AMC_4951,Jay Avinash Society,23.07239,72.55171,AMTS,amts,8
+AMC_4505,Tejas Society,23.0731,72.55349,AMTS,amts,8
+AMC_2252,Deshwali Society,23.07434,72.55634,AMTS,amts,57
+AMC_2100,Ramapirnu Mandir,23.07041,72.56003,AMTS,amts,67
+AMC_4021,Fruit Market,23.03396,72.59785,AMTS,amts,70
+AMC_307,Gujarat High Court,23.07966,72.52652,AJL|AMTS,multi,8
+AMC_1684,Umiya Campus,23.08853,72.52902,AMTS,amts,23
+AMC_1683,Ekta Farm,23.09213,72.53016,AMTS,amts,23
+AMC_4669,Gokul Hotel,23.09719,72.53106,AMTS,amts,23
+AMC_1682,Gota Highway Cross Road,23.09717,72.53151,AMTS,amts,40
+AMC_2789,Gota Gam,23.09456,72.53653,AMTS,amts,39
+AMC_2790,Raj Granite,23.09203,72.5391,AMTS,amts,42
+AMC_2791,Vishwakarma Mandir,23.08575,72.54424,AMTS,amts,42
+AMC_2792,J.K.Park,23.08458,72.5453,AMTS,amts,42
+AMC_8101,Silver Star,23.08306,72.54617,AMTS,amts,28
+AMC_2793,Chuval Society,23.0815,72.54823,AMTS,amts,47
+AMC_2794,Chandlodiya Gam,23.08069,72.54995,AMTS,amts,47
+AMC_2795,Arjun Ashram,23.0789,72.55307,AMTS,amts,39
+AMC_2796,Dhanjibhaino Kuvo,23.07652,72.55548,AMTS,amts,49
+AMC_2815,Ambar Cinema,23.03475,72.62014,AMTS,amts,42
+AMC_2834,Bhid Bhanjan Hanuman,23.03484,72.62218,AMTS,amts,50
+AMC_2813,Bapunagar Ghanti (Patelwadi),23.03495,72.62691,AMTS,amts,51
+AMC_2693,Bapunagar Char Rasta,23.03461,72.62982,AMTS,amts,60
+AMC_9097,Ramji Mandir,23.04421,72.67445,AMTS,amts,22
+AMC_4416,Bapunagar,23.03405,72.63381,AMTS,amts,35
+AMC_1402,Shaifali Society,23.03064,72.5482,AMTS,amts,46
+AMC_10303,High Land Park,23.02893,72.54682,AMTS,amts,6
+AMC_5446,Gulbai Tekara Telephone Exchange,23.02903,72.55171,AMTS,amts,33
+AMC_3859,Municipal Quarters (Cg Road),23.02919,72.55546,AMTS,amts,46
+AMC_10020,Samartheshwar Mahadev,23.02892,72.55942,AMTS,amts,46
+AMC_6248,Law Garden,23.02494,72.55978,AMTS,amts,46
+AMC_2671,University Granth Nirman Board,23.02098,72.56038,AMTS,amts,47
+AMC_2672,Hope Nuro Care Hospital,23.0207,72.56365,AMTS,amts,42
+AMC_4940,Kalyan Kendra,23.0344,72.63207,AMTS,amts,11
+AMC_3123,Nandej-Barejadi Gam,22.89576,72.68384,AMTS,amts,4
+AMC_3124,Sarvajanik Vidyalay,22.89772,72.68153,AMTS,amts,4
+AMC_3125,Prathamik Kumar School,22.89642,72.67956,AMTS,amts,4
+AMC_9323,Shivnagar Society,22.89558,72.6789,AMTS,amts,2
+AMC_3126,Nandej-Barejadi Railway Station,22.8961,72.67725,AMTS,amts,4
+AMC_9321,Raliway Crossing,22.89555,72.67548,AMTS,amts,2
+AMC_9319,Govaliya Dham,22.89397,72.67422,AMTS,amts,2
+AMC_9317,Barjadi Gam,22.89212,72.67575,AMTS,amts,2
+AMC_9325,Aastha Vihar,22.89176,72.67239,AMTS,amts,2
+AMC_9315,A.B.Industry,22.89236,72.67045,AMTS,amts,2
+AMC_9313,Vrundavan Dham,22.89847,72.66525,AMTS,amts,2
+AMC_9311,Marchi Kui Cross Road,22.8967,72.66641,AMTS,amts,2
+AMC_9309,Gopal Farm,22.89919,72.66432,AMTS,amts,2
+AMC_9307,MayaNagari,22.90189,72.66145,AMTS,amts,2
+AMC_9305,Devdi 3 Rasta,22.9047,72.65689,AMTS,amts,2
+AMC_4827,Devdi Gam,22.90709,72.64973,AMTS,amts,4
+AMC_4828,Devdi Bhagol,22.90601,72.64694,AMTS,amts,4
+AMC_4829,Istolabad Vad,22.90361,72.64485,AMTS,amts,4
+AMC_4830,Mahij Chowkdi,22.90238,72.63817,AMTS,amts,4
+AMC_5628,Chosar Gam,22.90277,72.63496,AMTS,amts,6
+AMC_5629,Chosar Char Rasta,22.90297,72.63454,AMTS,amts,6
+AMC_5661,Swasar Pravesh - 1,22.90583,72.63556,AMTS,amts,6
+AMC_5630,Gamdi Gam,22.90686,72.63582,AMTS,amts,6
+AMC_5662,Nilkanth Kutir,22.90865,72.63552,AMTS,amts,6
+AMC_4833,Baliyadev (Gamdi),22.916,72.63042,AMTS,amts,6
+AMC_5631,Ghanshyam Farm,22.9229,72.62723,AMTS,amts,6
+AMC_5968,Birju Farm,22.92516,72.62638,AMTS,amts,6
+AMC_5632,Namdar Farm,22.92758,72.6248,AMTS,amts,6
+AMC_4834,Bhathijinu Mandir,22.93265,72.61846,AMTS,amts,6
+AMC_5633,Vatva ring road,22.93389,72.61785,AMTS,amts,6
+AMC_5966,Parijat Vishwas,22.93533,72.61762,AMTS,amts,6
+AMC_5748,Shakti Gardeniya,22.93674,72.6164,AMTS,amts,6
+AMC_5634,Nava Vatva Gram Panchayat,22.93899,72.61477,AMTS,amts,6
+AMC_5964,New Vatva Primary School,22.94059,72.61397,AMTS,amts,6
+AMC_5658,Ayodhya Apartment,22.94296,72.61303,AMTS,amts,6
+AMC_5962,Vraj Bhumi Bunglows,22.94407,72.61254,AMTS,amts,6
+AMC_5960,Parijat Heights,22.94547,72.61238,AMTS,amts,6
+AMC_5635,Mahadevpura,22.94682,72.61236,AMTS,amts,6
+AMC_5659,Kutir vidhyalay (Vatva),22.95262,72.61306,AMTS,amts,10
+AMC_5636,Vatva Gam,22.9539,72.61277,AMTS,amts,21
+AMC_5065,Roza,22.95645,72.613,AMTS,amts,17
+AMC_4525,Bibi Talav,22.95981,72.61085,AMTS,amts,21
+AMC_5308,Sadani Dhabi,22.96061,72.60614,AMTS,amts,13
+AMC_5309,Sonal Factory,22.96121,72.60345,AMTS,amts,18
+AMC_4836,Dayaram Printary,22.96205,72.59987,AMTS,amts,18
+AMC_5310,Gujcomasol,22.96291,72.59614,AMTS,amts,18
+AMC_5311,Jalaram Estate,22.96352,72.59343,AMTS,amts,18
+AMC_5312,Narol Turning,22.96401,72.59089,AMTS,amts,18
+AMC_3336,Ranipur Road,22.97853,72.58601,AMTS,amts,12
+AMC_3337,Chandola Octroi Naka,22.98232,72.58558,AMTS,amts,12
+AMC_3338,P.W.D. Stand,22.98364,72.58439,AMTS,amts,12
+AMC_3339,Chandola Talav,22.98894,72.5824,AMTS,amts,12
+AMC_3340,Chaitanyeshwar Mahadev,22.99143,72.58528,AMTS,amts,23
+AMC_3341,Shahalam Darwaja,22.99375,72.5884,AMTS,amts,17
+AMC_3342,Mohmadi Society,22.9973,72.58914,AMTS,amts,17
+AMC_2884,P&T Quarters (Shahalam),22.99882,72.58944,AMTS,amts,20
+AMC_8728,Vatva Railway Station,22.96005,72.62947,AMTS,amts,23
+AMC_8380,Vatva Railway Fatak,22.95724,72.62978,AMTS,amts,14
+AMC_5299,Vatva Railway Crossing,22.96276,72.63152,AMTS,amts,4
+AMC_4081,Shri Shantinath Jain Tirthdham,22.9613,72.62229,AMTS,amts,8
+AMC_4892,Gujarat Offset,22.96075,72.62006,AMTS,amts,12
+AMC_5300,Saurashtra Paints,22.96008,72.61463,AMTS,amts,4
+AMC_5328,Gokul Society,22.96206,72.61063,AMTS,amts,8
+AMC_5603,Saiyadni Wadi,22.96504,72.60914,AMTS,amts,8
+AMC_5066,Gebansha Pir,22.96761,72.60765,AMTS,amts,10
+AMC_5970,Partheshwar Mahadev,22.96853,72.60706,AMTS,amts,10
+AMC_5301,Manokamna Society,22.97097,72.60559,AMTS,amts,8
+AMC_5067,Paras Nagar,22.97306,72.60398,AMTS,amts,33
+AMC_5068,Jethabhaini Vav,22.97393,72.60324,AMTS,amts,8
+AMC_8740,Hirabhai Tower (Uttamnagar),22.99114,72.60406,AMTS,amts,4
+AMC_2145,Krushna bag,22.99747,72.60375,AMTS,amts,51
+AMC_2146,Rambag,22.99863,72.60164,AMTS,amts,49
+AMC_2147,Shelat Bhuvan,23.00048,72.60024,AMTS,amts,41
+AMC_3858,Rajhans Society,23.03145,72.55512,AMTS,amts,14
+AMC_2670,Law College,23.02341,72.55982,AMTS,amts,2
+AMC_8505,Society ni chali,23.01058,72.62018,AMTS,amts,27
+AMC_8499,Bunglow,23.0101,72.62162,AMTS,amts,27
+AMC_8501,Indiranagar (Naranmitha ni chali),23.00926,72.6238,AMTS,amts,27
+AMC_8503,Amraiwadi,23.00685,72.62438,AMTS,amts,27
+AMC_2702,Swastik Industries,23.00775,72.6278,AMTS,amts,20
+AMC_10200,Aashapuri Nagar,23.00696,72.6306,AMTS,amts,11
+AMC_5893,Ramnagar,23.00665,72.6315,AMTS,amts,11
+AMC_5891,Ghanti,23.00575,72.63458,AMTS,amts,11
+AMC_3674,Rabari Colony,23.00488,72.63771,AMTS,amts,11
+AMC_3728,Sureliya Estate,23.0049,72.64123,AMTS,amts,14
+AMC_3727,New Ritanagar,23.00393,72.64319,AMTS,amts,11
+AMC_3726,Mahadevnagar Tekra,23.00359,72.64718,AMTS,amts,11
+AMC_3725,Sarkari Gochar,23.00253,72.65079,AMTS,amts,15
+AMC_3724,Saidham Tenament,23.00206,72.65248,AMTS,amts,11
+AMC_3723,Triveni Park,23.00149,72.65439,AMTS,amts,11
+AMC_5305,Surdhara Society,23.00107,72.65602,AMTS,amts,11
+AMC_3722,Surabhi Society (Nirant Chokdi),23.00038,72.65734,AMTS,amts,13
+AMC_3721,Ratanpur,22.99883,72.66094,AMTS,amts,13
+AMC_3715,S.P.Ring Road (Pushp Residency),22.9981,72.66501,AMTS,amts,11
+AMC_3716,Sukharam Mahadev,22.99735,72.66729,AMTS,amts,9
+AMC_3717,Vastral Gam,22.99568,72.67106,AMTS,amts,7
+AMC_2539,Pasunj Gam,23.03617,72.79933,AMTS,amts,4
+AMC_2540,Baliyadev Mandir (Pasunj),23.03568,72.79728,AMTS,amts,4
+AMC_2541,Madhabhainu Khetar,23.03319,72.79351,AMTS,amts,4
+AMC_2542,Bhagatno Kuvo,23.03229,72.78803,AMTS,amts,4
+AMC_2543,Pasunj Canal,23.0327,72.78518,AMTS,amts,4
+AMC_2544,Galajino Kuvo,23.03192,72.78046,AMTS,amts,4
+AMC_2545,Rambhaino Kuvo,23.03135,72.77208,AMTS,amts,4
+AMC_2546,Harikrushna Farm,23.03107,72.7659,AMTS,amts,4
+AMC_2547,Sarkari Bor,23.03052,72.76214,AMTS,amts,4
+AMC_9866,Indiranagar (Bhatijipura),23.02952,72.75934,AMTS,amts,2
+AMC_9864,Swaminarayan Highschool,23.02812,72.75758,AMTS,amts,2
+AMC_9862,Mahakali Mandir,23.02739,72.75699,AMTS,amts,2
+AMC_9860,Maruti Nandan Arcade,23.02507,72.75667,AMTS,amts,2
+AMC_9858,Royal Galaxy,23.02133,72.75639,AMTS,amts,2
+AMC_9856,Dharmik Way Bridge,23.01726,72.75443,AMTS,amts,2
+AMC_9854,Aarya Industrial Park,23.01351,72.7523,AMTS,amts,2
+AMC_9852,Dwarkesh Way Bridge,23.0093,72.7505,AMTS,amts,2
+AMC_8543,Kubadthal Patiya Highway Cross road,23.00507,72.74954,AMTS,amts,10
+AMC_8541,Khajuri Farm,23.00455,72.7446,AMTS,amts,10
+AMC_8539,Indirangar,23.00461,72.73958,AMTS,amts,10
+AMC_8447,Kunjad-Bakrol Bypass,23.00514,72.73439,AMTS,amts,12
+AMC_4097,Kujad Gam,23.00525,72.73296,AMTS,amts,12
+AMC_4095,Kanbha Gam,23.01023,72.72578,AMTS,amts,12
+AMC_4093,Swaminarayan Gurukul,23.01102,72.7222,AMTS,amts,12
+AMC_8445,Kanbha Cross Road,23.01143,72.72019,AMTS,amts,12
+AMC_8443,Kanbha-Kunjad G.E.Board Office,23.01242,72.71835,AMTS,amts,12
+AMC_8441,Gokul Moters (Kanbha Police Station),23.0143,72.71454,AMTS,amts,12
+AMC_8439,Gangeshwar Vidyalay,23.016,72.71117,AMTS,amts,12
+AMC_8437,V.K. No Bhaththo,23.02087,72.70139,AMTS,amts,12
+AMC_8435,Vadwali Chali,23.02227,72.69864,AMTS,amts,12
+AMC_8488,Ramji Mandir,23.02425,72.69476,AMTS,amts,12
+AMC_1241,Singarwa Patiya,23.02538,72.69156,AMTS,amts,30
+AMC_1462,School,23.02566,72.68905,AMTS,amts,36
+AMC_1463,Kathwada Patiya,23.0259,72.68694,AMTS,amts,37
+AMC_1464,Dwarikanath Hindi Higher Secondary School,23.02607,72.68502,AMTS,amts,37
+AMC_1465,Bhagwatinagar,23.02628,72.68264,AMTS,amts,37
+AMC_1466,Nityanand Ashram,23.02627,72.67974,AMTS,amts,37
+AMC_1467,Gujarat Vepari Mahamandal,23.02558,72.67728,AMTS,amts,37
+AMC_2568,S.P.Ring Road (Odhav),23.02482,72.67237,AMTS,amts,18
+AMC_8912,Girnar Scooter,23.02499,72.66982,AMTS,amts,21
+AMC_1469,Odhav Terminus,23.0247,72.66769,AMTS,amts,21
+AMC_2550,Kubadthal Gam,23.03279,72.76012,AMTS,amts,4
+AMC_2551,Harisiddh Matanu Mandir,23.03311,72.75876,AMTS,amts,4
+AMC_2552,Smrutivan,23.03602,72.75178,AMTS,amts,4
+AMC_2553,Talavdi (Lalpur Cross Road),23.03842,72.74718,AMTS,amts,4
+AMC_2554,Ambe Matanu Mandir,23.03966,72.74598,AMTS,amts,4
+AMC_2555,Zanu Gam,23.04077,72.74086,AMTS,amts,4
+AMC_2557,Nilkanthpura,23.03912,72.73733,AMTS,amts,4
+AMC_2558,Nilkanth Mahadev,23.03839,72.73432,AMTS,amts,4
+AMC_2559,Dasamanu Mandir,23.03485,72.72628,AMTS,amts,4
+AMC_2560,Zanu Patiya,23.035,72.72341,AMTS,amts,4
+AMC_2561,Madhavanand Ashram Approach,23.03582,72.71946,AMTS,amts,4
+AMC_2562,Bhuvaldi Gam,23.03329,72.71889,AMTS,amts,4
+AMC_2563,Bhuvaldi Para,23.03299,72.71722,AMTS,amts,4
+AMC_2564,Grid Thambhalo,23.03167,72.71366,AMTS,amts,4
+AMC_2565,Grid Transformer,23.0308,72.70842,AMTS,amts,4
+AMC_2566,Hinglajmata Approach,23.02999,72.70205,AMTS,amts,4
+AMC_2567,Gopalnagar,23.02686,72.69996,AMTS,amts,6
+AMC_1099,Chinubhainagar,23.0262,72.69651,AMTS,amts,15
+AMC_8724,Bhagyoday Society (Sukhramnagar),23.01435,72.6188,AMTS,amts,16
+AMC_8722,Ghanshyam Rubber works,23.01515,72.61686,AMTS,amts,6
+AMC_8777,Neminath Derasar(Gomtipur),23.0164,72.61654,AMTS,amts,16
+AMC_1201,Gomtipur Darwaja,23.01718,72.61407,AMTS,amts,22
+AMC_1163,Chhinkaniwala Estate,23.01718,72.61751,AMTS,amts,10
+AMC_1165,Anant Society,23.01737,72.62311,AMTS,amts,12
+AMC_1166,Chakudiya Mahadev,23.01736,72.62496,AMTS,amts,12
+AMC_1167,Gravity House,23.01433,72.62658,AMTS,amts,12
+AMC_1195,Ghanshyam Engg. Works,23.0138,72.62937,AMTS,amts,12
+AMC_1194,Nagarvel Hanuman,23.01167,72.63079,AMTS,amts,21
+AMC_1193,Sanjay Chowk,23.01024,72.63176,AMTS,amts,12
+AMC_1192,Ashwamegh Society (Nagarvel),23.00905,72.6337,AMTS,amts,12
+AMC_1172,Satyamnagar,23.00822,72.63611,AMTS,amts,10
+AMC_1175,Rajdeep Society,23.0121,72.63829,AMTS,amts,8
+AMC_1177,Rajendra Park,23.015,72.64038,AMTS,amts,11
+AMC_1178,Mukeshnagar,23.01475,72.6426,AMTS,amts,16
+AMC_1179,Radheshyam Society,23.01479,72.64437,AMTS,amts,16
+AMC_1180,Shitalchhaya Society,23.01267,72.64493,AMTS,amts,14
+AMC_1181,Arbudanagar,23.00944,72.64501,AMTS,amts,8
+AMC_1951,Madhav Homes,22.99201,72.65503,AMTS,amts,3
+AMC_1952,Galaxy Corel,22.99254,72.6572,AMTS,amts,5
+AMC_7931,Sarovar-4,22.99189,72.66202,AMTS,amts,5
+AMC_7932,Bapasitaram Chowk,22.99342,72.6625,AMTS,amts,5
+AMC_7933,Kalpataru Residency,22.99423,72.6585,AMTS,amts,5
+AMC_1954,Kisan Lend,22.99478,72.6553,AMTS,amts,5
+AMC_1955,D.P.S. School,22.99678,72.65585,AMTS,amts,4
+AMC_7936,Nirant Chokdi,22.99993,72.65776,AMTS,amts,8
+AMC_1957,Maruti Vidyalay,23.00242,72.65862,AMTS,amts,7
+AMC_1959,Madhav Park,23.00624,72.65958,AMTS,amts,7
+AMC_1960,Karnavati Bunglows (Narayan Chowk),23.00786,72.65971,AMTS,amts,9
+AMC_8882,Alok Tenaments,23.00853,72.65833,AMTS,amts,4
+AMC_1961,Govardhan Park,23.00964,72.65498,AMTS,amts,4
+AMC_1962,Krushnadham,23.01034,72.65293,AMTS,amts,4
+AMC_1963,Takshashila Vidyalay (Sahyog Vidyalay),23.01085,72.65135,AMTS,amts,4
+AMC_1964,Maheshwari Society,23.01163,72.64907,AMTS,amts,6
+AMC_1965,Krushnakunj Society,23.01218,72.64745,AMTS,amts,4
+AMC_2092,Gayatri Vidyalay,23.07961,72.57036,AMTS,amts,26
+AMC_2093,Balolnagar Char Rasta,23.08021,72.56786,AMTS,amts,26
+AMC_2094,Nataraj Shopping Centre,23.0804,72.56689,AMTS,amts,28
+AMC_2095,Ambikakrupa Society,23.08061,72.56401,AMTS,amts,20
+AMC_2096,Vimal Tenaments,23.0786,72.56321,AMTS,amts,20
+AMC_2097,Madhavbag (Nirnaynagar),23.07645,72.56194,AMTS,amts,20
+AMC_2098,Ramwadi (Nirnaynagar),23.07361,72.55918,AMTS,amts,20
+AMC_4015,Nirnaynagar Garnala,23.07349,72.55751,AMTS,amts,22
+AMC_8103,Shrinagar Mill (Gurudwara),23.03064,72.60448,AMTS,amts,18
+AMC_8107,Kalupur Metro Station,23.02803,72.60447,AMTS,amts,19
+AMC_8112,Chartoda Kbrstan Char Rasta,23.0247,72.60648,AMTS,amts,19
+AMC_8109,Kamdar Medan Char Rasta,23.02078,72.607,AMTS,amts,20
+AMC_1491,Hathi Khai,23.02105,72.6083,AMTS,amts,17
+AMC_1485,Bombay Housing Police Line,23.02116,72.60955,AMTS,amts,17
+AMC_1203,Patel Mills,23.02095,72.61273,AMTS,amts,17
+AMC_1483,Marsdon Mills,23.02208,72.61609,AMTS,amts,5
+AMC_1482,Ganjifarak Mills,23.02213,72.61835,AMTS,amts,5
+AMC_5861,Ranchodpura Cross Road,23.09609,72.43805,AMTS,amts,4
+AMC_5859,Calorex Olive International School,23.09793,72.44326,AMTS,amts,4
+AMC_5857,Ahemdabad Dental College,23.09764,72.45238,AMTS,amts,4
+AMC_5855,Hare Krushna Mandir(bhadaj),23.09737,72.45749,AMTS,amts,4
+AMC_5853,Nasmed Chokdi,23.09637,72.46155,AMTS,amts,4
+AMC_5851,Supercity Gate,23.09827,72.46291,AMTS,amts,2
+AMC_5849,Supercity Complex,23.09822,72.46663,AMTS,amts,2
+AMC_5847,R.K.Industries,23.09481,72.47323,AMTS,amts,2
+AMC_5845,Satvik Hill,23.09181,72.47986,AMTS,amts,2
+AMC_5843,Shree Kashi Aevenue,23.0893,72.48451,AMTS,amts,2
+AMC_3785,Bhadaj Gam,23.08671,72.48578,AMTS,amts,16
+AMC_3786,S.P.Ring Road (Paghadi Sheth Farm),23.08467,72.49189,AMTS,amts,18
+AMC_2823,Kesarsal Medical College,23.08285,72.49544,AMTS,amts,25
+AMC_2824,Science City,23.0805,72.49952,AMTS,amts,25
+AMC_2853,Sahajanand Bunglows (Science City),23.07644,72.50779,AMTS,amts,23
+AMC_2854,Satyam Complex,23.07446,72.51184,AMTS,amts,25
+AMC_2855,Sola Gam Cross Road,23.07283,72.51517,AMTS,amts,27
+AMC_5213,Saraswati Vidyalay,22.94474,72.645,AMTS,amts,22
+AMC_8908,Sola Police Choki,23.06978,72.5225,AMTS,amts,16
+AMC_2914,Shenbainagar (Sattadhar),23.06516,72.52951,AMTS,amts,22
+AMC_3027,Chandralok Society,23.05229,72.53512,AMTS,amts,8
+AMC_3842,Vivekanand Circle,23.05138,72.53768,AMTS,amts,12
+AMC_5887,Swaminarayan Baug,23.05503,72.53632,AMTS,amts,2
+AMC_5885,B.D.Rao(BrahmBhatt)Hall,23.05753,72.53619,AMTS,amts,2
+AMC_2916,Bhuyangdev Society,23.05921,72.53674,AMTS,amts,27
+AMC_2917,Sola Housing Complex,23.05704,72.54033,AMTS,amts,25
+AMC_2918,Akashganga,23.05587,72.54282,AMTS,amts,25
+AMC_2920,A.E.C Zonal Office,23.05273,72.5487,AMTS,amts,27
+AMC_2921,Naranpura,23.0522,72.55165,AMTS,amts,27
+AMC_2895,Devendra Society,23.05214,72.5538,AMTS,amts,32
+AMC_2894,Amikunj Society,23.05227,72.55585,AMTS,amts,27
+AMC_2678,Naranpura Char Rasta,23.05236,72.55929,AMTS,amts,41
+AMC_3698,Sundarnagar (Sundarvan Society),23.05457,72.55895,AMTS,amts,24
+AMC_3697,Rangjyot Society,23.05688,72.5578,AMTS,amts,24
+AMC_4194,Ankur Society,23.05888,72.55538,AMTS,amts,39
+AMC_5481,Vijaynagar,23.05974,72.55914,AMTS,amts,7
+AMC_7857,Vijaynagar Railway Crossing,23.05986,72.56098,AMTS,amts,19
+AMC_10094,Vijaynagar Metro station,23.05991,72.5612,AMTS,amts,14
+AMC_2683,Kiran Park,23.06014,72.56372,AMTS,amts,22
+AMC_9229,Silver Oak University,23.08859,72.53507,AMTS,amts,9
+AMC_9231,Shayona Estate,23.09079,72.53653,AMTS,amts,7
+AMC_9233,Tirupati Stone,23.09178,72.53643,AMTS,amts,7
+AMC_1202,Shuddodhannagar,23.01993,72.61323,AMTS,amts,12
+AMC_3730,Ramji Bhagat Chowk (Satyamnagar),23.0083,72.63576,AMTS,amts,2
+AMC_7939,Raghulilla Residency,23.00827,72.66428,AMTS,amts,5
+AMC_7940,Odhav Panjarapol,23.00864,72.66824,AMTS,amts,11
+AMC_9164,Madhav Farm,23.00788,72.67168,AMTS,amts,16
+AMC_7941,Shivam Awas,23.00613,72.67132,AMTS,amts,4
+AMC_7942,Shyam-36,23.0035,72.67069,AMTS,amts,4
+AMC_7943,Sundaram Awas Yojana (Vastral),23.00208,72.67043,AMTS,amts,4
+AMC_9392,Vastral Talav,22.99965,72.66941,AMTS,amts,2
+AMC_9390,Vastral Gam(Metro Station),22.99793,72.66874,AMTS,amts,4
+AMC_5493,Vagheshwari Soc(Chandlodia Rly Station),23.0759,72.54616,AMTS,amts,12
+AMC_4694,Nilay Apartment,23.07614,72.54661,AMTS,amts,7
+AMC_7742,Gaurinagar,23.07474,72.54727,AMTS,amts,7
+AMC_2915,Sarvodaynagar,23.06246,72.53377,AMTS,amts,34
+AMC_4009,Prabhat Chowk,23.06853,72.54402,AMTS,amts,34
+AMC_4010,Ranna Park,23.06673,72.54681,AMTS,amts,32
+AMC_4232,Gujarat Housing Board Office,23.06366,72.54982,AMTS,amts,27
+AMC_4986,Pallav Society,23.06146,72.55295,AMTS,amts,28
+AMC_5538,Patrakar Colony (Vijaynagar),23.05988,72.55857,AMTS,amts,19
+AMC_2703,Amaraiwadi Post Office,23.00555,72.62739,AMTS,amts,17
+AMC_2704,Satyanarayan Society,23.00346,72.62693,AMTS,amts,17
+AMC_2705,Rudreshwar Mahadev,23.00125,72.62591,AMTS,amts,21
+AMC_5240,Gurukrupa Vidyalay,22.99249,72.63451,AMTS,amts,3
+AMC_5241,Dhanjibhai Industrial Estate,22.99486,72.63654,AMTS,amts,3
+AMC_5242,Jogeshwar Estate,22.99727,72.63866,AMTS,amts,3
+AMC_5243,Anjali Vidyalay,23.00077,72.64034,AMTS,amts,3
+AMC_5244,Jain Milan Society,23.0045,72.64021,AMTS,amts,3
+AMC_7923,Ritanagar,23.00397,72.64317,AMTS,amts,3
+AMC_7924,Shri V.K.Vidyalay,23.00425,72.64484,AMTS,amts,3
+AMC_7813,R.T.O. (East),23.00123,72.64555,AMTS,amts,3
+AMC_7926,Manidhar Society,22.99893,72.64716,AMTS,amts,3
+AMC_5504,Lakshminagar,23.05105,72.55647,AMTS,amts,46
+AMC_7928,Dharti Status,22.99329,72.6524,AMTS,amts,3
+AMC_7938,Madhav School,23.0028,72.66319,AMTS,amts,3
+AMC_9165,Shridhar Paradise,23.00996,72.67226,AMTS,amts,3
+AMC_9168,Amarnath Residency,23.01131,72.67267,AMTS,amts,3
+AMC_9169,Dharti Parisar,23.01088,72.67565,AMTS,amts,3
+AMC_9171,Devasya School,23.01026,72.67854,AMTS,amts,5
+AMC_9173,Swami Vivekanand Chowk(Vastral),23.01257,72.6794,AMTS,amts,5
+AMC_1455,Chunarawas,23.05591,72.70618,AMTS,amts,6
+AMC_1456,Becharbhainu Khetar,23.05224,72.70495,AMTS,amts,4
+AMC_1457,Tubewell,23.04617,72.70048,AMTS,amts,4
+AMC_1458,Parab,23.04047,72.69659,AMTS,amts,4
+AMC_9388,Radhe Shyam Residency,23.03819,72.6947,AMTS,amts,4
+AMC_1459,Gujarat Concrete Corporation,23.03502,72.69257,AMTS,amts,4
+AMC_1460,Gajanand Residency,23.03206,72.69178,AMTS,amts,4
+AMC_1461,Selyuloz Product,23.02851,72.6901,AMTS,amts,4
+AMC_9356,Aagaman Park,23.02338,72.66669,AMTS,amts,9
+AMC_9354,Sarguna Park,23.02144,72.66678,AMTS,amts,9
+AMC_9358,Gajanand Opera,23.02087,72.66595,AMTS,amts,9
+AMC_9352,Municipal Prathmik School,23.02093,72.66392,AMTS,amts,9
+AMC_9350,Odhav Police Choki,23.02085,72.66169,AMTS,amts,7
+AMC_3203,L Type Corner,23.02107,72.65966,AMTS,amts,10
+AMC_4099,Bakrol-Bujrang Gam,22.98261,72.73965,AMTS,amts,4
+AMC_8457,Bakrol-Bujrang Patiya,22.98198,72.73486,AMTS,amts,4
+AMC_8455,Swagat Industrial Park,22.98789,72.73585,AMTS,amts,2
+AMC_8453,Gopal Charan Industrial Estate,22.99245,72.73633,AMTS,amts,2
+AMC_8451,K.P. Weigh Bridge,22.9955,72.7369,AMTS,amts,2
+AMC_8449,Bakrol Highway Cross Road,23.00073,72.73499,AMTS,amts,2
+AMC_9528,Haldharvas Patiya,22.98729,72.86472,AMTS,amts,6
+AMC_9526,Apson Motors Private Limited,22.99045,72.85728,AMTS,amts,6
+AMC_9524,Rudra Industrial Park,22.99116,72.85551,AMTS,amts,6
+AMC_9522,Badrinath Industrial Park,22.99272,72.85151,AMTS,amts,6
+AMC_9520,Mirjapur Patiya,22.99402,72.84793,AMTS,amts,6
+AMC_9518,Oscar Cashew Private Ltd.,22.99467,72.84319,AMTS,amts,6
+AMC_9516,Chandial Checkpost,22.99526,72.83826,AMTS,amts,6
+AMC_9514,Gayatri Industrial Park,22.99588,72.83359,AMTS,amts,6
+AMC_9512,Devasya Industries,22.99648,72.8287,AMTS,amts,6
+AMC_9510,Nakshatra Industries,22.99674,72.82672,AMTS,amts,6
+AMC_9508,Reno Vision Export,22.99723,72.82149,AMTS,amts,6
+AMC_9506,Shivadhin Industrial Park,22.99789,72.81743,AMTS,amts,6
+AMC_9504,Amba Hotel,22.99787,72.81352,AMTS,amts,6
+AMC_9502,J.K. Industrial Park,22.99741,72.80645,AMTS,amts,6
+AMC_9500,Swapnil Industrial Park,22.99696,72.79711,AMTS,amts,6
+AMC_9498,Kuha Patiya,22.99748,72.79358,AMTS,amts,6
+AMC_9496,Rameshwar Bungalows,22.99785,72.79229,AMTS,amts,6
+AMC_9494,Polaris Limited,22.99844,72.79066,AMTS,amts,6
+AMC_9492,Saurath Ortho Surgical,22.99917,72.78845,AMTS,amts,6
+AMC_9490,Shivatva Industrial Park,23.00052,72.78449,AMTS,amts,6
+AMC_9488,Canal,23.00237,72.77953,AMTS,amts,6
+AMC_9486,Kothiya Bus Stand,23.0039,72.77523,AMTS,amts,6
+AMC_9484,Jeevan Seva Trust (Gharda Ghar),23.00431,72.77066,AMTS,amts,6
+AMC_9482,Swagat Industries,23.00445,72.76875,AMTS,amts,6
+AMC_9480,Bhavda Patiya,23.0051,72.76126,AMTS,amts,8
+AMC_9478,Metshow Ltd.,23.00538,72.75405,AMTS,amts,8
+AMC_157,SP Ring Road Approach,23.0249,72.67148,AJL|AMTS,multi,31
+AMC_155,Odhav Talav,23.02446,72.66531,AJL|AMTS,multi,44
+AMC_153,Morlidhar Society,23.024,72.66234,AJL|AMTS,multi,44
+AMC_151,Chhotalal ni Chali,23.02349,72.65873,AJL|AMTS,multi,44
+AMC_149,Vallabh Nagar,23.02292,72.65481,AJL|AMTS,multi,44
+AMC_147,Odhav Fire Station,23.02234,72.65075,AJL|AMTS,multi,46
+AMC_159,Ajit Mill Char Rasta,23.02004,72.63329,AJL|AMTS,multi,47
+AMC_227,Soma Textiles,23.02011,72.62894,AJL|AMTS,multi,45
+AMC_297,Narayana Hospital,23.02152,72.62322,AJL|AMTS,multi,45
+AMC_145,Grid Station,23.02128,72.64358,AJL|AMTS,multi,40
+AMC_9801,Undrel Gam,22.95487,72.77125,AMTS,amts,2
+AMC_9798,Surya Company,22.95916,72.77182,AMTS,amts,2
+AMC_9796,Sadbhavna Ind. Park,22.96093,72.77178,AMTS,amts,2
+AMC_9794,Rajendra Eng.,22.9652,72.77044,AMTS,amts,2
+AMC_9792,Bhavda Gate,22.97131,72.76892,AMTS,amts,2
+AMC_9790,Bhavda Tran Rasta,22.97544,72.76852,AMTS,amts,2
+AMC_9788,Shakti Farm,22.97884,72.76768,AMTS,amts,2
+AMC_9786,Chaitanya Icon,22.98197,72.76602,AMTS,amts,2
+AMC_9784,Ramdevpir Mandir,22.98691,72.76517,AMTS,amts,2
+AMC_9782,Avdhesh Complex,22.99072,72.76416,AMTS,amts,2
+AMC_9780,Amarnath Ind. Park,22.99595,72.76342,AMTS,amts,2
+AMC_9778,Bhavda Lat,23.00086,72.76172,AMTS,amts,2
+AMC_6142,Jain Upashray,22.99712,72.60647,AMTS,amts,38
+AMC_7974,Vinobabhavenagar,22.93631,72.64879,AMTS,amts,6
+AMC_3884,Vinobabhavenagar (Pravesh),22.93873,72.64895,AMTS,amts,6
+AMC_7976,Limdi (Vinobabhavenagar),22.9473,72.64376,AMTS,amts,2
+AMC_7977,Bharabhaino Kuvo,22.9477,72.64462,AMTS,amts,2
+AMC_5216,Ayojannagar Approach,22.95026,72.64439,AMTS,amts,6
+AMC_7979,Vinzol Panini Taanki,22.95164,72.64112,AMTS,amts,2
+AMC_7980,G.I.D.C. Turning,22.95321,72.63933,AMTS,amts,2
+AMC_7981,Shaala,22.95601,72.63778,AMTS,amts,2
+AMC_7982,Vinzol Approach,22.95889,72.63692,AMTS,amts,6
+AMC_7983,Shri Krushna Roller Floor Factory,22.96366,72.63583,AMTS,amts,2
+AMC_7984,Coronation Floor Factory,22.96639,72.63499,AMTS,amts,6
+AMC_7985,M/S.K.B.Patel Industries,22.96868,72.63395,AMTS,amts,6
+AMC_7986,Commet Chemicals,22.97217,72.6323,AMTS,amts,6
+AMC_7987,F' Road,22.97529,72.63083,AMTS,amts,6
+AMC_7988,G.C.I. (Trikampura),22.97897,72.63117,AMTS,amts,2
+AMC_4424,Kaans (Gorno Kuvo),22.9869,72.62008,AMTS,amts,8
+AMC_4842,Dr.Shyamaprasad Mukharjee Chowk,22.98791,72.61797,AMTS,amts,9
+AMC_2254,Gujarat Housing Board (Haripura),22.99059,72.61981,AMTS,amts,7
+AMC_7996,Lakshminarayan Society,22.99309,72.61902,AMTS,amts,4
+AMC_4838,Railway Crossing (Maninagar),22.99471,72.61367,AMTS,amts,11
+AMC_2712,Railway Colony (Maninagar),23.00005,72.6142,AMTS,amts,11
+AMC_8349,Khatraj (Panchvati circle),22.82227,72.77797,AMTS,amts,2
+AMC_8347,Ved Hospital,22.82394,72.77543,AMTS,amts,2
+AMC_8345,Krushna Park,22.82655,72.77168,AMTS,amts,2
+AMC_6171,Siddhi Vinayak Mandir,22.83299,72.76302,AMTS,amts,4
+AMC_6181,Sojali Patiya,22.83898,72.76626,AMTS,amts,4
+AMC_6179,Sansoli Patiya,22.84181,72.76434,AMTS,amts,4
+AMC_6177,Chardham Mandir,22.84663,72.76045,AMTS,amts,4
+AMC_6175,Aadesh Ashram,22.85071,72.75723,AMTS,amts,4
+AMC_6173,Shrinath Complex,22.85392,72.75471,AMTS,amts,4
+AMC_8681,Kadri no kuvo,22.96132,72.65285,AMTS,amts,12
+AMC_4841,Rinku Flats,22.98861,72.61657,AMTS,amts,4
+AMC_4840,Maniyasha Society,22.99039,72.61568,AMTS,amts,4
+AMC_4839,Chawalani Chali,22.99243,72.61471,AMTS,amts,4
+AMC_4846,Bhaththa (Ramol),22.94577,72.6683,AMTS,amts,10
+AMC_9753,Virol Darwaja (Mahemdavad),22.82554,72.75441,AMTS,amts,2
+AMC_9751,Triniti School,22.82721,72.75432,AMTS,amts,2
+AMC_9749,Gokul Nagar,22.82759,72.75568,AMTS,amts,2
+AMC_8371,Nadi Darwaja,22.82806,72.75704,AMTS,amts,2
+AMC_8369,St. Xaviers School,22.82944,72.75717,AMTS,amts,2
+AMC_8367,Daudpura,22.83072,72.75704,AMTS,amts,2
+AMC_8365,Naumaan Plaza,22.83182,72.75791,AMTS,amts,2
+AMC_1258,Pratapkunj,22.99935,72.54521,AMTS,amts,46
+AMC_1259,Pravinnagar,22.99797,72.54226,AMTS,amts,46
+AMC_1260,Guptanagar,22.99695,72.53975,AMTS,amts,46
+AMC_1261,Sarani Kamdar Society,22.99576,72.53495,AMTS,amts,41
+AMC_1262,Prakash College,22.99494,72.53174,AMTS,amts,33
+AMC_1263,Juhapura Road,22.99453,72.53002,AMTS,amts,37
+AMC_1799,Sardar Smruti,22.99399,72.52776,AMTS,amts,33
+AMC_1264,Gandhi Smruti,22.99315,72.52492,AMTS,amts,37
+AMC_7269,Zarf Dairy,22.9922,72.52122,AMTS,amts,6
+AMC_1265,Khurshid Park,22.99109,72.51864,AMTS,amts,35
+AMC_1266,Fatehwadi,22.9901,72.51636,AMTS,amts,35
+AMC_1267,Ambar Tower,22.98893,72.51273,AMTS,amts,35
+AMC_1268,Factory,22.98793,72.50711,AMTS,amts,33
+AMC_1269,Sarkhej Bus Stand,22.98746,72.50351,AMTS,amts,33
+AMC_1270,Bhavani Tractors,22.98639,72.5013,AMTS,amts,31
+AMC_1271,Sarkhej Railway Station (St 31 36 150),22.98326,72.49828,AMTS,amts,15
+AMC_1272,Primary Health Centre,22.98155,72.49927,AMTS,amts,10
+AMC_1273,Sarkhej Gam,22.98101,72.5011,AMTS,amts,10
+AMC_3110,Vivekanandnagar,22.92909,72.66124,AMTS,amts,12
+AMC_6060,Valiba Shopping Center,22.92988,72.6638,AMTS,amts,8
+AMC_3109,Khodiyar Matanu Mandir,22.93254,72.66421,AMTS,amts,20
+AMC_5679,Lal Gebi Nagar,22.93706,72.66486,AMTS,amts,8
+AMC_3137,Amar Dham (Lal Bawa Gebi Ashram),22.93955,72.66522,AMTS,amts,12
+AMC_5682,Hathijan Vad,22.94125,72.66533,AMTS,amts,12
+AMC_3106,Hathijan Gam Approach,22.94299,72.66713,AMTS,amts,12
+AMC_3127,Siddheshwar Mahadev (Air Control Staff Qrtr),22.89926,72.67353,AMTS,amts,2
+AMC_3128,Marchi Kui,22.90695,72.66583,AMTS,amts,2
+AMC_3129,Bhoipura Gam Approach,22.91038,72.66262,AMTS,amts,2
+AMC_2844,Mahavirnagar,23.04631,72.64049,AMTS,amts,8
+AMC_3131,Geratpur Railway Station,22.91864,72.65472,AMTS,amts,2
+AMC_3133,Seema Colony,22.92469,72.65365,AMTS,amts,2
+AMC_10304,Pandit Dindayal nagar - 2,22.92599,72.65716,AMTS,amts,2
+AMC_3134,Bahuchrajinu Mandir (Sector-4),22.92701,72.65859,AMTS,amts,2
+AMC_10302,Waliba Shopping Centre,22.92986,72.66364,AMTS,amts,4
+AMC_2261,New Anaj Bazar,23.00496,72.61475,AMTS,amts,16
+AMC_10365,Paldi Metro Station,23.02045,72.56243,AMTS,amts,34
+AMC_2391,Anaj Bazar,23.00519,72.61474,AMTS,amts,14
+AMC_9420,Swarnabhumi -3,22.98204,72.73093,AMTS,amts,2
+AMC_9422,Tirthbhumi Industrial Park,22.98197,72.72977,AMTS,amts,2
+AMC_9424,Gopal Estate,22.9808,72.72598,AMTS,amts,2
+AMC_9426,Nakshatra Estate,22.98004,72.72288,AMTS,amts,2
+AMC_9428,Baliyadev Mandir,22.9793,72.72219,AMTS,amts,2
+AMC_9430,Vihaar Farm,22.9787,72.72023,AMTS,amts,2
+AMC_9432,Nisha Farm,22.97888,72.71529,AMTS,amts,2
+AMC_9434,Khodiyar Mandir,22.97838,72.70582,AMTS,amts,2
+AMC_9436,Bhathiji Mandir,22.97916,72.70363,AMTS,amts,2
+AMC_7028,Gatrad Gam,22.97822,72.70204,AMTS,amts,4
+AMC_7025,Bhaliyadev (Gatrad),22.97731,72.69351,AMTS,amts,4
+AMC_7023,Mahmadpura,22.97761,72.68041,AMTS,amts,4
+AMC_7022,MotiKhai,22.97813,72.66991,AMTS,amts,4
+AMC_2301,S.P.Ring Road (Ramol),22.97984,72.65957,AMTS,amts,8
+AMC_2302,Ramol Gam,22.98027,72.65598,AMTS,amts,12
+AMC_2303,Paper Mill,22.98348,72.65301,AMTS,amts,12
+AMC_2304,Janatanagar(Ramol),22.98531,72.6504,AMTS,amts,12
+AMC_2305,Talavdi (Ramol),22.98762,72.64691,AMTS,amts,12
+AMC_2306,Krushnamacharini Chali,22.98802,72.6453,AMTS,amts,12
+AMC_5212,Garnala (Sindhavaimata),22.94196,72.64011,AMTS,amts,12
+AMC_2308,Sindhavainagar,22.98994,72.63915,AMTS,amts,12
+AMC_2309,Sindhavaimata,22.99012,72.63619,AMTS,amts,12
+AMC_7044,Dhamatwan Gam,22.95607,72.72223,AMTS,amts,2
+AMC_7042,Saurabh Vidyalay,22.95532,72.72,AMTS,amts,2
+AMC_7040,Matruchhaya Nivas,22.95363,72.71609,AMTS,amts,2
+AMC_7038,Matruchhaya Farm,22.95177,72.71116,AMTS,amts,2
+AMC_7036,Lakshmanpura,22.9506,72.70827,AMTS,amts,2
+AMC_7034,Ger No Kuvo,22.94941,72.70328,AMTS,amts,2
+AMC_7032,Jagannath Prathmik Shala,22.95102,72.69593,AMTS,amts,2
+AMC_7029,Wanch-Dhamatwan Cross Road,22.952,72.69488,AMTS,amts,2
+AMC_2296,Ramtujino Kuvo,22.95715,72.68635,AMTS,amts,4
+AMC_7045,Gatarad Valank (Turning),22.96535,72.68081,AMTS,amts,4
+AMC_2297,Bibipura,22.96579,72.67681,AMTS,amts,4
+AMC_2298,Bala Hanumannu Mandir,22.96635,72.67352,AMTS,amts,4
+AMC_2299,Bakshino Kuvo,22.97279,72.66971,AMTS,amts,4
+AMC_2300,Malek Margha Farm,22.97574,72.66439,AMTS,amts,4
+AMC_3945,Bhadreshwar Road,23.08543,72.63885,AMTS,amts,7
+AMC_2337,Sardarnagar Nagar Palika,23.08141,72.63152,AMTS,amts,7
+AMC_3946,Taanki (Sadhu Vaswani School),23.08109,72.62727,AMTS,amts,7
+AMC_3947,Saibaba Mandir,23.08076,72.62095,AMTS,amts,7
+AMC_1943,Nakoda Apartment,23.05472,72.60374,AMTS,amts,9
+AMC_1944,Parmeshwar Park,23.05443,72.6061,AMTS,amts,9
+AMC_1948,Officer's Quarters,23.0537,72.60831,AMTS,amts,9
+AMC_1253,Mental Corner,23.05141,72.60963,AMTS,amts,15
+AMC_5956,Doon School,22.99397,72.60732,AMTS,amts,26
+AMC_5954,Kalgi Apartment,22.99271,72.60929,AMTS,amts,26
+AMC_1313,Aradhana Society,22.99131,72.61156,AMTS,amts,28
+AMC_1314,Kumbhanath Society,22.98968,72.61123,AMTS,amts,28
+AMC_3216,Ashapuri Society (Avkar Hall),22.98748,72.6114,AMTS,amts,30
+AMC_4023,Muktjivan Vidya Mandir,22.98232,72.61121,AMTS,amts,6
+AMC_9151,Trithy Flat,22.97108,72.62322,AMTS,amts,4
+AMC_9149,Vishvakarma Society,22.96976,72.62406,AMTS,amts,4
+AMC_4889,Ramdev Nagar,22.96617,72.62374,AMTS,amts,8
+AMC_4890,Shyamaprasad Garib Aawas Yojana,22.96423,72.6228,AMTS,amts,8
+AMC_9147,Shadbhavna Police Choki,22.9615,72.62257,AMTS,amts,4
+AMC_9145,Ayppa Mandir,22.95893,72.62238,AMTS,amts,4
+AMC_9143,Jaimin Park (Pani ni Tanki),22.95887,72.6247,AMTS,amts,4
+AMC_9141,Saibaba Apartment,22.95764,72.62567,AMTS,amts,4
+AMC_9139,Dhanpaleshwar Society,22.95496,72.6258,AMTS,amts,4
+AMC_9137,Shri HariKrushan Residency,22.95173,72.62435,AMTS,amts,4
+AMC_9135,Shivshakti Society,22.95025,72.62404,AMTS,amts,8
+AMC_5323,Urmijivan Society,22.95001,72.62693,AMTS,amts,10
+AMC_5322,Shraddhakunj Society,22.95029,72.63014,AMTS,amts,10
+AMC_5063,Vatva Railway Colony,22.95357,72.63136,AMTS,amts,10
+AMC_4112,Durganagar,22.96721,72.62479,AMTS,amts,6
+AMC_8921,Panch Kuva Darwaja,23.02501,72.59747,AMTS,amts,4
+AMC_9227,Uniq City Homes,23.08675,72.53403,AMTS,amts,5
+AMC_2972,Sola Overbridge,23.0733,72.52395,AMTS,amts,29
+AMC_2857,Highway Cross Road,23.06539,72.52915,AMTS,amts,6
+AMC_2923,Paliyadnagar,23.04908,72.55353,AMTS,amts,12
+AMC_5002,Darpan Six Roads,23.04629,72.55445,AMTS,amts,16
+AMC_1404,Sahajanand College,23.02562,72.54365,AMTS,amts,47
+AMC_2112,L Colony,23.02379,72.54302,AMTS,amts,34
+AMC_2113,Tagor Park,23.02166,72.54319,AMTS,amts,32
+AMC_2114,Manekbag Hall,23.01708,72.54234,AMTS,amts,32
+AMC_5425,Sanyojan Society,23.01673,72.53853,AMTS,amts,2
+AMC_2116,Kameshwar Twins Bunglows,23.01544,72.53445,AMTS,amts,6
+AMC_3909,Shyamal Char Rasta,23.01436,72.52949,AMTS,amts,21
+AMC_2022,Shyamal Cross,23.01374,72.53059,AMTS,amts,20
+AMC_2928,Jivraj Park (Rt.40/1 Stand),23.00678,72.53301,AMTS,amts,9
+AMC_2929,Jivraj Park,23.00584,72.53348,AMTS,amts,29
+AMC_2930,Baladevnagar,23.00313,72.53481,AMTS,amts,9
+AMC_2931,Shivshakti Nagar (Jivraj),22.99894,72.5367,AMTS,amts,9
+AMC_2932,APMC Market,22.99735,72.53749,AMTS,amts,11
+AMC_2933,Anjali Cinema,23.00355,72.55427,AMTS,amts,9
+AMC_2934,Dungarshinagar,23.0023,72.55562,AMTS,amts,9
+AMC_2068,Chandranagar,23.00033,72.55721,AMTS,amts,24
+AMC_2935,Sabar Flats,22.99927,72.55947,AMTS,amts,14
+AMC_2936,Pirana Plant,22.99538,72.56899,AMTS,amts,4
+AMC_2937,Khodiyarnagar (Dani Limda),22.99584,72.57106,AMTS,amts,4
+AMC_2939,Nava Dhor Bazar,22.99647,72.577,AMTS,amts,4
+AMC_2941,Babunagar,22.99942,72.58212,AMTS,amts,4
+AMC_2942,Virmaya Chowk,23.00043,72.58381,AMTS,amts,10
+AMC_2943,Pirkamal Masjid,23.00155,72.58717,AMTS,amts,10
+AMC_2944,Juna Dhor Bazar,23.00232,72.5919,AMTS,amts,9
+AMC_2926,Sanyojannagar (Juna Octroi Naka),23.01671,72.53912,AMTS,amts,4
+AMC_4853,Tatanagar,23.05355,72.61601,AMTS,amts,17
+AMC_5382,Vicket,23.05256,72.61351,AMTS,amts,25
+AMC_3217,Ghodasar Gam,22.98459,72.61254,AMTS,amts,14
+AMC_3815,Cadila Laboratories,22.98223,72.61536,AMTS,amts,14
+AMC_3816,Jagdish Society,22.97989,72.61873,AMTS,amts,14
+AMC_3869,Hari Krishna Park,22.97819,72.62047,AMTS,amts,14
+AMC_4884,Punitnagar Cross Road,22.97745,72.62059,AMTS,amts,8
+AMC_4885,Yash Bunglows,22.9764,72.6177,AMTS,amts,8
+AMC_4886,Hariomnagar,22.97573,72.61611,AMTS,amts,8
+AMC_4887,Shyam Bunglows,22.97301,72.61395,AMTS,amts,8
+AMC_4888,Yash Tenament,22.97111,72.62319,AMTS,amts,4
+AMC_4893,Navjivan Flats,22.95653,72.61949,AMTS,amts,8
+AMC_4894,Asopalav Society,22.95364,72.61937,AMTS,amts,8
+AMC_4077,Mahalakshmi Talav (Vatva),22.95202,72.61736,AMTS,amts,11
+AMC_5325,Kashiba Municipal General Hospital,22.95298,72.61556,AMTS,amts,6
+AMC_5326,Panini Taanki(Vatva),22.95301,72.61383,AMTS,amts,13
+AMC_9394,Sarkari Chavdi,22.95034,72.61129,AMTS,amts,4
+AMC_9396,Devimata Mandir,22.95022,72.60925,AMTS,amts,6
+AMC_9398,Canal,22.94934,72.60709,AMTS,amts,8
+AMC_9400,Sunrise Homes,22.94883,72.6046,AMTS,amts,6
+AMC_9402,Kalsh -2,22.94863,72.60254,AMTS,amts,6
+AMC_9404,Anushtan Bunglows,22.94953,72.60163,AMTS,amts,6
+AMC_1800,Karnavati Chowk-4 (New Narol),22.94938,72.59985,AMTS,amts,9
+AMC_5364,F.D.High School,22.99524,72.53205,AMTS,amts,4
+AMC_5363,Vejalpur Road,22.99225,72.52088,AMTS,amts,4
+AMC_3410,Bage Nirant Society,22.99529,72.5189,AMTS,amts,2
+AMC_3411,Shanti Niketan Vidyalay,22.99727,72.5186,AMTS,amts,2
+AMC_3412,Sanjivani Apartment (Shrinandnagar-1),23.00095,72.51822,AMTS,amts,2
+AMC_3413,Vejalpur Gam,23.00312,72.51779,AMTS,amts,19
+AMC_3478,But Bhavani Mandir,23.00629,72.5163,AMTS,amts,12
+AMC_3479,Chandramauli Vidyalay,23.00925,72.51711,AMTS,amts,2
+AMC_3518,Rahul Tower,23.0132,72.51727,AMTS,amts,2
+AMC_3519,Palak Enclave,23.01634,72.51807,AMTS,amts,2
+AMC_3520,Kirtisagar Apartment,23.0199,72.51915,AMTS,amts,2
+AMC_3521,Prerana Tirth Derasar,23.02187,72.51983,AMTS,amts,2
+AMC_3522,Ashoknagar,23.02436,72.52054,AMTS,amts,8
+AMC_3523,Abhishri Complex,23.02607,72.5232,AMTS,amts,2
+AMC_3524,Satellite Gate,23.02737,72.52171,AMTS,amts,2
+AMC_1565,Bhav Nirzar,23.02791,72.51821,AMTS,amts,6
+AMC_3525,Narayanguru Vidyalay,23.02763,72.51485,AMTS,amts,2
+AMC_1563,Ramdevnagar,23.0276,72.51297,AMTS,amts,11
+AMC_1611,Iskon Mandir,23.02923,72.50786,AMTS,amts,31
+AMC_1612,Rajpath Club,23.03433,72.50958,AMTS,amts,18
+AMC_3526,Judges Bunglows,23.03718,72.51669,AMTS,amts,19
+AMC_4982,Mahisagar Kathiyawadi Hotel,23.03935,72.51029,AMTS,amts,12
+AMC_4981,Friends Avenue,23.04046,72.50697,AMTS,amts,12
+AMC_5267,K.K.Farm,23.04053,72.5039,AMTS,amts,12
+AMC_5266,Sindhu Bhavan,23.04083,72.50203,AMTS,amts,19
+AMC_5265,Arman Bunglows,23.04309,72.50298,AMTS,amts,9
+AMC_3530,Sahajanand Bunglows (Thaltej),23.04788,72.50409,AMTS,amts,9
+AMC_3531,Shivdhara Flats,23.05001,72.50486,AMTS,amts,5
+AMC_3014,Talavdi (Thaltej),23.05025,72.50693,AMTS,amts,27
+AMC_3015,Govardhan party plot,23.0505,72.50919,AMTS,amts,25
+AMC_6372,Thaltej Gam,23.05014,72.51156,AMTS,amts,32
+AMC_3017,Thakorvas,23.05021,72.51246,AMTS,amts,26
+AMC_3018,Bhaikakanagar,23.04989,72.51595,AMTS,amts,26
+AMC_6217,Thaltej Metro Station,23.04995,72.51676,AMTS,amts,31
+AMC_1616,Thaltej Char Rasta,23.05051,72.51734,AMTS,amts,16
+AMC_1617,Vinay Vidya Mandir,23.05237,72.51797,AMTS,amts,29
+AMC_1618,Raja Palace (Chakshu Bank),23.05626,72.51913,AMTS,amts,29
+AMC_3532,Chanakyapuri Approach,23.07819,72.52552,AMTS,amts,6
+AMC_5260,Simandhar Complex,23.06928,72.54452,AMTS,amts,11
+AMC_4258,Vanraj society,23.06984,72.57671,AMTS,amts,4
+AMC_3458,Bhavsar Hostel,23.06748,72.56922,AMTS,amts,19
+AMC_5565,Thirupurnagar Society,23.06663,72.56708,AMTS,amts,6
+AMC_5566,Swaminarayan Mandir (Nava Vadaj),23.06432,72.56758,AMTS,amts,6
+AMC_5567,Purushottamnagar Corner,23.06184,72.56729,AMTS,amts,6
+AMC_3700,Suryoday Society,23.05102,72.56195,AMTS,amts,8
+AMC_3701,S.P. Square (Bavlu),23.04658,72.56186,AMTS,amts,6
+AMC_3702,Mahadevnagar (Naranpura),23.04548,72.56198,AMTS,amts,2
+AMC_3703,Navjivan Blocks,23.04257,72.56272,AMTS,amts,5
+AMC_3704,Sardar Patel Stadium,23.04145,72.56318,AMTS,amts,5
+AMC_10091,Sardar Patel Stadium (Metro Station),23.03992,72.56371,AMTS,amts,5
+AMC_3705,Swastik Char Rasta,23.03727,72.56166,AMTS,amts,2
+AMC_3706,Municipal Market,23.03416,72.56063,AMTS,amts,2
+AMC_3298,Bareja Eye Hospital,22.84966,72.59789,AMTS,amts,4
+AMC_3299,Katariya Automobiles,22.8528,72.59625,AMTS,amts,4
+AMC_3300,Bareja Approach,22.85576,72.59422,AMTS,amts,4
+AMC_3301,Prakash High School (Bareja),22.85478,72.59187,AMTS,amts,2
+AMC_3302,Akshardham Society,22.85688,72.59196,AMTS,amts,2
+AMC_3303,Panini Taanki,22.86113,72.59221,AMTS,amts,6
+AMC_3304,Associated Road Carriers,22.86602,72.59241,AMTS,amts,4
+AMC_3305,Anaj Market Yard,22.86897,72.59248,AMTS,amts,4
+AMC_3306,Ashok Layland Pvt. Ltd.,22.8747,72.59283,AMTS,amts,4
+AMC_3308,Cargo Motors Pvt. Ltd.,22.88131,72.5932,AMTS,amts,4
+AMC_3309,Jadaba Sanskrutik Hall,22.88532,72.59343,AMTS,amts,4
+AMC_3310,Jetalpur Dham,22.88782,72.59392,AMTS,amts,4
+AMC_3311,Swaminarayan Mandir (Jetalpur),22.89012,72.59461,AMTS,amts,4
+AMC_3312,Shri M.P.Pandya High School,22.89386,72.59437,AMTS,amts,4
+AMC_3313,Oad Meldi Matanu Mandir,22.89586,72.594,AMTS,amts,4
+AMC_3314,Asian Paints,22.9006,72.59363,AMTS,amts,4
+AMC_3315,Ashok Layland Service Station,22.90464,72.59377,AMTS,amts,4
+AMC_3316,Radha-Krushna Estate,22.90698,72.59377,AMTS,amts,4
+AMC_3317,Kankuba Sanskar Kendra,22.91039,72.59325,AMTS,amts,4
+AMC_3318,Gurukrupa Estate,22.91215,72.59336,AMTS,amts,4
+AMC_3319,Aslali Gam,22.91497,72.59402,AMTS,amts,4
+AMC_3320,Tulsi Vas,22.91739,72.59426,AMTS,amts,4
+AMC_3321,Aslali Police Station,22.92008,72.59467,AMTS,amts,4
+AMC_3322,Jyoti Ware House,22.92329,72.59534,AMTS,amts,4
+AMC_3323,Aslali Fire Station,22.92777,72.59513,AMTS,amts,4
+AMC_3324,S.P.Ring Road (Cargo Motors),22.93043,72.59514,AMTS,amts,4
+AMC_3325,Hotel Sahyog,22.934,72.59516,AMTS,amts,4
+AMC_8679,Hundai Motors,22.93611,72.59468,AMTS,amts,4
+AMC_3326,Asha Golden Transport,22.93989,72.593,AMTS,amts,4
+AMC_8677,Pragati Society,22.94317,72.59286,AMTS,amts,4
+AMC_6101,Dhruv Nagar Society,22.99408,72.58465,AMTS,amts,6
+AMC_9007,Indiranagar Vibhag-2 (Pani ni Tanki),22.9316,72.5604,AMTS,amts,8
+AMC_8999,Shrdhha Chowk,22.93167,72.56355,AMTS,amts,8
+AMC_3600,Indiranagar Vibhag-2,22.93168,72.56584,AMTS,amts,8
+AMC_4901,Mandir,22.93338,72.57029,AMTS,amts,8
+AMC_5685,Abad Green Party plot,22.94915,72.59133,AMTS,amts,16
+AMC_75,Kashiram Textiles,22.97679,72.58681,AJL|AMTS,multi,37
+AMC_73,BRTS Workshop,22.98212,72.58572,AJL|AMTS,multi,37
+AMC_71,Chandola Lake,22.98643,72.58262,AJL|AMTS,multi,37
+AMC_69,Chhipa Society,22.99154,72.58167,AJL|AMTS,multi,34
+AMC_67,Danilimda Road,22.99606,72.57916,AJL|AMTS,multi,34
+AMC_5318,Jamalpur Chakla,23.01433,72.58256,AMTS,amts,8
+AMC_5319,Jamalpur Pagathiya,23.01536,72.583,AMTS,amts,6
+AMC_4906,Vaishya Sabha,23.01797,72.58345,AMTS,amts,8
+AMC_9075,Aakash Metro City,22.96258,72.60332,AMTS,amts,5
+AMC_9073,Puspkunj Tenament,22.96417,72.60314,AMTS,amts,5
+AMC_9071,Khodiyar Nagar,22.96538,72.60267,AMTS,amts,4
+AMC_9266,Khodiyar Nagar(Umiyadham),22.96639,72.60418,AMTS,amts,2
+AMC_9263,Rannapark Society,22.96705,72.60513,AMTS,amts,2
+AMC_9259,Chandraprabha Tenament,22.96858,72.60866,AMTS,amts,2
+AMC_9257,Aalok Bunglows,22.971,72.60988,AMTS,amts,2
+AMC_9255,Chandralok Bunglows,22.97259,72.61065,AMTS,amts,2
+AMC_6133,Amul Garden,22.98721,72.60947,AMTS,amts,7
+AMC_9251,Janpath Society,22.98794,72.60735,AMTS,amts,2
+AMC_9249,Sumneshwar Mahadev,22.98844,72.60541,AMTS,amts,2
+AMC_259,Mangal Park,23.00346,72.58994,AJL|AMTS,multi,36
+AMC_257,Bhulabhai Park,23.00663,72.59111,AJL|AMTS,multi,36
+AMC_255,Geeta Mandir,23.01305,72.59147,AJL|AMTS,multi,36
+AMC_10096,Umang aditya flat,22.9322,72.56922,AMTS,amts,1
+AMC_4902,Indiranagar Vibhag-1,22.93445,72.57093,AMTS,amts,6
+AMC_3494,Divine International School,22.94914,72.59837,AMTS,amts,5
+AMC_9085,Bharat Mata Chowk,22.94896,72.59643,AMTS,amts,5
+AMC_9083,Pachvati,22.9489,72.59535,AMTS,amts,5
+AMC_9081,Malin Sparsh,22.94888,72.59435,AMTS,amts,5
+AMC_9079,Swastic Platinum,22.94697,72.59413,AMTS,amts,5
+AMC_9077,Aaryaman Aawas,22.94493,72.59416,AMTS,amts,5
+AMC_9069,Shyam Amrut Flat,22.96651,72.60215,AMTS,amts,3
+AMC_9067,Sharda Vidhya Mandir,22.96817,72.60171,AMTS,amts,3
+AMC_9065,Vrundavan Society,22.96834,72.60048,AMTS,amts,3
+AMC_9063,Mrudul Park,22.96924,72.59971,AMTS,amts,3
+AMC_9061,Radhe Shyam Tenament,22.9707,72.59983,AMTS,amts,3
+AMC_9059,Vraj Bhumi Tenament,22.97291,72.59965,AMTS,amts,3
+AMC_9089,Bathha (Narol Char Rasta),22.9749,72.59882,AMTS,amts,2
+AMC_3680,Cadila Ware House,22.9741,72.59607,AMTS,amts,2
+AMC_5655,Vyas Vatika (Moni Hotel),22.97537,72.59923,AMTS,amts,2
+AMC_9332,Radhe Kishan Bunglows,22.98334,72.60024,AMTS,amts,2
+AMC_5330,Moni Hotel,22.97505,72.59907,AMTS,amts,1
+AMC_9372,Dev Residency,23.12015,72.57233,AMTS,amts,9
+AMC_9368,Green Aura,23.12018,72.57345,AMTS,amts,9
+AMC_9366,Aamrakunj Business Center,23.12023,72.57438,AMTS,amts,9
+AMC_8940,Panchshlok Residency,23.12038,72.57527,AMTS,amts,8
+AMC_8937,Kadi Nagarik Sahakari Bank,23.12036,72.57636,AMTS,amts,9
+AMC_8935,Virmaya Sankul,23.12043,72.57698,AMTS,amts,9
+AMC_3505,Dewangi Bungalow,23.12034,72.57928,AMTS,amts,12
+AMC_3506,Chandkheda (Ioc Road Stand),23.11513,72.5824,AMTS,amts,3
+AMC_3548,Gujarat Housing Board (Chandkheda),23.1146,72.58011,AMTS,amts,16
+AMC_2018,Valinath Chowk,23.11299,72.57721,AMTS,amts,3
+AMC_3499,Sonanagar,23.1097,72.57598,AMTS,amts,3
+AMC_2020,Shailganga,23.10692,72.57588,AMTS,amts,3
+AMC_2021,Shivashish,23.10429,72.57592,AMTS,amts,3
+AMC_2120,Vallabh Park,23.10141,72.57652,AMTS,amts,17
+AMC_2121,Chandkheda Cross Road,23.10184,72.57807,AMTS,amts,17
+AMC_3507,Kendriya Vidyalaya,23.09976,72.57928,AMTS,amts,10
+AMC_2123,Railway Colony (Kali Bridge Cross Road),23.09768,72.58037,AMTS,amts,17
+AMC_2124,Railway School,23.09459,72.58219,AMTS,amts,17
+AMC_2125,Railway Colony Hospital,23.09369,72.58327,AMTS,amts,17
+AMC_3508,Siddheshwar Ganesh Mandir,23.09451,72.58498,AMTS,amts,17
+AMC_2127,Jawahar Chowk (Sabarmati),23.09261,72.58512,AMTS,amts,18
+AMC_2128,Jawahar School,23.09054,72.58556,AMTS,amts,15
+AMC_2206,Kabir Chowk,23.08754,72.58517,AMTS,amts,14
+AMC_2207,Church,23.08482,72.58553,AMTS,amts,14
+AMC_2208,Gram Panchayat Office,23.08105,72.58787,AMTS,amts,14
+AMC_2175,Dharmnagar,23.07786,72.59001,AMTS,amts,46
+AMC_8337,Kailadevi Dham (Power House),23.0742,72.59149,AMTS,amts,41
+AMC_8335,RTO Circle,23.0687,72.58123,AMTS,amts,73
+AMC_2060,Tripura Society,23.01073,72.56519,AMTS,amts,11
+AMC_3510,N.I.D.Corner (Museum),23.01195,72.5688,AMTS,amts,11
+AMC_3512,Anandji Kalyanji,23.00792,72.58087,AMTS,amts,2
+AMC_3513,Gautamnagar (Danilimda),23.00691,72.5866,AMTS,amts,2
+AMC_2174,Power House,23.07416,72.59162,AMTS,amts,30
+AMC_8487,Aradhana Residency (Fateh wadi Kenal),22.97776,72.51188,AMTS,amts,2
+AMC_8485,Jetun Residency,22.97927,72.51212,AMTS,amts,2
+AMC_8483,Bage Masiha Vibhag-1,22.98152,72.5121,AMTS,amts,2
+AMC_8481,Kadri Party Plot,22.98486,72.51219,AMTS,amts,2
+AMC_8479,Arshad Residency,22.98706,72.51217,AMTS,amts,2
+AMC_5339,Kasindra Gam,22.89358,72.48991,AMTS,amts,2
+AMC_5341,Kasindra S.T. Stand,22.89298,72.48294,AMTS,amts,2
+AMC_5342,Tajpur Cross Road,22.89738,72.48336,AMTS,amts,2
+AMC_5343,Gopinath Mahadevnagar,22.90277,72.48402,AMTS,amts,2
+AMC_5344,Shakti Infrastructure & Hot Mix Plant,22.90424,72.48418,AMTS,amts,2
+AMC_8511,Cadila Patiya,22.90819,72.48476,AMTS,amts,2
+AMC_5345,Parab Farm,22.91287,72.48532,AMTS,amts,2
+AMC_5346,Visalpur Gam S.T. Stand,22.91547,72.48567,AMTS,amts,2
+AMC_8509,Khodiyar mata nu mandir,22.92836,72.49334,AMTS,amts,2
+AMC_8490,Talavdi (Bakrol),22.93211,72.4958,AMTS,amts,2
+AMC_5348,slam barjzar,22.93243,72.49584,AMTS,amts,2
+AMC_7057,Bakrol Patiya,22.93614,72.49746,AMTS,amts,5
+AMC_5349,Municipal Octroinaka (Dholka),22.93851,72.49854,AMTS,amts,5
+AMC_5350,Bakrol Panjarapol,22.94421,72.50096,AMTS,amts,5
+AMC_5351,Vanzar Patiya,22.94952,72.50304,AMTS,amts,5
+AMC_5352,Zanab Farm,22.95342,72.50229,AMTS,amts,5
+AMC_5353,Porbandar Road Lines,22.95599,72.499,AMTS,amts,5
+AMC_5354,Narimanpura,22.95744,72.49759,AMTS,amts,5
+AMC_7055,Paras Hotel,22.95968,72.49714,AMTS,amts,5
+AMC_5356,Jain Mandir,22.96367,72.49725,AMTS,amts,5
+AMC_5357,Azadnagar,22.96765,72.49741,AMTS,amts,5
+AMC_5358,Anand Ashram,22.97,72.49744,AMTS,amts,5
+AMC_5359,Fatehwadi Gam,22.97666,72.49787,AMTS,amts,5
+AMC_5360,Sarkhej Railway Crossing,22.97792,72.49793,AMTS,amts,5
+AMC_5361,Bhartibapu Ashram,22.98023,72.49804,AMTS,amts,5
+AMC_8507,Sarkhej Railway Station,22.98158,72.49816,AMTS,amts,2
+AMC_7063,Bakrol Gam,22.92528,72.50983,AMTS,amts,3
+AMC_7061,Khodiyar Mandir Approach,22.92839,72.50605,AMTS,amts,3
+AMC_7059,Bhaththa (Bakrol),22.93505,72.50249,AMTS,amts,3
+AMC_1769,Ujala Circle(Sarkhej RailwayOverbridge),22.98058,72.49377,AMTS,amts,14
+AMC_1768,Sarkhej-Gandhinagar Highway Circle,22.98023,72.49287,AMTS,amts,6
+AMC_1767,Sarkhej Sanand Cross Road,22.98798,72.49528,AMTS,amts,16
+AMC_1791,Tata Genuine Parts,22.98729,72.48927,AMTS,amts,8
+AMC_1790,Hundai Motors,22.98754,72.47819,AMTS,amts,8
+AMC_1370,Sahyog Hospital (S.P.Ring Road),22.9874,72.4753,AMTS,amts,8
+AMC_1789,Shantipura Cross Road,22.98774,72.47267,AMTS,amts,8
+AMC_1788,Shantipura,22.98774,72.47085,AMTS,amts,9
+AMC_1787,Shri Lambenarayan Ashram,22.9878,72.46516,AMTS,amts,8
+AMC_1786,Ayurved Vanaushdhi Udhyan,22.98784,72.4615,AMTS,amts,8
+AMC_1785,Ulariya,22.98792,72.45684,AMTS,amts,8
+AMC_1784,Platinum Hotel,22.98774,72.45116,AMTS,amts,8
+AMC_1783,Abad Sports Club,22.98699,72.4475,AMTS,amts,8
+AMC_1782,Bacha Motors,22.98601,72.4433,AMTS,amts,8
+AMC_1781,Telav-Shela Cross Road,22.9845,72.43568,AMTS,amts,8
+AMC_1780,Telav Gam,22.98464,72.43431,AMTS,amts,8
+AMC_1779,Sarvajanik School,22.98501,72.43183,AMTS,amts,8
+AMC_1778,Narmada Vasahat,22.9852,72.42936,AMTS,amts,8
+AMC_1777,Gibpura,22.98526,72.41232,AMTS,amts,8
+AMC_1776,Sukruti Vihar (Prerna Flats),22.98584,72.39945,AMTS,amts,8
+AMC_1775,Sanand Prant Office (Prerna Aakruti),22.98593,72.39668,AMTS,amts,8
+AMC_1774,Riddhi Siddhi Bunglows (Ashapura Motors),22.98611,72.39447,AMTS,amts,8
+AMC_1773,Somnath Society (Jalaram Mandir),22.98665,72.39191,AMTS,amts,8
+AMC_1772,Kumkum Park,22.98704,72.3899,AMTS,amts,8
+AMC_1771,Sanand Police Station,22.98778,72.38617,AMTS,amts,10
+AMC_1770,Nyaymandir Sanand,22.98832,72.38398,AMTS,amts,10
+AMC_1597,Bavla Cross Road (Gadhiya Talav),22.98897,72.38148,AMTS,amts,10
+AMC_1596,Nalsarovar Cross Road,22.99054,72.37947,AMTS,amts,10
+AMC_1595,Sanand S.T. Stand,22.99203,72.37697,AMTS,amts,10
+AMC_1594,Muktidham (Sanand),22.99207,72.37443,AMTS,amts,10
+AMC_1593,Shri Hajari Matanu Mandir,22.99224,72.3696,AMTS,amts,10
+AMC_1592,Eye Hospital,22.99468,72.36427,AMTS,amts,10
+AMC_1591,Madhavnagar (Sanand),23.00092,72.35616,AMTS,amts,10
+AMC_6473,Vadnagar  Patiya,23.00394,72.35218,AMTS,amts,12
+AMC_1320,Sahyadri Bunglows,22.97897,72.60817,AMTS,amts,8
+AMC_1321,Krushna Corner Society (Bhilwas),22.98255,72.60606,AMTS,amts,8
+AMC_1322,Mangaleshwar Mahadev,22.985,72.60659,AMTS,amts,3
+AMC_1323,Giriraj Tenament,22.98615,72.60797,AMTS,amts,8
+AMC_1847,Raipur Darwaja,23.01697,72.59396,AMTS,amts,14
+AMC_1354,Keshariyajinagar Society,23.00637,72.54487,AMTS,amts,21
+AMC_1355,Lavanya Society,23.00791,72.54413,AMTS,amts,21
+AMC_1356,Dr.Jivraj Mehta Hospital,23.00914,72.54313,AMTS,amts,21
+AMC_1357,Malav Talav,23.00763,72.53918,AMTS,amts,21
+AMC_1358,Gyanada Society,23.00675,72.53522,AMTS,amts,9
+AMC_1360,Vishwamitra Society,23.00568,72.52913,AMTS,amts,12
+AMC_1361,Shaivali Society,23.00524,72.52637,AMTS,amts,12
+AMC_1362,Jaltarang Society,23.00446,72.5236,AMTS,amts,12
+AMC_1363,Rudreshwar Mahadev,23.00363,72.52106,AMTS,amts,12
+AMC_5375,Shrinandnagar,23.00117,72.51597,AMTS,amts,20
+AMC_5374,Kailasdham,22.99821,72.51185,AMTS,amts,20
+AMC_5373,Ambedkarnagar,22.99754,72.51107,AMTS,amts,20
+AMC_4909,S.P.Ring Road (Odhav Gidc),23.03099,72.67429,AMTS,amts,12
+AMC_4910,Astha Complex,23.03171,72.67136,AMTS,amts,12
+AMC_4131,Aanjna Chowk,23.03252,72.66836,AMTS,amts,12
+AMC_4911,Shyamved Residency,23.03271,72.66601,AMTS,amts,12
+AMC_3620,Chamundanagar,23.03046,72.63892,AMTS,amts,18
+AMC_3621,Khodiyarnagar (Bapunagar),23.03299,72.63917,AMTS,amts,21
+AMC_4919,Mohannagar,23.0333,72.63664,AMTS,amts,21
+AMC_4920,Balkrushna High School,23.03488,72.61975,AMTS,amts,9
+AMC_2062,Rajnagar Society,23.00941,72.56759,AMTS,amts,15
+AMC_7054,Vishwakunj Society,23.00791,72.56629,AMTS,amts,15
+AMC_2064,Prabhudas Thakkar College,23.00542,72.5646,AMTS,amts,15
+AMC_2065,Jethabhai Park,23.00376,72.56388,AMTS,amts,15
+AMC_2066,Shantivan Society,23.00202,72.56221,AMTS,amts,15
+AMC_2067,Samast Brahamkshatriya Society,23.00123,72.56109,AMTS,amts,15
+AMC_2069,Narayannagar Society,22.99894,72.55549,AMTS,amts,13
+AMC_2070,Narayannagar,22.99816,72.55382,AMTS,amts,13
+AMC_2071,Ekta Tower,22.99822,72.55109,AMTS,amts,13
+AMC_2072,Amar Flats,23.0003,72.54982,AMTS,amts,13
+AMC_5384,Telephone Exchange (Vasna),23.00004,72.5463,AMTS,amts,8
+AMC_1394,Shahibag Police Chowki,23.05089,72.59323,AMTS,amts,27
+AMC_6004,Ahmedabad Dying (Zonal Office),23.04921,72.58596,AMTS,amts,2
+AMC_6002,Jupiter Mill Compund,23.04894,72.58464,AMTS,amts,2
+AMC_6000,Navi Chal,23.04706,72.5826,AMTS,amts,6
+AMC_5998,Municipal Staff Quarters,23.04508,72.5814,AMTS,amts,6
+AMC_5996,Lala Kaka Municipal Hall,23.04261,72.58006,AMTS,amts,6
+AMC_6010,Dr. Ambedkar Chock (Shahpur Darwaja),23.04015,72.57964,AMTS,amts,6
+AMC_2074,Municipal Quarters (Vasna),22.99806,72.54683,AMTS,amts,5
+AMC_2075,Aiyappa Mandir (Khodiyarnagar),22.99655,72.54756,AMTS,amts,5
+AMC_2076,AMC Party Plot,22.99379,72.5491,AMTS,amts,5
+AMC_2077,Sorainagar,22.99298,72.54703,AMTS,amts,5
+AMC_2078,Bhata Gam,22.99288,72.5436,AMTS,amts,5
+AMC_2079,Swaminarayan Park,22.99283,72.5415,AMTS,amts,5
+AMC_2080,River Side Park,22.99276,72.53969,AMTS,amts,5
+AMC_2081,Vaishali Township,22.99262,72.53823,AMTS,amts,5
+AMC_5365,Adani Vidyavihar,22.99206,72.49824,AMTS,amts,2
+AMC_5366,Siddhi Vinayak Tower,22.99445,72.49868,AMTS,amts,2
+AMC_5367,K.P.Femina,22.99558,72.49933,AMTS,amts,2
+AMC_5368,D.A.V.International School,22.9948,72.50138,AMTS,amts,2
+AMC_5369,Saiyadwad,22.99055,72.50355,AMTS,amts,2
+AMC_5370,Rajivnagar,22.99033,72.50545,AMTS,amts,10
+AMC_5371,Sarkhej Roza,22.993,72.50784,AMTS,amts,4
+AMC_5372,Makarba Gam,22.99592,72.50781,AMTS,amts,2
+AMC_4573,Margha Kendra,22.99637,72.50816,AMTS,amts,2
+AMC_3058,Shreyanshnath Society,23.00692,72.54749,AMTS,amts,9
+AMC_3059,Dharnidhar Society,23.00766,72.54949,AMTS,amts,9
+AMC_3060,Shardanagar,23.00919,72.54966,AMTS,amts,9
+AMC_3061,Vikas Gruh,23.00988,72.55249,AMTS,amts,9
+AMC_6345,Dhedhal Cross Road (Bavla),22.82902,72.35618,AMTS,amts,2
+AMC_6343,Tri murti Hospital,22.83231,72.35855,AMTS,amts,2
+AMC_6341,Bavla-Sanand Cross Road,22.83822,72.36566,AMTS,amts,2
+AMC_6155,Vaishali Society,22.83987,72.36888,AMTS,amts,8
+AMC_6157,Rajoda Gate,22.84226,72.37068,AMTS,amts,8
+AMC_6159,Bharat Bhavan,22.84614,72.37354,AMTS,amts,8
+AMC_6151,Vijay Mamra Private Limited,22.85297,72.37876,AMTS,amts,8
+AMC_6149,Government Arts and Science College,22.85531,72.38055,AMTS,amts,8
+AMC_6147,Modern School,22.85698,72.38177,AMTS,amts,8
+AMC_8791,Rajoda Patiya,22.85865,72.38303,AMTS,amts,10
+AMC_8789,Nipon Agro,22.8623,72.3859,AMTS,amts,10
+AMC_8787,Gardner Denevar,22.86591,72.38918,AMTS,amts,10
+AMC_8785,Sarigam Patiya,22.86808,72.39113,AMTS,amts,10
+AMC_8783,Aarvi Spining,22.87217,72.39494,AMTS,amts,10
+AMC_8781,Intas Pharma Li.,22.87725,72.39979,AMTS,amts,10
+AMC_8779,Farmej Pharma,22.88148,72.40363,AMTS,amts,10
+AMC_5395,Matoda Patiya (Intas),22.88578,72.40734,AMTS,amts,10
+AMC_5396,Clarris Pharma. (Chachrawadi Cross Road),22.89052,72.41176,AMTS,amts,10
+AMC_4922,Jinendra Steel,22.89389,72.41487,AMTS,amts,10
+AMC_5397,Chachrawadi Mandir Cross Road,22.89716,72.41794,AMTS,amts,10
+AMC_4923,Zydus Cadila,22.89876,72.4194,AMTS,amts,10
+AMC_4924,Modern Dennis (Pilupura Cross Road),22.90136,72.42183,AMTS,amts,10
+AMC_4153,Moraiya Gam Cross Road,22.90642,72.42686,AMTS,amts,10
+AMC_4926,S.D.Paints,22.90826,72.4281,AMTS,amts,10
+AMC_4927,Zydus Reaserch Centre,22.91173,72.43134,AMTS,amts,10
+AMC_4928,Hoff Furniture (Nova Petrochemicals),22.91468,72.43407,AMTS,amts,10
+AMC_4149,Swati Switch Gears,22.91713,72.43689,AMTS,amts,10
+AMC_4147,Ashwamegh Estate (Tajpur Cross Road),22.92607,72.4452,AMTS,amts,10
+AMC_5400,Changodar Cross Road,22.93006,72.44825,AMTS,amts,10
+AMC_4930,Harsha Engg.,22.93265,72.45046,AMTS,amts,10
+AMC_4931,Trivedi Crafts,22.93507,72.45253,AMTS,amts,10
+AMC_4932,Jackson Hydrolics,22.93682,72.45402,AMTS,amts,10
+AMC_4933,Willson Printcity,22.93894,72.45579,AMTS,amts,10
+AMC_4934,Chehar Matanu Mandir,22.94096,72.45758,AMTS,amts,10
+AMC_5402,Navapura Cross Road,22.94546,72.46135,AMTS,amts,10
+AMC_5403,Mukteshwar Mahadev,22.95003,72.46535,AMTS,amts,10
+AMC_4935,Gopal Hotel,22.95262,72.46758,AMTS,amts,10
+AMC_5699,Narmada Canal,22.95491,72.46954,AMTS,amts,10
+AMC_4936,S.P.Ring Road (Sanathal),22.96117,72.47475,AMTS,amts,10
+AMC_4937,Sanathal Cross Road,22.96249,72.47592,AMTS,amts,11
+AMC_4938,Sanathal Railway Overbridge,22.97203,72.48504,AMTS,amts,14
+AMC_4135,Nitco Tiles,22.97312,72.48641,AMTS,amts,14
+AMC_4134,Jamnagar Transport,22.97628,72.48965,AMTS,amts,14
+AMC_4939,Sarkhej-Bavla Circle (Ujala Hotel),22.98046,72.4925,AMTS,amts,18
+AMC_6153,Bavla,22.83795,72.36741,AMTS,amts,6
+AMC_5435,Mahalakshmi Char Rasta,23.01161,72.5632,AMTS,amts,9
+AMC_5378,Mastana Bava Roza,22.98918,72.50514,AMTS,amts,2
+AMC_5380,Pagathiya,23.01546,72.58318,AMTS,amts,2
+AMC_5376,Vejalpur,23.00334,72.51824,AMTS,amts,3
+AMC_3810,Gnanada Society,23.00689,72.5354,AMTS,amts,9
+AMC_1714,Kalupur Chokha Bazar,23.03152,72.59922,AMTS,amts,3
+AMC_4184,Kalupur Overbridge,23.03292,72.6029,AMTS,amts,5
+AMC_5393,Swastiknagar,23.03859,72.64731,AMTS,amts,3
+AMC_7449,Shrinathji Haveli,23.04101,72.65913,AMTS,amts,5
+AMC_7349,Gopinath Bunglows,23.04626,72.66581,AMTS,amts,5
+AMC_7350,Gangotri Society,23.04597,72.66969,AMTS,amts,5
+AMC_9095,Nikol Police Station,23.04322,72.67718,AMTS,amts,3
+AMC_9093,Radhe Party Plot,23.04712,72.67883,AMTS,amts,3
+AMC_9091,Surya Kiran Buglows,23.04984,72.68016,AMTS,amts,3
+AMC_8149,Meda-Adraj Gam,23.20102,72.36803,AMTS,amts,2
+AMC_8151,Meda-Adraj Approach,23.1995,72.36657,AMTS,amts,2
+AMC_8153,Navkar Farm,23.19684,72.36824,AMTS,amts,2
+AMC_8155,Sooryavanshi Farm,23.19085,72.37065,AMTS,amts,2
+AMC_8157,Bapiyara Approach,23.18189,72.37322,AMTS,amts,2
+AMC_8159,Tarsaniya Gam,23.17576,72.37469,AMTS,amts,2
+AMC_8161,Heera Moti Farm,23.17218,72.37534,AMTS,amts,2
+AMC_8163,Sedfa Chowkdi,23.16315,72.3761,AMTS,amts,2
+AMC_8165,Vadavi Farm,23.16322,72.37861,AMTS,amts,2
+AMC_8167,Kaptanpura Approach,23.16232,72.38417,AMTS,amts,2
+AMC_8169,Ramdev Pir Mandir,23.15299,72.40274,AMTS,amts,2
+AMC_8171,Thakor vas,23.15383,72.40777,AMTS,amts,2
+AMC_8173,Bhimasan Gam,23.15426,72.40927,AMTS,amts,2
+AMC_8175,Jhopadi mata Mandir,23.15427,72.41007,AMTS,amts,2
+AMC_8177,ONGC Gate,23.15149,72.41658,AMTS,amts,2
+AMC_8179,Karoli Approach,23.14972,72.42889,AMTS,amts,2
+AMC_8181,Jethalaj Approach,23.14943,72.43064,AMTS,amts,2
+AMC_8183,Gelco,23.14897,72.43382,AMTS,amts,2
+AMC_8185,Arvind Forreste,23.14862,72.43646,AMTS,amts,2
+AMC_8187,Jay Umiya Ind.,23.14807,72.43995,AMTS,amts,2
+AMC_8189,G.E.B (Khatraj),23.14781,72.44188,AMTS,amts,2
+AMC_3770,Khatraj Chokdi,23.14717,72.44428,AMTS,amts,16
+AMC_3769,Arvind Polycoat (Khatraj),23.14738,72.44722,AMTS,amts,18
+AMC_2765,Arvind Textile Park,23.14733,72.4523,AMTS,amts,8
+AMC_2961,K.P Polyplast,23.14704,72.4568,AMTS,amts,8
+AMC_2766,Gurukrupa Polyplast,23.14714,72.45835,AMTS,amts,8
+AMC_5518,Vadsar Chokdi,23.14749,72.46935,AMTS,amts,10
+AMC_5519,Vadsar Airforce Station,23.1449,72.47092,AMTS,amts,6
+AMC_2770,Airforce Gate,23.14447,72.48053,AMTS,amts,12
+AMC_2771,Dantali Patiya,23.14367,72.48942,AMTS,amts,4
+AMC_2772,Dantali Ind.Cross Road,23.13422,72.49723,AMTS,amts,12
+AMC_2773,Nirman High School,23.13226,72.4973,AMTS,amts,12
+AMC_2774,Lapakaman Gam,23.129,72.49955,AMTS,amts,18
+AMC_2775,Ahmedabad Institute Of Medical Science,23.12739,72.50138,AMTS,amts,18
+AMC_2912,Jain Tirthdham,23.12572,72.50353,AMTS,amts,18
+AMC_2777,Karnavati Eye Hospital,23.12363,72.5059,AMTS,amts,18
+AMC_5722,S.P.Ring Road(Oganaj),23.12175,72.50761,AMTS,amts,2
+AMC_2779,Brahmaninagar,23.1185,72.51031,AMTS,amts,18
+AMC_2780,Oganaj Gam,23.11566,72.51483,AMTS,amts,18
+AMC_2782,Jarmaliya Talavdi,23.11233,72.51783,AMTS,amts,18
+AMC_2783,Vishwakarma Sankul,23.10908,72.52193,AMTS,amts,18
+AMC_2784,Vasantnagar Township,23.10676,72.52457,AMTS,amts,20
+AMC_2785,Gota Housing (Gandhi Vasahat),23.10492,72.52606,AMTS,amts,18
+AMC_2786,Jilla Shikshan Talim Bhavan,23.10272,72.52828,AMTS,amts,18
+AMC_8621,Vallabh Daining Holl,22.98402,72.49366,AMTS,amts,8
+AMC_8623,L.J. Campus,22.99058,72.4957,AMTS,amts,13
+AMC_1766,Century Marble,22.99278,72.49682,AMTS,amts,10
+AMC_8625,Police Adhishak ni kacheri,22.99513,72.49715,AMTS,amts,10
+AMC_1765,Makarba Cross Road,22.99762,72.49832,AMTS,amts,10
+AMC_1764,Divya Bhaskar Press,23.00116,72.49939,AMTS,amts,10
+AMC_1763,Y.M.C.A. Club,23.00539,72.50071,AMTS,amts,10
+AMC_6020,Y.M.C.A Club Char Rasta,23.00803,72.50054,AMTS,amts,6
+AMC_6022,Nirma Farm,23.00752,72.49711,AMTS,amts,8
+AMC_9733,Samrath,23.01065,72.49647,AMTS,amts,4
+AMC_9735,Gala Auram,23.01471,72.4953,AMTS,amts,4
+AMC_5450,Mb Farm,23.01896,72.49584,AMTS,amts,4
+AMC_5451,Shivdharm Farm,23.01926,72.49939,AMTS,amts,4
+AMC_1608,Karnavati Club,23.02083,72.50515,AMTS,amts,16
+AMC_1609,Wide Angle,23.02394,72.50617,AMTS,amts,16
+AMC_1757,Big Bazar (Iskon Mandir),23.02484,72.50688,AMTS,amts,10
+AMC_1754,Pakwan,23.03879,72.51218,AMTS,amts,26
+AMC_1694,New York Complex,23.04046,72.51299,AMTS,amts,15
+AMC_1693,Guru Govind Dham,23.04571,72.51568,AMTS,amts,17
+AMC_5452,Karnavati Club (Chimanbhai Patel Inst.),23.01983,72.50572,AMTS,amts,12
+AMC_1762,Prahladnagar Cross Road,23.01301,72.50323,AMTS,amts,16
+AMC_2115,Octroinaka (Sanyojannagar Society),23.01671,72.53908,AMTS,amts,2
+AMC_1403,Panjarapol,23.02754,72.54506,AMTS,amts,36
+AMC_167,Sattadhar Char Rasta,23.06288,72.53274,AJL|AMTS,multi,17
+AMC_165,Bhuyangdev,23.06055,72.53555,AJL|AMTS,multi,17
+AMC_163,Parshwanath Jain Mandir,23.05764,72.53926,AJL|AMTS,multi,17
+AMC_161,Parasnagar,23.05548,72.54321,AJL|AMTS,multi,17
+AMC_2859,Gautamnagar (Naranpura Railway Crossing),23.05222,72.56288,AMTS,amts,29
+AMC_2860,Shriniketan Society,23.05129,72.56569,AMTS,amts,29
+AMC_2861,Panchshil Society,23.04952,72.56632,AMTS,amts,29
+AMC_2862,Vidyanagar High School (Usmanpura),23.04697,72.56885,AMTS,amts,39
+AMC_2195,Chandkheda (Sarthi Bunglows),23.12264,72.58126,AMTS,amts,26
+AMC_2198,Parshwanathnagar,23.10682,72.58577,AMTS,amts,36
+AMC_2199,O.N.G.C. Office,23.10352,72.58683,AMTS,amts,36
+AMC_2200,Motera Road,23.09905,72.58825,AMTS,amts,36
+AMC_2202,Acher Depo,23.08948,72.59105,AMTS,amts,43
+AMC_2181,Abu-Koba Cross Road,23.08711,72.59146,AMTS,amts,61
+AMC_2426,Chintamani Society,23.08386,72.59251,AMTS,amts,57
+AMC_5572,Municipal Snanagar (Sabarmati),23.08096,72.5937,AMTS,amts,25
+AMC_5407,Power House Staff Quarters,23.07593,72.59438,AMTS,amts,25
+AMC_2189,Prahlad Park,23.12015,72.58041,AMTS,amts,5
+AMC_3504,Suryan Hope Town,23.12059,72.57751,AMTS,amts,5
+AMC_2192,Kumkum Residency,23.1233,72.57904,AMTS,amts,9
+AMC_2193,Shyam Satya,23.12311,72.57993,AMTS,amts,9
+AMC_3005,Shilaj Gam,23.05392,72.47165,AMTS,amts,25
+AMC_5469,Garnalu (Shilaj),23.05235,72.47381,AMTS,amts,25
+AMC_5719,Shan banglows,23.05375,72.47642,AMTS,amts,25
+AMC_3007,S.P.Ring Road (Shilaj Circle),23.05355,72.47974,AMTS,amts,28
+AMC_5945,Soham Vistara,23.04907,72.4798,AMTS,amts,4
+AMC_8673,Ambli Cross Road,23.04303,72.48035,AMTS,amts,12
+AMC_5943,Sanket Bunglows(Taz Hotel),23.04308,72.48314,AMTS,amts,12
+AMC_5941,Ornet Park(Oxyzen Park),23.0424,72.4865,AMTS,amts,12
+AMC_8671,Shakti Bunglows,23.04178,72.4897,AMTS,amts,14
+AMC_5939,Sport Sankul (Ashvila),23.04143,72.4921,AMTS,amts,14
+AMC_5937,Satva Vikas School,23.04106,72.49583,AMTS,amts,14
+AMC_5935,Time Square Grand,23.04083,72.49898,AMTS,amts,16
+AMC_3182,Parijat Bunglows,23.03774,72.51428,AMTS,amts,10
+AMC_3184,Premchandnagar,23.03525,72.52013,AMTS,amts,17
+AMC_3185,Goyal Park,23.03382,72.52328,AMTS,amts,14
+AMC_3186,Mansi Complex,23.03147,72.52609,AMTS,amts,19
+AMC_3187,Sudarshan Bunglows,23.03025,72.52783,AMTS,amts,9
+AMC_3188,Archana Farm,23.02866,72.53091,AMTS,amts,9
+AMC_1410,Sanghmitra Society,23.02784,72.53163,AMTS,amts,7
+AMC_3988,Shivranjni Society,23.02312,72.53048,AMTS,amts,51
+AMC_2617,Umiya Vijay Society,23.02381,72.53314,AMTS,amts,20
+AMC_3190,Bimanagar,23.02401,72.53463,AMTS,amts,7
+AMC_1571,Satkar Society,23.02772,72.53574,AMTS,amts,13
+AMC_1572,Azad Apartment,23.02778,72.53697,AMTS,amts,13
+AMC_1573,Azad Society,23.02646,72.53966,AMTS,amts,13
+AMC_8906,Gujarati Friend Society,23.0289,72.54641,AMTS,amts,30
+AMC_5444,Passport Office,23.03197,72.5498,AMTS,amts,27
+AMC_5458,Vastrapur,23.03569,72.53305,AMTS,amts,11
+AMC_4984,Himanshu Vidyalay,23.03755,72.52999,AMTS,amts,11
+AMC_3986,Nehru Park (Vastrapur Talav),23.03716,72.52773,AMTS,amts,12
+AMC_3997,Balaji Complex,23.03585,72.52745,AMTS,amts,12
+AMC_3996,Indraprasth,23.03426,72.52737,AMTS,amts,12
+AMC_1392,Mental Hospital Corner,23.05206,72.61003,AMTS,amts,12
+AMC_8639,Gulbai Tekra (BRTS),23.02936,72.54704,AMTS,amts,11
+AMC_231,Panjrapole Char Rasta,23.0264,72.5442,AJL|AMTS,multi,27
+AMC_1405,Panjarapol Post Office,23.0253,72.54268,AMTS,amts,8
+AMC_1409,Himmatlal Park,23.02857,72.53276,AMTS,amts,6
+AMC_135,Jodhpur Char Rasta,23.02519,72.52742,AJL|AMTS,multi,51
+AMC_137,Star Bazaar,23.02619,72.52417,AJL|AMTS,multi,51
+AMC_139,ISRO,23.02774,72.51772,AJL|AMTS,multi,51
+AMC_141,Ramdevnagar,23.02753,72.51285,AJL|AMTS,multi,51
+AMC_143,ISKCON Cross Road,23.02717,72.50854,AJL|AMTS,multi,53
+AMC_205,ISKCON Mandir,23.02749,72.5051,AJL|AMTS,multi,37
+AMC_207,Antariksh Colony,23.02778,72.501,AJL|AMTS,multi,33
+AMC_309,Ashok Vatika,23.02797,72.4957,AJL|AMTS,multi,29
+AMC_211,Jayantilal Park,23.02844,72.49103,AJL|AMTS,multi,29
+AMC_213,Swagat Bungalow,23.02791,72.48587,AJL|AMTS,multi,29
+AMC_215,Ambli Gam,23.02649,72.48219,AJL|AMTS,multi,29
+AMC_217,Bopal Approach,23.02588,72.47789,AJL|AMTS,multi,29
+AMC_9386,Vakil Bridge,23.02694,72.47637,AMTS,amts,24
+AMC_291,Samarpan Bungalows,23.02907,72.47629,AJL|AMTS,multi,25
+AMC_267,Bhavya Park,23.03102,72.47249,AJL|AMTS,multi,25
+AMC_301,Sterling City,23.03238,72.46913,AJL|AMTS,multi,25
+AMC_1429,Purushottamnagar (Bopal),23.03384,72.46529,AMTS,amts,25
+AMC_303,Bopal Gam,23.03407,72.46415,AJL|AMTS,multi,25
+AMC_305,Little Wings,23.03212,72.45958,AJL|AMTS,multi,21
+AMC_1432,Anuradha Society,23.03163,72.45842,AMTS,amts,24
+AMC_1548,Vidyanagar High School (Ghuma),23.03148,72.45517,AMTS,amts,24
+AMC_1544,Iskon Flower,23.0303,72.45293,AMTS,amts,24
+AMC_1546,Ghuma Gam,23.03072,72.4503,AMTS,amts,20
+AMC_1668,Adalaj Chokdi,23.17091,72.575,AMTS,amts,4
+AMC_1669,Shri Ramchandra Mission,23.16844,72.57058,AMTS,amts,4
+AMC_1670,Jamiyatpura Chokdi,23.16016,72.55642,AMTS,amts,4
+AMC_1671,Khoraj Bus Stand (Cross Road),23.15548,72.55332,AMTS,amts,4
+AMC_1673,Krishna Nursery,23.14489,72.54631,AMTS,amts,4
+AMC_1634,Jaspur Cross Road,23.14125,72.54418,AMTS,amts,7
+AMC_1675,Vaishnavdevi Mandir,23.13795,72.54343,AMTS,amts,8
+AMC_5932,Vaishnodevi Circle(Zydus Life),23.13282,72.54232,AMTS,amts,19
+AMC_1676,Nirma Institute Of Technology,23.13021,72.54098,AMTS,amts,7
+AMC_1677,Balaji Mandir,23.12668,72.53997,AMTS,amts,7
+AMC_1678,Chharodi Patiya,23.12178,72.53868,AMTS,amts,12
+AMC_1679,Telephone Training Centre (Chharodi),23.11679,72.53715,AMTS,amts,6
+AMC_1680,Gnansadhana Ashram,23.11222,72.53579,AMTS,amts,12
+AMC_1681,Devnagar Patiya (Vishwanath Mahadev),23.10636,72.5342,AMTS,amts,12
+AMC_8627,Grahak Bhavan,23.10294,72.53269,AMTS,amts,7
+AMC_5489,Telephone Training Center (Chharodi),23.11681,72.5371,AMTS,amts,6
+AMC_6309,Kalol Institute Technology College,23.25418,72.47912,AMTS,amts,3
+AMC_6307,Shrinath Residency,23.25384,72.48091,AMTS,amts,3
+AMC_6305,Shukan Complex,23.25328,72.48383,AMTS,amts,5
+AMC_6303,Samarpan Residency,23.25094,72.48506,AMTS,amts,5
+AMC_6301,Ratnasagar Vally,23.24944,72.4854,AMTS,amts,5
+AMC_6299,Gayatri Mandir,23.24627,72.48599,AMTS,amts,5
+AMC_6297,Janta Nagar,23.24319,72.48657,AMTS,amts,5
+AMC_6295,Bhavnath Mahadev,23.24066,72.48849,AMTS,amts,5
+AMC_6293,Ambikanagar Part -1,23.23882,72.49152,AMTS,amts,5
+AMC_6291,Ishan Hospital,23.23716,72.49383,AMTS,amts,5
+AMC_6289,Kalol Police Station,23.23584,72.49648,AMTS,amts,5
+AMC_6287,Shubh Complex,23.23414,72.50088,AMTS,amts,5
+AMC_6285,Kalol Cross Road,23.23316,72.50328,AMTS,amts,5
+AMC_6283,Kalol GIDC Gate-2,23.22957,72.50556,AMTS,amts,5
+AMC_6281,Sahjanand Park,23.22751,72.50652,AMTS,amts,5
+AMC_6279,Swaminarayan University,23.2251,72.50786,AMTS,amts,5
+AMC_6277,Kalol GIDC Gate-1,23.22211,72.51142,AMTS,amts,5
+AMC_6311,Saij Gam,23.21974,72.5141,AMTS,amts,5
+AMC_6275,CRPF Quearters,23.21532,72.5205,AMTS,amts,5
+AMC_6273,ONGC Fire Station,23.21398,72.52286,AMTS,amts,5
+AMC_6271,Ayodhya nagar,23.21153,72.52723,AMTS,amts,5
+AMC_6269,Nano Fertilizer,23.20852,72.53275,AMTS,amts,5
+AMC_6267,Shertha Cross Road,23.20621,72.53588,AMTS,amts,5
+AMC_6265,Ganesh Residency,23.20256,72.54184,AMTS,amts,5
+AMC_6263,Tintoda Cross Road,23.20155,72.54545,AMTS,amts,5
+AMC_6261,Shertha Gam,23.20087,72.54699,AMTS,amts,5
+AMC_6259,Ramdev Mandir,23.19744,72.54887,AMTS,amts,5
+AMC_6257,Amba Farm,23.19574,72.5497,AMTS,amts,5
+AMC_6255,Dantali Cross Road,23.19245,72.55202,AMTS,amts,5
+AMC_6253,Iffco TownShip,23.19014,72.55485,AMTS,amts,5
+AMC_6251,Toll Tax,23.18541,72.56134,AMTS,amts,5
+AMC_1667,Adalaj-Mehsana Cross Road,23.17517,72.57591,AMTS,amts,3
+AMC_6113,Shree Annapurna Dham,23.1664,72.58967,AMTS,amts,7
+AMC_3244,Rancharda Gam,23.07005,72.43784,AMTS,amts,10
+AMC_2232,Cross Road,23.06822,72.43944,AMTS,amts,8
+AMC_3245,Indus University,23.06847,72.43923,AMTS,amts,4
+AMC_2413,Palodiya Gam,23.05858,72.4382,AMTS,amts,2
+AMC_2422,Palodiya panini taki,23.05638,72.43922,AMTS,amts,3
+AMC_2477,Green Field,23.05485,72.44256,AMTS,amts,3
+AMC_2687,Ashiyana,23.05454,72.4454,AMTS,amts,3
+AMC_3246,Indira Awas,23.0543,72.44976,AMTS,amts,10
+AMC_5467,Ankur Orchards,23.05359,72.45118,AMTS,amts,10
+AMC_5468,Krishna R.D.Farm,23.05378,72.45414,AMTS,amts,10
+AMC_9929,Aagman,23.05303,72.46293,AMTS,amts,10
+AMC_8904,Shiv Shakti Society,23.05245,72.46494,AMTS,amts,10
+AMC_3247,Ayodhya Township,23.05293,72.46975,AMTS,amts,10
+AMC_8960,Chimanlal no Bor,23.05293,72.48075,AMTS,amts,23
+AMC_8962,Thaltej-Shilaj Railway Over Bridge,23.05242,72.48226,AMTS,amts,23
+AMC_3010,Prajapatino Kuvo,23.05149,72.4931,AMTS,amts,23
+AMC_3011,Steel Factory,23.05086,72.49685,AMTS,amts,23
+AMC_3019,Muktidham jain derasar,23.04993,72.51806,AMTS,amts,31
+AMC_3020,Shantinath Mahadev (Jay Ambenagar),23.04929,72.52116,AMTS,amts,31
+AMC_5470,Sardar Patel Institute,23.04883,72.52216,AMTS,amts,27
+AMC_3021,Telephone Training Centre (Ambawadi),23.04812,72.52522,AMTS,amts,27
+AMC_3022,Drive In Cinema,23.04706,72.52835,AMTS,amts,27
+AMC_3023,Indraprasth Tower,23.04611,72.53176,AMTS,amts,27
+AMC_5466,Nadoli Patiya,23.06309,72.44831,AMTS,amts,7
+AMC_5465,Amarpura,23.06596,72.44224,AMTS,amts,7
+AMC_5464,Palodiya Patiya,23.06707,72.44061,AMTS,amts,7
+AMC_10315,Unali Patiya,23.07292,72.43519,AMTS,amts,5
+AMC_9267,Shyamvan Farm,23.07427,72.43377,AMTS,amts,6
+AMC_9269,Narmda Canal,23.07705,72.43078,AMTS,amts,6
+AMC_9271,Santoor,23.08111,72.42739,AMTS,amts,6
+AMC_9273,Gokul Bunglows,23.08529,72.42394,AMTS,amts,6
+AMC_9275,Dabhla Chokdi,23.08759,72.4221,AMTS,amts,8
+AMC_9277,Dabhla Overbridge,23.09241,72.41693,AMTS,amts,8
+AMC_9279,Dabhla Gam (Panjrapol),23.09615,72.41423,AMTS,amts,8
+AMC_9281,Deep Farm,23.10193,72.40831,AMTS,amts,8
+AMC_9283,Uplend Golf,23.1076,72.40062,AMTS,amts,8
+AMC_9285,Adhana Gam,23.11127,72.39563,AMTS,amts,8
+AMC_9287,Vayna Chokdi,23.11293,72.39356,AMTS,amts,8
+AMC_9289,Radha Bag,23.11796,72.3894,AMTS,amts,8
+AMC_9291,Das Agro Industry,23.12068,72.38743,AMTS,amts,8
+AMC_9293,Natraj Farm,23.12345,72.38579,AMTS,amts,8
+AMC_9295,SadhiMata nu mandir,23.12695,72.37911,AMTS,amts,8
+AMC_9297,Jin Vas,23.12936,72.37504,AMTS,amts,8
+AMC_9299,Sanand Cross Road,23.13134,72.37337,AMTS,amts,10
+AMC_9301,ChandanPura Chokdi,23.13342,72.37437,AMTS,amts,10
+AMC_9303,Thol Gam (Saradar Chowk),23.13309,72.37731,AMTS,amts,6
+AMC_5869,Kusum Farm,23.08963,72.42487,AMTS,amts,2
+AMC_5867,Aantar Kshitij,23.09171,72.42672,AMTS,amts,2
+AMC_5865,Avadh Farm,23.09415,72.43004,AMTS,amts,2
+AMC_5863,Aneri Farm (Canal),23.09504,72.43348,AMTS,amts,2
+AMC_9775,Divine Bungalows,23.09947,72.46394,AMTS,amts,2
+AMC_9773,Sadashiv Mahadev,23.09815,72.46643,AMTS,amts,2
+AMC_9771,Luxuria,23.09544,72.47165,AMTS,amts,2
+AMC_9769,Gracious Vineyards,23.0936,72.47536,AMTS,amts,2
+AMC_9767,M.k. Party Plot,23.09167,72.47987,AMTS,amts,2
+AMC_9765,Shree Nivas Organiser,23.08967,72.48392,AMTS,amts,2
+AMC_9763,Vivanta Heights,23.08833,72.48598,AMTS,amts,2
+AMC_9761,Dev Shrushti,23.08186,72.50222,AMTS,amts,2
+AMC_9759,Saumya Residency,23.07984,72.50622,AMTS,amts,2
+AMC_9757,Shivalay Heights,23.07869,72.51044,AMTS,amts,2
+AMC_9755,Hetarth Party Plot,23.07553,72.50911,AMTS,amts,2
+AMC_5043,Silver Star Mall,23.08318,72.54686,AMTS,amts,9
+AMC_5042,Shriji Residency,23.08457,72.5482,AMTS,amts,9
+AMC_5041,Simran Avenue,23.08614,72.54791,AMTS,amts,9
+AMC_5729,Shubhmangal society,23.08936,72.54721,AMTS,amts,9
+AMC_9932,Vallabh Farm,23.08892,72.55016,AMTS,amts,2
+AMC_5296,Khodiyarnagar (Chandlodiya),23.08834,72.55029,AMTS,amts,2
+AMC_5295,Tirupati School,23.08602,72.5508,AMTS,amts,2
+AMC_5294,Gayatri Society,23.08385,72.551,AMTS,amts,2
+AMC_5293,Chandlodiya Talav (Ganeshwar Mahadev),23.08416,72.55364,AMTS,amts,2
+AMC_8282,Railway Garnala,23.08515,72.55511,AMTS,amts,2
+AMC_8284,Panchvati Bungalows,23.08577,72.55779,AMTS,amts,2
+AMC_5559,Devbhumi Society (Ranip),23.08619,72.56031,AMTS,amts,19
+AMC_5873,Ahvadiya Talav(New Ranip),23.08692,72.56338,AMTS,amts,19
+AMC_8515,Savan Bugloz Char Rasta,23.08891,72.56542,AMTS,amts,19
+AMC_8513,SunRiyal Homes,23.08878,72.56713,AMTS,amts,19
+AMC_3467,Sai Duplex,23.08213,72.56954,AMTS,amts,19
+AMC_5473,Ajanta Ellora Apartments,23.05743,72.52649,AMTS,amts,4
+AMC_5474,Shukan Complex,23.0542,72.52464,AMTS,amts,6
+AMC_3847,Surdhara Bunglows,23.0519,72.52546,AMTS,amts,10
+AMC_3848,Sal Hospital,23.04912,72.52383,AMTS,amts,10
+AMC_3016,Thaltej Gam,23.05045,72.50777,AMTS,amts,2
+AMC_8799,Shree Naran Dham,23.05399,72.50745,AMTS,amts,4
+AMC_4993,Hebatpur Cross Road,23.05606,72.50614,AMTS,amts,9
+AMC_4994,Ayna Complex,23.05797,72.51068,AMTS,amts,9
+AMC_4995,Suvarna Bunglows,23.05911,72.51352,AMTS,amts,10
+AMC_4996,Ganesh Corporate House,23.05934,72.51688,AMTS,amts,9
+AMC_5930,Festival Residency,23.13165,72.54592,AMTS,amts,9
+AMC_3566,Saga Complex,23.13063,72.54897,AMTS,amts,9
+AMC_8615,Malabar Countrey-2,23.12839,72.54821,AMTS,amts,9
+AMC_5928,Nirma Vidhyavihar,23.12463,72.54727,AMTS,amts,9
+AMC_8613,Malabar Countrey-1 Nirma Institute,23.12338,72.54726,AMTS,amts,9
+AMC_5926,Tirupati Akruti Greens,23.12122,72.54673,AMTS,amts,9
+AMC_5924,Aekyarth,23.11941,72.54648,AMTS,amts,9
+AMC_5922,Sentenri,23.11535,72.54612,AMTS,amts,9
+AMC_5920,Jagatpur Gam,23.11281,72.54541,AMTS,amts,9
+AMC_5918,Ganesh Genius,23.11177,72.54417,AMTS,amts,6
+AMC_5949,Ananta Flats,23.11073,72.543,AMTS,amts,6
+AMC_5916,Western Prime,23.10817,72.54062,AMTS,amts,6
+AMC_6499,Devnagar Gam,23.1043,72.53874,AMTS,amts,2
+AMC_8531,Slock Parisar,23.10202,72.5381,AMTS,amts,2
+AMC_8099,Vishesh Residency,23.10245,72.53614,AMTS,amts,2
+AMC_6497,K.N.University,23.09979,72.53658,AMTS,amts,2
+AMC_5912,Vishvas City-5,23.09898,72.54002,AMTS,amts,6
+AMC_5910,Shripad Residency,23.09709,72.53978,AMTS,amts,6
+AMC_5908,Gota Muktidham,23.0945,72.53871,AMTS,amts,6
+AMC_5947,Gota Gam Cross Road,23.09339,72.53798,AMTS,amts,6
+AMC_7358,Sangath,23.06096,72.66862,AMTS,amts,6
+AMC_2851,Shriram Chowk,23.06053,72.66013,AMTS,amts,4
+AMC_2850,Oakdel Avenue (Nilkanth Residency),23.0586,72.65921,AMTS,amts,6
+AMC_2848,Gnangita Prathamik School,23.05421,72.65802,AMTS,amts,6
+AMC_2847,Swaminarayan Mandir (Sitarambapa Chowk),23.05185,72.65792,AMTS,amts,6
+AMC_2846,Umiya Vidya Sikshan Sankul,23.05088,72.6462,AMTS,amts,6
+AMC_2845,Prakash Hindi High School,23.05088,72.64244,AMTS,amts,6
+AMC_2843,Ramkrushna Apartment,23.04713,72.63905,AMTS,amts,5
+AMC_2842,Vahala Sitaram,23.04801,72.63642,AMTS,amts,5
+AMC_2841,Devbhumi Society (Hirawadi),23.04868,72.63488,AMTS,amts,5
+AMC_7017,L.B.Shastri Market,23.04972,72.63241,AMTS,amts,10
+AMC_2839,Samir Shitvan (Jamanadas Estate),23.04612,72.63232,AMTS,amts,3
+AMC_2838,Anupam Colony,23.04297,72.63164,AMTS,amts,8
+AMC_2837,Vijay Chowk (Samjuba Hospital),23.03803,72.6304,AMTS,amts,26
+AMC_3824,Devi Theater,23.07263,72.64926,AMTS,amts,6
+AMC_3823,Kailas Complex,23.07499,72.65098,AMTS,amts,6
+AMC_3819,Vasant Vihar Society,23.07319,72.66886,AMTS,amts,14
+AMC_3818,Shitalnathprabhu Society,23.07467,72.66678,AMTS,amts,14
+AMC_3241,Somnath Chowk (Chanakyapuri Approach),23.07676,72.53844,AMTS,amts,20
+AMC_5537,Shastrinagar,23.06578,72.55457,AMTS,amts,13
+AMC_4013,Pragatinagar,23.06462,72.55539,AMTS,amts,8
+AMC_3242,Harishchandra Park,23.06308,72.55646,AMTS,amts,4
+AMC_3386,Sardar Patel Square,23.04758,72.56251,AMTS,amts,6
+AMC_3387,Sardar Patel Colony,23.04684,72.56576,AMTS,amts,2
+AMC_5475,Lilapur Gam,23.14744,72.51415,AMTS,amts,3
+AMC_5476,Rahapura,23.14554,72.52257,AMTS,amts,3
+AMC_5477,Master Farm,23.14545,72.52701,AMTS,amts,3
+AMC_8991,Shilp Gram-1,23.15153,72.52527,AMTS,amts,3
+AMC_8993,Chehar Krupa Farm,23.15549,72.52271,AMTS,amts,3
+AMC_8995,Bhavna Farm,23.16051,72.52051,AMTS,amts,3
+AMC_8997,Nihal Farm,23.1635,72.51921,AMTS,amts,3
+AMC_8989,Jaspur Talav,23.16623,72.51814,AMTS,amts,3
+AMC_5482,Jaspur Gam,23.16765,72.51738,AMTS,amts,5
+AMC_5483,Ambika Farm,23.16559,72.52215,AMTS,amts,5
+AMC_5484,Nageshwar Farm,23.16389,72.53136,AMTS,amts,5
+AMC_5485,Suez Farm,23.1598,72.53416,AMTS,amts,5
+AMC_8987,Vishv Umiya Dham,23.15732,72.53368,AMTS,amts,5
+AMC_5486,Heema Farm,23.15299,72.53357,AMTS,amts,5
+AMC_5487,Kv Farm,23.14952,72.53663,AMTS,amts,5
+AMC_5479,Lilapur Tran Rasta,23.14741,72.53846,AMTS,amts,5
+AMC_5488,Khodiyar Cross Road,23.14554,72.54011,AMTS,amts,5
+AMC_3567,Nirma University,23.13029,72.541,AMTS,amts,5
+AMC_3568,Dr.Babasaheb Ambedkar Open University,23.12619,72.54002,AMTS,amts,5
+AMC_2788,Gota Highway Cross Road (Rt.137 Stand),23.09821,72.53233,AMTS,amts,20
+AMC_8629,Khodiyar Gam,23.14752,72.54069,AMTS,amts,2
+AMC_8871,Mamta Farm,23.1431,72.54072,AMTS,amts,2
+AMC_8869,Jasmin-2,23.13936,72.53995,AMTS,amts,2
+AMC_8873,Jasmin-1,23.13768,72.5396,AMTS,amts,1
+AMC_5025,Silver Oak Club,23.07634,72.52593,AMTS,amts,9
+AMC_5026,Harivilla Apartment,23.07596,72.52905,AMTS,amts,9
+AMC_5027,Ramapir Mandir (Chanakyapuri),23.07565,72.53238,AMTS,amts,9
+AMC_5028,Chanakyapuri (Sufalam Vidyalay),23.07613,72.53559,AMTS,amts,9
+AMC_2004,Krushna Yaan,23.11825,72.55513,AMTS,amts,15
+AMC_9225,Orchard Char Rasta,23.11118,72.55375,AMTS,amts,15
+AMC_9223,Jagatpur Cross Road,23.10795,72.55239,AMTS,amts,18
+AMC_5902,Jayesh Steel,23.10609,72.55368,AMTS,amts,11
+AMC_5900,Sky Walk,23.10458,72.55505,AMTS,amts,8
+AMC_5898,Railway Crossing,23.10184,72.55787,AMTS,amts,8
+AMC_5896,ShubhAagaman Residency,23.10113,72.55862,AMTS,amts,8
+AMC_3414,Chenpur Gam,23.09991,72.55949,AMTS,amts,16
+AMC_3415,Narnarayan Complex,23.09718,72.56004,AMTS,amts,13
+AMC_3416,Essar Steel,23.09321,72.56299,AMTS,amts,13
+AMC_5555,Ravi Tenament,23.09311,72.56062,AMTS,amts,17
+AMC_5556,Alok Residency,23.09257,72.55938,AMTS,amts,17
+AMC_5557,Nishan Residency,23.0905,72.5595,AMTS,amts,17
+AMC_5558,Yogeshwar Kutir,23.08804,72.55996,AMTS,amts,17
+AMC_5561,Rajmandir Society,23.08564,72.56451,AMTS,amts,15
+AMC_8517,Anand Tenament,23.08649,72.56488,AMTS,amts,17
+AMC_3466,Karan Complex Char Rasta,23.07991,72.56842,AMTS,amts,21
+AMC_3465,Balolnagar,23.07839,72.56763,AMTS,amts,21
+AMC_3464,Sahajanand Bunglows (Tarveni Vidyalay),23.07636,72.56732,AMTS,amts,21
+AMC_3463,Kalptaru Apartment (Shrirang Apartment),23.07491,72.56836,AMTS,amts,17
+AMC_3462,R.H.Patel College (Ganesh Vidyalay),23.0726,72.5692,AMTS,amts,17
+AMC_3461,Chandrabhaga Raw House,23.07219,72.56646,AMTS,amts,17
+AMC_3460,Shrinath Apartment,23.07088,72.56591,AMTS,amts,21
+AMC_3459,Vyaswadi,23.06811,72.56651,AMTS,amts,21
+AMC_10089,Vadaj Metro Station,23.06778,72.56665,AMTS,amts,21
+AMC_3471,Raj Mandir Society,23.08545,72.56476,AMTS,amts,2
+AMC_8617,Swaminarayn School,23.0825,72.56617,AMTS,amts,8
+AMC_3470,New Ranip (G.S.T.Crossing),23.08417,72.56581,AMTS,amts,8
+AMC_5992,Dwarkadas Park,23.08343,72.56398,AMTS,amts,4
+AMC_5990,Ashish Nagar,23.08254,72.56174,AMTS,amts,4
+AMC_5988,Shakti Nagar,23.08133,72.55885,AMTS,amts,4
+AMC_5984,Satya Sagar Society,23.07977,72.55495,AMTS,amts,4
+AMC_5982,Ghanshaym nagar(Baliyadev Mandir),23.07876,72.55282,AMTS,amts,4
+AMC_5980,Bharvad Vas,23.07765,72.55004,AMTS,amts,2
+AMC_5494,Menarav Hall,23.07001,72.55111,AMTS,amts,2
+AMC_5495,Arjun Homes,23.06844,72.55199,AMTS,amts,2
+AMC_5496,Jivan Sadhana Row Housing Society,23.06673,72.55392,AMTS,amts,2
+AMC_5497,Hasmukh Colony,23.0577,72.55967,AMTS,amts,2
+AMC_5498,Sanghavi High School,23.05542,72.56054,AMTS,amts,2
+AMC_5499,Somnath Society,23.05335,72.56108,AMTS,amts,2
+AMC_5972,Chandlodiya Junction,23.07547,72.54547,AMTS,amts,4
+AMC_9888,Aryan Ambience,23.10326,72.52396,AMTS,amts,2
+AMC_9886,Festival O-2,23.1012,72.52517,AMTS,amts,2
+AMC_9884,Ganesh Royal,23.09853,72.52467,AMTS,amts,2
+AMC_9882,Umiya Circle,23.09709,72.52362,AMTS,amts,2
+AMC_9880,Sahaj Prime,23.09543,72.52688,AMTS,amts,2
+AMC_9878,Ugatidham,23.09212,72.52611,AMTS,amts,2
+AMC_9875,Sola Bhagwat Vidyapith Main Gate,23.08742,72.52432,AMTS,amts,2
+AMC_9902,Suramy Gold,23.08728,72.52427,AMTS,amts,2
+AMC_8758,Dhananjay Bunglows,23.08593,72.52279,AMTS,amts,2
+AMC_5718,Saibaba ni Nagari,23.08373,72.51986,AMTS,amts,2
+AMC_5717,Sukan Residency,23.08144,72.5178,AMTS,amts,2
+AMC_5022,Sola Gam,23.07641,72.51551,AMTS,amts,9
+AMC_5716,Ramdevpir nu Mandir,23.07546,72.51561,AMTS,amts,9
+AMC_8756,Akansha Flat,23.06655,72.52763,AMTS,amts,2
+AMC_5500,Mangalmurti Apartment,23.05978,72.5475,AMTS,amts,2
+AMC_5012,Bhavin Vidyalay,23.05635,72.55274,AMTS,amts,2
+AMC_5503,Mirambika High School,23.05513,72.55541,AMTS,amts,2
+AMC_5505,Navrang School,23.04835,72.5568,AMTS,amts,2
+AMC_5506,Swati Society,23.04498,72.55524,AMTS,amts,5
+AMC_5507,Ishwar Bhuvan,23.04051,72.55493,AMTS,amts,2
+AMC_3771,Cheharnagar,23.14198,72.44375,AMTS,amts,10
+AMC_3774,Shah Metal Ind.,23.12587,72.45609,AMTS,amts,10
+AMC_3775,Gujarat Vidyut Board (Santej),23.12399,72.45803,AMTS,amts,10
+AMC_5508,Texell Industry,23.121,72.46069,AMTS,amts,10
+AMC_3776,Dhara estate,23.11927,72.46178,AMTS,amts,10
+AMC_3777,Goga Maharajnu Mandir,23.11587,72.46428,AMTS,amts,10
+AMC_3778,Shah Alloys Factory,23.11099,72.46777,AMTS,amts,10
+AMC_3779,Santej (Shah Alloys),23.10945,72.46913,AMTS,amts,10
+AMC_3780,Santej Tiles,23.10575,72.47241,AMTS,amts,12
+AMC_3781,Kothari Char Rasta,23.10355,72.47558,AMTS,amts,12
+AMC_3782,Pramukh Estate (Rellis Pharma.),23.10183,72.47904,AMTS,amts,12
+AMC_3783,Rakanpur Char Rasta,23.1004,72.48175,AMTS,amts,12
+AMC_3784,Sarthi Pharma.,23.09883,72.48434,AMTS,amts,12
+AMC_4990,Silver Square,23.05053,72.49903,AMTS,amts,5
+AMC_4991,Swagat Green Villa,23.0539,72.50155,AMTS,amts,5
+AMC_4992,Narayan Bunglows,23.05513,72.50363,AMTS,amts,5
+AMC_4997,Sarkhej-Gandhinagar Cross Road,23.05886,72.52087,AMTS,amts,7
+AMC_4998,Auda Garden,23.0583,72.52301,AMTS,amts,5
+AMC_5000,Bhuminagar Part-2,23.06546,72.53542,AMTS,amts,3
+AMC_5007,Karmacharinagar,23.065,72.53907,AMTS,amts,5
+AMC_5001,C.P.Nagar,23.063,72.53812,AMTS,amts,5
+AMC_5004,Rajkamal Park,23.04506,72.55895,AMTS,amts,3
+AMC_5005,Chaitanya Society,23.04521,72.56035,AMTS,amts,3
+AMC_2983,Memnagar Gam,23.04907,72.53855,AMTS,amts,8
+AMC_3033,Lion Sharad Mehta Garden,23.04452,72.5476,AMTS,amts,2
+AMC_3034,St. Xaviers High School,23.04727,72.54825,AMTS,amts,4
+AMC_3037,Abhaynagar Society,23.04718,72.55503,AMTS,amts,4
+AMC_3038,Navrang Circle,23.04759,72.5585,AMTS,amts,4
+AMC_6230,Valinath Chowk,23.05037,72.54577,AMTS,amts,6
+AMC_9447,Shri Ambe Mata Nu Mandir,23.04803,72.54091,AMTS,amts,4
+AMC_3772,Khatraj Gam,23.13713,72.44404,AMTS,amts,8
+AMC_3773,R.Con Engg.,23.12786,72.45403,AMTS,amts,8
+AMC_5514,Moti Bhoyan Chokdi,23.17505,72.45121,AMTS,amts,16
+AMC_5727,Shri Balak Cutter,23.17043,72.45661,AMTS,amts,14
+AMC_5547,Universal Engg. College,23.16808,72.45801,AMTS,amts,14
+AMC_5515,Arvind Mills Vadsar,23.16585,72.4592,AMTS,amts,14
+AMC_5516,Arna Clothing,23.16359,72.46052,AMTS,amts,14
+AMC_2715,Saibaba Chemicals,23.15774,72.46383,AMTS,amts,6
+AMC_5517,Sendhani Matanu Mandir,23.15227,72.4667,AMTS,amts,6
+AMC_2734,Johnson skins,23.14977,72.44444,AMTS,amts,4
+AMC_2735,Arvind International,23.15407,72.44494,AMTS,amts,4
+AMC_2736,Mayur Woovens Ltd.,23.15687,72.44525,AMTS,amts,4
+AMC_2737,Karoli Gam Cross Road,23.16137,72.44566,AMTS,amts,4
+AMC_5513,Shriram Multy Tech.Ltd.,23.16444,72.44602,AMTS,amts,2
+AMC_2739,Gandhinagar University,23.16747,72.44802,AMTS,amts,8
+AMC_5520,Prem Margha Farm,23.14172,72.47205,AMTS,amts,2
+AMC_5521,Gujarat Rafiya Industries,23.13557,72.47322,AMTS,amts,2
+AMC_5522,Gopal Poly Plast,23.13071,72.47412,AMTS,amts,2
+AMC_5523,Girnaribapu Ashram,23.12873,72.47449,AMTS,amts,2
+AMC_5524,Bharat Alluminium,23.12349,72.47541,AMTS,amts,2
+AMC_5525,High Tech Ila Steners Ltd.,23.12059,72.47588,AMTS,amts,2
+AMC_5526,Shri Harihar Mahadev Mandir,23.11677,72.47378,AMTS,amts,2
+AMC_5527,R.N.Food (Kitchen Express),23.11419,72.4717,AMTS,amts,2
+AMC_5528,Pharma Lab,23.11207,72.4705,AMTS,amts,2
+AMC_5529,Santej Gam,23.10908,72.46916,AMTS,amts,2
+AMC_5533,Satva Sharda Part-1,23.06634,72.66616,AMTS,amts,2
+AMC_5534,Kamal Duplex,23.06671,72.66956,AMTS,amts,2
+AMC_5535,Shridhar Society,23.0687,72.67056,AMTS,amts,2
+AMC_8866,Oganaj Circle (S.P.Ring Road),23.121,72.50774,AMTS,amts,4
+AMC_8864,Sthapatya Heights,23.11577,72.50404,AMTS,amts,4
+AMC_8861,Vedant Kadam,23.10292,72.49935,AMTS,amts,4
+AMC_8860,Maruti Farm,23.09666,72.49754,AMTS,amts,3
+AMC_8857,BebiLoan Club,23.09223,72.49541,AMTS,amts,4
+AMC_8868,Pride Icon,23.08729,72.49405,AMTS,amts,3
+AMC_8854,Bhadaj Circle (S.P.Ring Road),23.08488,72.49269,AMTS,amts,8
+AMC_5023,Sagar Sangeet Complex-1,23.07705,72.51798,AMTS,amts,7
+AMC_5024,Fun Point,23.07661,72.5213,AMTS,amts,9
+AMC_8856,Kuber Residency,23.08728,72.49364,AMTS,amts,1
+AMC_8859,Sentesa GreenLand,23.0995,72.49805,AMTS,amts,1
+AMC_9595,Sopan co operative Housing,23.10495,72.5006,AMTS,amts,2
+AMC_9531,Keshar Vatika,23.06264,72.67738,AMTS,amts,8
+AMC_9117,Kush Society (Muktidham),23.07742,72.66359,AMTS,amts,10
+AMC_5541,Prem Darwaja (Rt.46 Stand),23.03577,72.59665,AMTS,amts,2
+AMC_5542,Lilavan Party Plot,23.07236,72.52376,AMTS,amts,2
+AMC_6329,Kalol Police Chowki Underbridge,23.24123,72.48843,AMTS,amts,2
+AMC_6339,Balram Park,23.23971,72.48648,AMTS,amts,2
+AMC_6337,Sardar Chowk,23.23859,72.48518,AMTS,amts,2
+AMC_6336,Sen Residency,23.23667,72.48326,AMTS,amts,2
+AMC_6333,Rajdhani Tenament,23.23573,72.48031,AMTS,amts,2
+AMC_6331,Radheshyam Nagar,23.23467,72.47776,AMTS,amts,2
+AMC_6327,Prakash Vidhyalaya,23.23193,72.47685,AMTS,amts,2
+AMC_6325,Borisana Gam,23.2299,72.47663,AMTS,amts,2
+AMC_6323,Ramnagar Cross Road,23.22432,72.47591,AMTS,amts,2
+AMC_6321,Nandavan Farm,23.21994,72.47534,AMTS,amts,2
+AMC_6319,Andhariya Jogani Mandir,23.21549,72.47464,AMTS,amts,2
+AMC_6317,Karnavati Society,23.21241,72.47436,AMTS,amts,2
+AMC_6315,Aanandpura Gam,23.20915,72.47386,AMTS,amts,2
+AMC_6313,Aanandpura Approch,23.20497,72.4722,AMTS,amts,2
+AMC_2749,Sherisa Gam,23.19633,72.46957,AMTS,amts,2
+AMC_2750,Kalol-Sherisa Cross Road,23.19982,72.46964,AMTS,amts,2
+AMC_2752,Nagarjun Ayurvedic Pharmacy,23.19288,72.461,AMTS,amts,2
+AMC_2753,Gurugappa Morgan Thermal Ciramic,23.18816,72.45683,AMTS,amts,2
+AMC_2754,Chokshi Tubes,23.1865,72.45498,AMTS,amts,8
+AMC_2755,U.T.Tex Plast,23.18301,72.45285,AMTS,amts,2
+AMC_2756,Moti Bhoyan S.T. Stand,23.17866,72.45177,AMTS,amts,2
+AMC_2759,Sri ram multi tech,23.16534,72.44673,AMTS,amts,2
+AMC_2778,Sardar Patel Ring Road (Lapkaman),23.12161,72.50773,AMTS,amts,16
+AMC_2001,Sevi Swaraj,23.10394,72.54975,AMTS,amts,7
+AMC_2000,New Ranchhodraynagar,23.10038,72.54864,AMTS,amts,7
+AMC_5035,Sayona Tilak-1 (Jagatpur),23.0984,72.54779,AMTS,amts,7
+AMC_5036,Vandematram Icon,23.09732,72.54739,AMTS,amts,7
+AMC_5037,Vandematram Arcade,23.09493,72.54652,AMTS,amts,7
+AMC_5038,Shukan Residency,23.09297,72.54589,AMTS,amts,7
+AMC_5039,Shrinath Avenue,23.09185,72.54548,AMTS,amts,7
+AMC_5040,Vishwas City-3,23.08958,72.54465,AMTS,amts,7
+AMC_5233,L.G.Hospital,22.99996,72.60344,AMTS,amts,9
+AMC_5045,Mangleshwar Mahadev,22.98457,72.60632,AMTS,amts,5
+AMC_5324,Ambe mata nu Mandir,22.95032,72.62223,AMTS,amts,6
+AMC_9191,Manthan 222 Char Rasta,22.95123,72.61892,AMTS,amts,9
+AMC_9189,Jain Derasar,22.95921,72.61967,AMTS,amts,4
+AMC_9185,Ramnagar,22.96312,72.62061,AMTS,amts,4
+AMC_9183,Rajnagar Vanar vat Talav Turning,22.96464,72.62112,AMTS,amts,4
+AMC_9181,Bharat Mata Society,22.96612,72.62,AMTS,amts,4
+AMC_9177,P.D.Pandya College,22.96773,72.61641,AMTS,amts,4
+AMC_9179,Kashi Vishvanath Chowk,22.96862,72.61393,AMTS,amts,4
+AMC_9175,Surya Kiran Society,22.96957,72.61421,AMTS,amts,4
+AMC_5048,Vairatnagar (Lotus School),22.98511,72.59698,AMTS,amts,6
+AMC_5049,Rajeshwari Society,22.98831,72.59592,AMTS,amts,6
+AMC_5050,Grid Pole (A.M.T.S.Depot),22.99073,72.59628,AMTS,amts,4
+AMC_5051,Millatnagar,22.99197,72.59629,AMTS,amts,4
+AMC_3469,Green Avenue,23.08504,72.56803,AMTS,amts,4
+AMC_5563,J.V.Park,23.08527,72.5693,AMTS,amts,4
+AMC_8775,Suvrandham Avenue,23.08523,72.57011,AMTS,amts,4
+AMC_3468,Andh Kalyan Kendra,23.08525,72.57102,AMTS,amts,4
+AMC_5550,Kali Gam,23.09086,72.57561,AMTS,amts,4
+AMC_5551,Jambu Chowk,23.09145,72.57492,AMTS,amts,4
+AMC_5552,Baliyadev Mandir (GST),23.09213,72.5722,AMTS,amts,4
+AMC_5553,Municipal Garden,23.09267,72.56974,AMTS,amts,4
+AMC_5554,Khodiyar Mandir (G.S.T.),23.09283,72.56571,AMTS,amts,4
+AMC_10312,Kedarnath Mahadev,23.09341,72.56219,AMTS,amts,4
+AMC_5564,Hariom Apartment,23.07338,72.56558,AMTS,amts,4
+AMC_9545,Shivshakti Nagar BRT,23.11208,72.58394,AMTS,amts,4
+AMC_9543,Jantanagar BRT,23.10823,72.58518,AMTS,amts,4
+AMC_9541,ONGC Avani Bhavan BRT,23.10354,72.58663,AMTS,amts,4
+AMC_9539,Visat Gandhinagar Junction BRT,23.09738,72.58857,AMTS,amts,4
+AMC_9537,Motera Crossroad BRT,23.09195,72.59015,AMTS,amts,4
+AMC_9535,Sabarmati Police Chowki BRT,23.08607,72.59185,AMTS,amts,4
+AMC_2425,Ramnagar,23.08245,72.59026,AMTS,amts,32
+AMC_5735,varsoda ni chali,23.08064,72.59003,AMTS,amts,32
+AMC_9533,Juna Vadaj BRTS,23.05686,72.57167,AMTS,amts,5
+AMC_49,Kankariya Telephone Exchange,23.00242,72.59292,AJL|AMTS,multi,22
+AMC_5914,Vishnudhara Garden,23.10616,72.54256,AMTS,amts,4
+AMC_8932,Stavan Ample,23.10357,72.54129,AMTS,amts,4
+AMC_8930,Dwarka App.(P M Avas Yojna),23.10253,72.54092,AMTS,amts,4
+AMC_8529,I C B Flora,23.1019,72.54078,AMTS,amts,4
+AMC_3896,Vatva Industrial Township,22.9631,72.63136,AMTS,amts,9
+AMC_5221,Krushna Roller Floor Mills,22.96268,72.63574,AMTS,amts,7
+AMC_8378,Dev Estate,22.96445,72.64004,AMTS,amts,3
+AMC_8376,Machhunagar,22.96482,72.64207,AMTS,amts,3
+AMC_8374,Puskar Industries,22.96508,72.64323,AMTS,amts,3
+AMC_5225,Pimpaleshwar Mahadev,22.9914,72.61936,AMTS,amts,3
+AMC_3828,Thakkarnagar Char Rasta,23.03994,72.64056,AMTS,amts,7
+AMC_3451,Thakkarnagar,23.04017,72.64295,AMTS,amts,7
+AMC_3443,Indrajit Tenament,23.04082,72.64468,AMTS,amts,7
+AMC_3444,Labharth Society,23.04183,72.6475,AMTS,amts,7
+AMC_3445,Ratanba Vidyalay,23.04301,72.64971,AMTS,amts,7
+AMC_3446,Badrinarayan Society,23.04411,72.65147,AMTS,amts,7
+AMC_8945,Ratnaraj Homes,23.12344,72.57769,AMTS,amts,4
+AMC_8943,Parameshwar-5,23.12341,72.57566,AMTS,amts,4
+AMC_8138,Aaradhya Chokdi,23.12342,72.57404,AMTS,amts,4
+AMC_8361,Panchshlok Residency,23.12328,72.5718,AMTS,amts,2
+AMC_8359,Hiradhan Chokdi,23.12149,72.57203,AMTS,amts,2
+AMC_8357,Landmark Lotus,23.12021,72.57088,AMTS,amts,2
+AMC_7282,Dharti Silver,23.12007,72.56793,AMTS,amts,2
+AMC_8353,Bhulabhai Park -1,23.11569,72.56767,AMTS,amts,2
+AMC_2013,Vaikunthnagar,23.11313,72.56747,AMTS,amts,2
+AMC_2012,Satyam,23.10998,72.56723,AMTS,amts,2
+AMC_3553,Manavnagar,23.10841,72.56635,AMTS,amts,15
+AMC_3554,Sanskar Society,23.10826,72.56553,AMTS,amts,20
+AMC_5568,Abunagar Society (Ioc Road),23.10382,72.56791,AMTS,amts,11
+AMC_5569,Sabarmati 'D' Cabin,23.10268,72.57011,AMTS,amts,14
+AMC_5732,Harsh Society,23.10153,72.57288,AMTS,amts,7
+AMC_4769,Varahi Society,23.10074,72.57501,AMTS,amts,14
+AMC_8770,Vishwakarma College Metro (S.M.S. Hospital),23.11524,72.6095,AMTS,amts,7
+AMC_9850,Khodiyar Char Rasta,23.11187,72.60518,AMTS,amts,2
+AMC_8815,Omkar Bungalows,23.11431,72.60309,AMTS,amts,2
+AMC_8817,Param-22,23.11671,72.60224,AMTS,amts,2
+AMC_9848,Swaminarayan Circle,23.11976,72.60162,AMTS,amts,2
+AMC_9846,Soundarya Apartment,23.12169,72.6008,AMTS,amts,2
+AMC_9844,Astamangal Park,23.12087,72.59784,AMTS,amts,2
+AMC_6014,Rajivnagar (Chandkheda),23.12014,72.5957,AMTS,amts,4
+AMC_6012,Divyakunj Bunglows,23.11845,72.59547,AMTS,amts,4
+AMC_8825,Keshav Apartment,23.11709,72.5955,AMTS,amts,4
+AMC_8827,Sanidhya Flora,23.11533,72.59528,AMTS,amts,4
+AMC_8829,Aavkar Apartment,23.11302,72.59364,AMTS,amts,4
+AMC_8831,Devnandan Altreza,23.11407,72.59117,AMTS,amts,4
+AMC_8833,Ustav Corner,23.11498,72.58947,AMTS,amts,4
+AMC_8835,Sub Station,23.11689,72.58694,AMTS,amts,4
+AMC_8837,Vishatkrupa Tenament,23.11459,72.58501,AMTS,amts,4
+AMC_2063,Power House Crossing,23.06826,72.58893,AMTS,amts,18
+AMC_2423,Broad Guage Railway Station,23.06877,72.58704,AMTS,amts,20
+AMC_3562,Tragad Gam,23.12706,72.55846,AMTS,amts,26
+AMC_8144,Anand Squre,23.12362,72.56018,AMTS,amts,8
+AMC_8142,Apolo School,23.12283,72.56296,AMTS,amts,2
+AMC_8140,Staya Squre,23.12308,72.56742,AMTS,amts,2
+AMC_10043,Ayodhya Nagri,23.12538,72.56838,AMTS,amts,2
+AMC_10044,Aaradhya Homes,23.12552,72.57161,AMTS,amts,2
+AMC_5576,Dadanagar Hall,23.18319,72.57216,AMTS,amts,8
+AMC_5577,Nirumani Samadhi,23.17742,72.57259,AMTS,amts,8
+AMC_2434,Akashdarshan Society,23.10339,72.6022,AMTS,amts,20
+AMC_2433,Sahajanand Park,23.10078,72.60051,AMTS,amts,20
+AMC_2432,Shri Ashrambapu Ashram Cross Road,23.09863,72.5983,AMTS,amts,20
+AMC_2431,Sangath Bunglows,23.09668,72.59657,AMTS,amts,20
+AMC_2430,Narendra Modi Stadium,23.09494,72.59541,AMTS,amts,23
+AMC_2429,Indiranagar,23.09249,72.59389,AMTS,amts,21
+AMC_2428,Nirantnagar,23.09097,72.59286,AMTS,amts,21
+AMC_2427,Gandhibag (Acher),23.08915,72.59166,AMTS,amts,21
+AMC_3555,Manibhadra Tenaments,23.11073,72.56451,AMTS,amts,18
+AMC_3558,Tejendranagar Society,23.1123,72.56383,AMTS,amts,7
+AMC_3559,Bhathiji Maharajnu Mandir,23.11859,72.56122,AMTS,amts,18
+AMC_7901,Narsinhji,23.01928,72.60712,AMTS,amts,4
+AMC_7902,Rajpur Tollnaka,23.01694,72.60709,AMTS,amts,4
+AMC_7903,St. Joseph School,23.01444,72.60719,AMTS,amts,4
+AMC_10359,Jivram Bhatt ni Chali,23.01377,72.60902,AMTS,amts,4
+AMC_10360,Hiralal ni Chali,23.01321,72.61219,AMTS,amts,4
+AMC_10361,Jhulta Minara,23.01442,72.61258,AMTS,amts,4
+AMC_10363,Topi Mill,23.01536,72.61263,AMTS,amts,4
+AMC_8463,Sukhramnagar,23.01502,72.61945,AMTS,amts,4
+AMC_9418,Ramol Gam Talav,22.97987,72.65977,AMTS,amts,4
+AMC_5688,Anand Vihar Flats,23.12181,72.56011,AMTS,amts,12
+AMC_2205,Adarsh Vidyavihar (Jawahar Chowk),23.08977,72.5859,AMTS,amts,7
+AMC_2204,Amizara Society,23.0883,72.58837,AMTS,amts,10
+AMC_8768,Shree Rajendra shanti vihar,23.10976,72.60269,AMTS,amts,15
+AMC_3549,Manikrupa Prathamik School,23.1131,72.57648,AMTS,amts,13
+AMC_2016,Sneh Plaza,23.11166,72.57288,AMTS,amts,8
+AMC_3551,Padmaprabhunagar,23.11068,72.57057,AMTS,amts,13
+AMC_3552,Man sarovar,23.10962,72.56743,AMTS,amts,13
+AMC_3556,Dhartinagar,23.11287,72.5636,AMTS,amts,11
+AMC_3557,Uma Bhavani Society,23.11497,72.56237,AMTS,amts,10
+AMC_5064,Mahalakshmi Corner (Vatva),22.95206,72.61739,AMTS,amts,2
+AMC_9338,Lalita Society,22.98628,72.59683,AMTS,amts,2
+AMC_9336,Sunil Society,22.98878,72.59829,AMTS,amts,2
+AMC_9334,Vrundavan Society,22.98869,72.60161,AMTS,amts,2
+AMC_2869,Pragati Society,22.99744,72.5947,AMTS,amts,2
+AMC_2868,Nilamkunj,22.9984,72.59264,AMTS,amts,2
+AMC_5069,Government Quarters (Shahalam),23.00102,72.58945,AMTS,amts,2
+AMC_9210,Prabhu Nagar,23.04584,72.60431,AMTS,amts,2
+AMC_4942,Jahangirpura,23.04744,72.60508,AMTS,amts,2
+AMC_9579,Sardardham,23.13646,72.53678,AMTS,amts,4
+AMC_9581,Swarnim Dharti,23.13633,72.53563,AMTS,amts,4
+AMC_9583,Greenwood Lake Resort,23.13578,72.5325,AMTS,amts,4
+AMC_9585,Chanchal Baa Party Plot,23.13312,72.52484,AMTS,amts,4
+AMC_9587,Umiya Farm,23.13089,72.52176,AMTS,amts,4
+AMC_9589,Ognaj Toll Plaza,23.12826,72.51806,AMTS,amts,4
+AMC_9591,Anmol Farm,23.12555,72.51432,AMTS,amts,1
+AMC_9593,Goodwill Enterprise,23.12332,72.51123,AMTS,amts,1
+AMC_9596,Magnet Impression,23.07395,72.48915,AMTS,amts,1
+AMC_9598,Status 55,23.07264,72.4887,AMTS,amts,1
+AMC_9600,Hebatpur crossroad,23.06536,72.48561,AMTS,amts,1
+AMC_9602,Awadh Habitat,23.0606,72.48324,AMTS,amts,1
+AMC_9604,Swagat Greenville,23.05935,72.48265,AMTS,amts,1
+AMC_9606,Avaneesh Heights,23.05543,72.48111,AMTS,amts,1
+AMC_9609,Sindhubhavan road,23.04331,72.48035,AMTS,amts,1
+AMC_9611,Sankalp Gwala,23.03996,72.4798,AMTS,amts,1
+AMC_9613,Rajpath crossroad,23.03622,72.47918,AMTS,amts,1
+AMC_6117,Swaminarayan Mandir,23.03378,72.47827,AMTS,amts,6
+AMC_9615,Samarpan Bungalows,23.03061,72.47794,AMTS,amts,4
+AMC_9617,S.P. Ring road (Bopal),23.02599,72.4768,AMTS,amts,1
+AMC_9619,Sun city,23.01985,72.47984,AMTS,amts,1
+AMC_9621,Bopal-444,23.01669,72.48046,AMTS,amts,1
+AMC_9623,Ratnakar Verte,23.01407,72.47953,AMTS,amts,1
+AMC_6030,Under Bridge (Kaka Ka Dhaba),23.00921,72.47769,AMTS,amts,5
+AMC_6032,Bhairavnath Way Bridge,23.0072,72.477,AMTS,amts,5
+AMC_6034,Saanket Bunglows-1,23.00348,72.47476,AMTS,amts,5
+AMC_9627,Applewoods,22.99409,72.47261,AMTS,amts,1
+AMC_9629,Turkish - 4,22.99031,72.47206,AMTS,amts,1
+AMC_9632,Metro Mall,22.98455,72.47143,AMTS,amts,1
+AMC_9634,Bansi Gir Gaushala,22.98158,72.47128,AMTS,amts,1
+AMC_9636,Sanathal Toll Plaza,22.97508,72.47276,AMTS,amts,1
+AMC_9638,Sanathal Overbridge,22.96278,72.47536,AMTS,amts,1
+AMC_5307,Kashiba Hospital,22.95293,72.61588,AMTS,amts,7
+AMC_8191,Poojan Farm,22.948,72.62016,AMTS,amts,5
+AMC_8193,Gayatrinagar,22.94663,72.62069,AMTS,amts,5
+AMC_8195,Bhagwati nagar vibaag-2,22.9447,72.62138,AMTS,amts,5
+AMC_8197,Hanuman nagar,22.94335,72.62227,AMTS,amts,5
+AMC_8199,Roopa Avenue,22.94287,72.62272,AMTS,amts,5
+AMC_8201,Sankalp Residency,22.94076,72.62349,AMTS,amts,5
+AMC_8203,Ganesh Flora,22.93924,72.62403,AMTS,amts,5
+AMC_8205,Nirmal Sarovar,22.93803,72.62446,AMTS,amts,5
+AMC_9802,Nirmal Saroavar Bunglows,22.93592,72.62548,AMTS,amts,5
+AMC_9996,Ropda Chokdi,22.93651,72.62778,AMTS,amts,3
+AMC_9803,Karnavati Agri Market,22.93423,72.62998,AMTS,amts,3
+AMC_9805,Krushna Farm,22.93074,72.63235,AMTS,amts,3
+AMC_9807,Divy Park,22.92759,72.63441,AMTS,amts,3
+AMC_9809,Ropda Gam,22.92474,72.63594,AMTS,amts,3
+AMC_4907,Sneh-Plaza,23.11164,72.57332,AMTS,amts,5
+AMC_3374,Odhav Approach,23.02415,72.66356,AMTS,amts,1
+AMC_5102,Kubernagar Bangla,23.07109,72.63618,AMTS,amts,2
+AMC_5103,Bangla Area Chowk,23.07043,72.63643,AMTS,amts,2
+AMC_5104,Railway Siding,23.06853,72.63726,AMTS,amts,2
+AMC_5105,Bhargav Society,23.06752,72.63468,AMTS,amts,2
+AMC_5106,Adarsh School,23.06678,72.63331,AMTS,amts,2
+AMC_5107,Pariharnagar,23.06435,72.63034,AMTS,amts,2
+AMC_5108,Bhagwati Vidyalay,23.06335,72.62901,AMTS,amts,2
+AMC_5109,Hanumannagar,23.0609,72.62685,AMTS,amts,2
+AMC_5548,Anand Ply Industries,23.16153,72.46385,AMTS,amts,8
+AMC_5549,Pyramid Pvt. Ltd.,23.16118,72.46728,AMTS,amts,8
+AMC_2908,Vadsar Gam,23.15516,72.4728,AMTS,amts,8
+AMC_2909,Military Mess Office,23.15189,72.47572,AMTS,amts,8
+AMC_2910,Kendriya Vidyalay Staff Quarters,23.14898,72.47558,AMTS,amts,8
+AMC_2911,Vadsar Airforce Station (Vadsar Cross Road),23.14684,72.47357,AMTS,amts,8
+AMC_5543,Dantali Cross Road,23.14365,72.48955,AMTS,amts,8
+AMC_1490,Kamdar Medan,23.02052,72.60533,AMTS,amts,1
+AMC_3991,Medi Link Hospital,23.0171,72.53029,AMTS,amts,9
+AMC_3990,Ashwamegh Bunglows,23.0207,72.5303,AMTS,amts,9
+AMC_8277,Dharnidhar Derasar,23.00824,72.5495,AMTS,amts,21
+AMC_6220,Dordarshan Kendra(Anjani Mandir),23.04777,72.52298,AMTS,amts,2
+AMC_2138,Bodakdev Sarkari Vasahat,23.04474,72.52107,AMTS,amts,4
+AMC_2137,Prime Plaza,23.04305,72.52,AMTS,amts,4
+AMC_2136,Platinum Plaza,23.04055,72.51853,AMTS,amts,4
+AMC_4961,Andhajan Kelavni Mandal,23.03462,72.53506,AMTS,amts,10
+AMC_6222,Samras Hostel,23.03849,72.53784,AMTS,amts,2
+AMC_6224,University,23.03982,72.53853,AMTS,amts,2
+AMC_6226,G.M.D.C. Ground,23.04256,72.54028,AMTS,amts,2
+AMC_6232,Rajavi Opal,23.05186,72.54646,AMTS,amts,2
+AMC_6234,Khodiyar Nagar,23.05186,72.54432,AMTS,amts,2
+AMC_6236,Saurastra Patel Kanya Chatralya,23.05174,72.54222,AMTS,amts,2
+AMC_5881,Samarth Society,23.05185,72.54057,AMTS,amts,2
+AMC_3843,Subhash Chowk,23.05237,72.53351,AMTS,amts,6
+AMC_3844,Gokul Complex,23.05253,72.53132,AMTS,amts,6
+AMC_3845,Manichandra Society,23.05237,72.52679,AMTS,amts,6
+AMC_3846,Surdhara Circle,23.05241,72.52664,AMTS,amts,6
+AMC_6238,Jivandip Circle,23.05667,72.5252,AMTS,amts,2
+AMC_5332,Yash Motors,22.97273,72.58215,AMTS,amts,2
+AMC_4453,Ranipur Cross Road,22.9731,72.57864,AMTS,amts,2
+AMC_4500,Jindal Denim,22.97402,72.56984,AMTS,amts,2
+AMC_7412,Balkrushna Textiles,22.97448,72.56595,AMTS,amts,2
+AMC_5334,Waste To R.D.F. Plant And Energy,22.97555,72.55555,AMTS,amts,2
+AMC_5335,Suez Pumping Station And Plant,22.97645,72.54902,AMTS,amts,2
+AMC_5336,Gyaspur Approach,22.97949,72.54449,AMTS,amts,4
+AMC_4454,Gyaspur Bhatha,22.98744,72.53908,AMTS,amts,4
+AMC_4455,Tata Motors (Bacha Motors),22.99229,72.53568,AMTS,amts,4
+AMC_4456,Vishala Circle,22.99454,72.53408,AMTS,amts,4
+AMC_9731,Nilkanth Bungalows (ISRO Colony),23.02069,72.51258,AMTS,amts,2
+AMC_9729,Satyam Status,23.01836,72.5134,AMTS,amts,2
+AMC_9727,Vishal Residency,23.01612,72.51382,AMTS,amts,2
+AMC_3913,Sarjan Complex (Madhur Hall),23.01264,72.51531,AMTS,amts,16
+AMC_3912,Kanakkala Flats (Seema Hall),23.01285,72.51916,AMTS,amts,16
+AMC_9725,Bhavani Krupa Society,23.01041,72.52069,AMTS,amts,2
+AMC_5420,Madahav Mangal,23.00992,72.52362,AMTS,amts,2
+AMC_5421,Kaivalya Dham (Radio Mirchi),23.01025,72.52735,AMTS,amts,2
+AMC_5422,Silp Siddhi Flats,23.0107,72.53123,AMTS,amts,2
+AMC_6347,Aaryan Homes,23.05114,72.47812,AMTS,amts,2
+AMC_6349,Vasant Baug Party Plot,23.04932,72.47657,AMTS,amts,2
+AMC_6351,Serono Skylesh,23.04832,72.47529,AMTS,amts,2
+AMC_6353,Shivalaya Satatv,23.04704,72.47328,AMTS,amts,2
+AMC_6355,Panchmukhi Hexa,23.04546,72.46785,AMTS,amts,2
+AMC_6357,Neelkanth Villa Bunglows,23.04428,72.46434,AMTS,amts,2
+AMC_6359,Madhav Advait,23.04376,72.46168,AMTS,amts,2
+AMC_6361,Zion Skyfield,23.04316,72.45871,AMTS,amts,2
+AMC_6363,D.P.S. School,23.0427,72.45625,AMTS,amts,2
+AMC_6365,Antriskh (Bopal),23.0413,72.45721,AMTS,amts,2
+AMC_6367,D.P.S. Railway Fatak,23.0401,72.45802,AMTS,amts,2
+AMC_9049,Kamla Park Society,23.03826,72.46047,AMTS,amts,4
+AMC_9051,Bopal Gam,23.03662,72.46179,AMTS,amts,4
+AMC_6369,Bopal,23.03551,72.46406,AMTS,amts,4
+AMC_1428,Sterling Club,23.03293,72.468,AMTS,amts,9
+AMC_1427,Inductotherm,23.03155,72.47075,AMTS,amts,9
+AMC_1426,Sarkari Tubewell,23.03007,72.47384,AMTS,amts,9
+AMC_1425,Abadnagar,23.02922,72.47569,AMTS,amts,9
+AMC_2998,Shivdhara,23.04991,72.50461,AMTS,amts,4
+AMC_6374,Maruti Society,23.06647,72.53895,AMTS,amts,2
+AMC_5491,Ghatlodiya Gam,23.06822,72.54007,AMTS,amts,2
+AMC_5492,Nutan Vidya Vihar,23.06873,72.54242,AMTS,amts,2
+AMC_6376,Raviaraj Society,23.07715,72.51841,AMTS,amts,2
+AMC_6378,Dharti Homes,23.07486,72.51778,AMTS,amts,2
+AMC_6380,Sola Gam,23.0733,72.51739,AMTS,amts,2
+AMC_6382,CIMS Hospital,23.0703,72.51668,AMTS,amts,4
+AMC_6384,Shital Park,23.06895,72.5163,AMTS,amts,4
+AMC_6386,Anurag Bunglows,23.06664,72.51575,AMTS,amts,4
+AMC_6389,Mansarovar Bunglows,23.03905,72.48941,AMTS,amts,2
+AMC_6125,Chandrvila Bunglows,23.03568,72.48879,AMTS,amts,2
+AMC_6127,Santur Bunglows,23.03249,72.48854,AMTS,amts,2
+AMC_1421,Jyantilalpark,23.02839,72.49064,AMTS,amts,6
+AMC_1561,Antariksh Colony (Joitaramno Kuvo),23.02777,72.50285,AMTS,amts,9
+AMC_3916,Prahladnagar Garden,23.01184,72.5064,AMTS,amts,10
+AMC_3915,Nilkanth Bunglows,23.01195,72.50994,AMTS,amts,10
+AMC_3914,Anandnagar (Madhur Hall),23.01248,72.51358,AMTS,amts,14
+AMC_3911,Aditraj Complex,23.01316,72.52295,AMTS,amts,10
+AMC_3808,Dhananjay Tower,23.0138,72.52672,AMTS,amts,9
+AMC_3999,Prerana Complex,23.04036,72.52754,AMTS,amts,7
+AMC_4000,Soham Tower,23.0414,72.52586,AMTS,amts,7
+AMC_4001,Hotel Sarthi,23.04279,72.52298,AMTS,amts,4
+AMC_3982,Sarkari Vasahat,23.04491,72.52135,AMTS,amts,4
+AMC_6393,Prakash Day care  School,23.04447,72.51791,AMTS,amts,2
+AMC_6395,Gurudwara,23.04686,72.51571,AMTS,amts,2
+AMC_3910,Sanjay Tower,23.01376,72.52696,AMTS,amts,7
+AMC_9687,Pipleshwar Society,23.10324,72.56302,AMTS,amts,3
+AMC_9689,Ganesh Vatika,23.10258,72.56182,AMTS,amts,3
+AMC_9691,Chenpur under pass,23.10339,72.55616,AMTS,amts,3
+AMC_9693,Ganesh Parisar,23.10554,72.55422,AMTS,amts,3
+AMC_1430,Bopal Gam,23.03398,72.46429,AMTS,amts,7
+AMC_8146,Sindhu Bhavan Road(Multi level parking),23.0412,72.49457,AMTS,amts,2
+AMC_6445,Ambedkar Bridge,22.99757,72.56264,AMTS,amts,3
+AMC_6447,Rajnagar Society Cross,23.00312,72.56791,AMTS,amts,3
+AMC_6449,Sports Park,23.00802,72.57042,AMTS,amts,3
+AMC_6451,N.I.D.Cross Road,23.01184,72.57229,AMTS,amts,3
+AMC_6453,Atal Bridge,23.01642,72.573,AMTS,amts,3
+AMC_6455,S.V.P. Hospital,23.01877,72.573,AMTS,amts,3
+AMC_6457,Flower Park(Hariharanand Ashram),23.0223,72.57359,AMTS,amts,3
+AMC_6459,B.J.Park,23.02553,72.57318,AMTS,amts,3
+AMC_6461,Vallabhsadan Cross road,23.03069,72.57177,AMTS,amts,6
+AMC_6463,Sel Tax Bhavan,23.03396,72.57143,AMTS,amts,6
+AMC_6465,Riverfront Park(Usmanpura),23.04272,72.57185,AMTS,amts,6
+AMC_6469,Usmanpura Gam,23.0481,72.57332,AMTS,amts,6
+AMC_6467,Vadaj Muktidham(Chandrabhaga),23.05437,72.576,AMTS,amts,6
+AMC_9221,Vamaj Gam,23.21921,72.4101,AMTS,amts,4
+AMC_9219,Karan nagar cross road,23.21945,72.41068,AMTS,amts,4
+AMC_9217,Vamaj para (indira Nagar),23.21966,72.41246,AMTS,amts,4
+AMC_9215,Kalol Cross Road,23.2197,72.4138,AMTS,amts,4
+AMC_8900,Vrundavan Park (Vamaj),23.21591,72.41442,AMTS,amts,4
+AMC_8898,Meldi Matanu Mandir (Vamaj),23.21235,72.41509,AMTS,amts,4
+AMC_8896,Prathamik School (Vansajda),23.19737,72.42533,AMTS,amts,4
+AMC_8894,Vansajada Gam,23.19465,72.42793,AMTS,amts,4
+AMC_8892,Rampura,23.19246,72.42959,AMTS,amts,4
+AMC_10310,Ramapir nu mandir,23.18685,72.43721,AMTS,amts,4
+AMC_8888,Hajipura Cross Road,23.1786,72.44432,AMTS,amts,4
+AMC_8886,Panini Tanki (Moti Bhoyan Chokdi),23.17836,72.44603,AMTS,amts,4
+AMC_8884,Pagar Kendra School,23.17665,72.44863,AMTS,amts,4
+AMC_3901,Hirapur (Sanand) MSME Park,22.95207,72.26171,AMTS,amts,4
+AMC_3877,Gujarat Geeta,22.95064,72.26853,AMTS,amts,4
+AMC_3748,Gokalpura Road,22.95185,72.27161,AMTS,amts,4
+AMC_3639,Hirapur Tanki,22.95441,72.27162,AMTS,amts,4
+AMC_3582,Vital Wellness Limited,22.96043,72.27163,AMTS,amts,4
+AMC_3473,Hi-Flex Pvt. Ltd.,22.96345,72.27165,AMTS,amts,4
+AMC_3474,Suprajit Company,22.96708,72.2717,AMTS,amts,4
+AMC_3454,Engineering Mission,22.97195,72.27162,AMTS,amts,4
+AMC_3420,Kaushik Engineering,22.97773,72.27166,AMTS,amts,4
+AMC_3399,Oxygen Park,22.98196,72.27167,AMTS,amts,4
+AMC_3289,Dwarkesh Way-Bridge,22.98905,72.27169,AMTS,amts,4
+AMC_3013,Bol Chowkdi,22.99216,72.27172,AMTS,amts,4
+AMC_3001,Woman Park,22.99317,72.27726,AMTS,amts,4
+AMC_2313,Motipura Gam,22.99359,72.28071,AMTS,amts,4
+AMC_6495,Motipura Chokdi(Sanand),22.99376,72.2853,AMTS,amts,6
+AMC_6493,Cocacola Circle,22.994,72.28891,AMTS,amts,6
+AMC_6491,Rupavati Paru,22.99692,72.31241,AMTS,amts,6
+AMC_6489,Rupavati Gam,22.99888,72.31693,AMTS,amts,6
+AMC_6487,Jogani Mata nu Mandir,23.00119,72.31973,AMTS,amts,6
+AMC_6485,Vasodara Paru,23.00036,72.32267,AMTS,amts,6
+AMC_6483,Vasodara Gam,22.99963,72.32692,AMTS,amts,6
+AMC_6481,Amba ware House,22.9993,72.33128,AMTS,amts,6
+AMC_6479,Narayan Muni Sppiners,22.99917,72.33732,AMTS,amts,6
+AMC_6477,Mevad Palace,23.00035,72.34647,AMTS,amts,6
+AMC_6475,Vadnagar Gam,23.00192,72.35042,AMTS,amts,6
+AMC_1797,Medha Gam,23.13284,72.29786,AMTS,amts,4
+AMC_1672,GEB Medha,23.13391,72.30532,AMTS,amts,4
+AMC_1570,Medha Chowkdi,23.13419,72.30694,AMTS,amts,4
+AMC_1420,The Creek,23.1339,72.31385,AMTS,amts,4
+AMC_9949,Naklang Ashram,23.13373,72.31803,AMTS,amts,4
+AMC_9947,Orchards,23.13354,72.32316,AMTS,amts,4
+AMC_9945,Kanzari Patiya,23.13257,72.32711,AMTS,amts,4
+AMC_9943,Krishna Bag,23.131,72.33403,AMTS,amts,4
+AMC_9941,Kenal,23.1294,72.34124,AMTS,amts,2
+AMC_9939,Chandanpura Gam,23.13046,72.34792,AMTS,amts,4
+AMC_9936,Madhav Farm,23.13085,72.35202,AMTS,amts,4
+AMC_9935,Mangal Farm,23.13169,72.35847,AMTS,amts,4
+AMC_10031,Vallabh Farm,23.13208,72.36234,AMTS,amts,4
+AMC_9931,Indiranagar Pra Shala,23.13322,72.37215,AMTS,amts,4
+AMC_9923,Shree Ram Chowk (New Tragad),23.13528,72.56289,AMTS,amts,4
+AMC_9921,HR Farm,23.13888,72.56276,AMTS,amts,4
+AMC_9919,Zion Nest,23.1413,72.56278,AMTS,amts,4
+AMC_9917,Savitaba Farm,23.14115,72.56688,AMTS,amts,4
+AMC_9915,Satva Sakar,23.14063,72.57064,AMTS,amts,4
+AMC_9913,Trupti Farm,23.14,72.57501,AMTS,amts,4
+AMC_9911,Harnav Lavish,23.13917,72.58056,AMTS,amts,4
+AMC_9909,Signor Heritage,23.13888,72.58561,AMTS,amts,4
+AMC_9907,Vivaan Elysium,23.13887,72.58695,AMTS,amts,4
+AMC_8793,Vastral Depo,23.0101,72.66063,AMTS,amts,5
+AMC_8795,Jadeshwar Van,23.01259,72.66129,AMTS,amts,5
+AMC_3205,Adinathnagar,23.01471,72.66189,AMTS,amts,11
+AMC_3204,Dipalinagar,23.01735,72.66172,AMTS,amts,11
+AMC_8797,Rushbhnagar,23.01992,72.66151,AMTS,amts,11
+AMC_6425,Singrva Gam,23.02422,72.6904,AMTS,amts,2
+AMC_6423,Singrva Gram Panchayat,23.02211,72.69029,AMTS,amts,2
+AMC_6421,Viraj Flat,23.02187,72.69285,AMTS,amts,2
+AMC_6419,Shrinath Society,23.01969,72.69256,AMTS,amts,2
+AMC_6417,Satva School,23.01702,72.69228,AMTS,amts,2
+AMC_6415,Sarthak Homes,23.01565,72.6922,AMTS,amts,2
+AMC_6413,M.A.Farm,23.01372,72.69181,AMTS,amts,2
+AMC_6411,Tulsi Residency,23.01403,72.68915,AMTS,amts,2
+AMC_6409,Ranji pura,23.0143,72.68693,AMTS,amts,2
+AMC_6407,Shyam One,23.01454,72.68469,AMTS,amts,2
+AMC_6405,Mangalya Vatika,23.01432,72.6819,AMTS,amts,2
+AMC_6404,Gokuldham,23.01312,72.68165,AMTS,amts,2
+AMC_6401,Arpan International School,23.00745,72.67784,AMTS,amts,2
+AMC_6399,Suryam Ananta,23.00678,72.67632,AMTS,amts,2
+AMC_6397,Sunvilla,23.00728,72.6739,AMTS,amts,2
+AMC_8363,Gandhi Ashram Crossroad,23.06184,72.57707,AMTS,amts,2
+AMC_8364,Gandhi Ashram Crossroad,23.06203,72.57709,AMTS,amts,2
+AMC_2277,Dudhnath Mahadev,23.0591,72.57907,AMTS,amts,2
+AMC_2278,Dadhichi Bridge Cross Road,23.05457,72.57631,AMTS,amts,2
+AMC_2801,Sports Park,23.04346,72.57569,AMTS,amts,2
+AMC_2999,Shahpur Cross road,23.04016,72.57523,AMTS,amts,2
+AMC_3008,Rifle Club Crossroad,23.03386,72.57591,AMTS,amts,2
+AMC_3012,Cama Hotel Crossroad,23.03197,72.57606,AMTS,amts,2
+AMC_3174,Khanpur Darwaja Crossroad,23.02971,72.57614,AMTS,amts,2
+AMC_3195,Heritage Park,23.0273,72.57631,AMTS,amts,2
+AMC_3307,Riverfront Market,23.02204,72.57709,AMTS,amts,2
+AMC_3375,Raikhad Crossroad,23.01907,72.57817,AMTS,amts,2
+AMC_3418,Atalbridge (Riverfront EAST),23.01635,72.57821,AMTS,amts,2
+AMC_10056,Rameshwar Mahadev,23.25672,72.47989,AMTS,amts,2
+AMC_10055,Om Tiles,23.25909,72.47667,AMTS,amts,2
+AMC_10054,Oswal Engineering,23.26028,72.47429,AMTS,amts,2
+AMC_10053,Ambika Barrel,23.26398,72.46795,AMTS,amts,2
+AMC_10052,Shree Anand Industries,23.26553,72.46171,AMTS,amts,2
+AMC_10051,Gujarat Samachar,23.26626,72.46067,AMTS,amts,2
+AMC_10050,Bahuchar Hotel,23.26827,72.45772,AMTS,amts,2
+AMC_10049,Nirma Limited,23.27,72.45515,AMTS,amts,2
+AMC_10048,Maval Complex,23.27284,72.45237,AMTS,amts,2
+AMC_10047,Chhatral Gam,23.2751,72.44851,AMTS,amts,2
+AMC_10046,Jogni mata mandir,23.27554,72.44543,AMTS,amts,2
+AMC_10045,Chhatral Chowkdi,23.2778,72.44219,AMTS,amts,2
+AMC_9695,Cliantha Research,22.99066,72.47903,AMTS,amts,3
+AMC_3294,Shakti Road Lines,22.85823,72.59412,AMTS,amts,2
+AMC_10005,Bidaj Patiya,22.84714,72.59947,AMTS,amts,2
+AMC_10004,Surjit Road Lines,22.84767,72.60339,AMTS,amts,2
+AMC_10003,Aastha Polytex,22.8494,72.6102,AMTS,amts,2
+AMC_10002,Bidaj Substation,22.8507,72.61397,AMTS,amts,2
+AMC_8890,Ramapir nu Mandir,22.85173,72.61891,AMTS,amts,2
+AMC_10001,Bidaj Gam,22.85202,72.62117,AMTS,amts,2
+AMC_229,L Colony,23.02357,72.5429,AJL|AMTS,multi,19
+AMC_5210,Nehrunagar Char Rasta,23.02264,72.54298,AMTS,amts,26
+AMC_9011,Bodakdev Gam,23.04506,72.51205,AMTS,amts,2
+AMC_9013,Hira Prabhu Farm,23.04626,72.50886,AMTS,amts,2
+AMC_9015,Mango Garden,23.04652,72.50692,AMTS,amts,2
+AMC_9017,Shaligram,23.04678,72.5049,AMTS,amts,2
+AMC_9019,Anmole Farm,23.0469,72.50339,AMTS,amts,2
+AMC_9777,Takshshila,23.04745,72.49948,AMTS,amts,2
+AMC_9023,Meldli Mata no Madh,23.04778,72.49609,AMTS,amts,2
+AMC_9025,Sky Eleven,23.04809,72.49323,AMTS,amts,2
+AMC_9027,Nandi Gram Farm,23.04838,72.49085,AMTS,amts,2
+AMC_9029,Mepal County,23.04884,72.48742,AMTS,amts,2
+AMC_9031,Parijat Aavas,23.04821,72.48371,AMTS,amts,2
+AMC_9033,Vistara Flat,23.04745,72.4793,AMTS,amts,2
+AMC_9035,Divyjyot School,23.0466,72.47726,AMTS,amts,2
+AMC_9037,Axar Flat,23.04515,72.47378,AMTS,amts,2
+AMC_9039,Sky One,23.04373,72.47008,AMTS,amts,2
+AMC_9041,Jaydip Kasa,23.04213,72.46506,AMTS,amts,2
+AMC_9043,Jaydip Antic,23.04128,72.46223,AMTS,amts,2
+AMC_9045,Binori Park Riz,23.04083,72.4606,AMTS,amts,2
+AMC_9047,D.P.S. School,23.04029,72.4588,AMTS,amts,2
+AMC_4632,Gala Gymkhana,23.03116,72.4651,AMTS,amts,2
+AMC_6427,Vasant Bahar,23.02921,72.46658,AMTS,amts,2
+AMC_4633,B.S.N.L.Office,23.02741,72.46813,AMTS,amts,2
+AMC_4634,Chitvan,23.02423,72.47061,AMTS,amts,2
+AMC_6429,Aamr Manjri,23.02178,72.47263,AMTS,amts,2
+AMC_6431,Jain Upasary,23.01983,72.47395,AMTS,amts,2
+AMC_4635,Suncity,23.01801,72.47552,AMTS,amts,2
+AMC_6433,AUDA City Civic Center,23.01721,72.47294,AMTS,amts,2
+AMC_6435,Safal Parisar,23.01656,72.4707,AMTS,amts,2
+AMC_6437,Gardeniyo Flat,23.01597,72.4684,AMTS,amts,2
+AMC_6439,Shaligram Prime,23.01593,72.46641,AMTS,amts,2
+AMC_6441,Stella Flat,23.01639,72.46446,AMTS,amts,2
+AMC_6443,Bhagwat Bungalowz (South Bopal),23.0168,72.46256,AMTS,amts,2
+AMC_8752,Akar Complex (S.B.I),22.9873,72.38932,AMTS,amts,2
+AMC_8750,Akar Homes,22.99109,72.38979,AMTS,amts,2
+AMC_8748,Shree Eklingji Residency,22.99445,72.38976,AMTS,amts,2
+AMC_8746,Thakor vas (Sanand),22.99426,72.38749,AMTS,amts,2
+AMC_8744,Laxman Talav,22.9947,72.38589,AMTS,amts,2
+AMC_8742,Nilkanth School,22.9955,72.3837,AMTS,amts,2
+AMC_2640,Sanand (Ghodagadi Stand),22.99587,72.3813,AMTS,amts,2
+AMC_2642,Prakruti Plaza,23.00055,72.38179,AMTS,amts,2
+AMC_2643,G.E.B. Office (Sanand),23.0037,72.38252,AMTS,amts,2
+AMC_2644,Phool Jogni Mata Mandir,23.00917,72.38324,AMTS,amts,2
+AMC_2645,Muni Ashram,23.01485,72.38401,AMTS,amts,2
+AMC_2646,Nidharad Gam,23.01792,72.39029,AMTS,amts,4
+AMC_2647,Shrirang Farm,23.02175,72.39553,AMTS,amts,4
+AMC_2648,Baliyadev Mandir (Godhavi),23.02334,72.40318,AMTS,amts,4
+AMC_2649,Hariom Aligence,23.02434,72.4066,AMTS,amts,4
+AMC_2650,Godhavi Gam,23.02539,72.40962,AMTS,amts,4
+AMC_2651,Vadu Talav,23.02325,72.4117,AMTS,amts,4
+AMC_2652,Zydus School Of Excellance,23.02504,72.41549,AMTS,amts,4
+AMC_2653,Iscon Plam Spring,23.02578,72.41687,AMTS,amts,4
+AMC_2654,Silver Spring (Dudhiya Farm),23.02867,72.42309,AMTS,amts,4
+AMC_2655,Manipur Gam (Sanskar Dham),23.03108,72.42849,AMTS,amts,4
+AMC_2656,Manipur Vad,23.03118,72.42951,AMTS,amts,4
+AMC_2657,Soham City,23.0323,72.43317,AMTS,amts,4
+AMC_2658,Pleasure Club,23.03344,72.4444,AMTS,amts,4
+AMC_5462,Ghuma Talav,23.03136,72.44837,AMTS,amts,5
+AMC_1557,S.P.Cross Road (Abadnagar),23.02598,72.47799,AMTS,amts,4
+AMC_1423,Luv Kush Nursery,23.02591,72.47944,AMTS,amts,4
+AMC_1422,Ambli,23.02694,72.48351,AMTS,amts,4
+AMC_2661,Mumatpura Approach,23.02807,72.49546,AMTS,amts,4
+AMC_8902,Big Bazar,23.02724,72.50665,AMTS,amts,7
+AMC_1564,Narayan Vidyalay,23.02782,72.51519,AMTS,amts,4
+AMC_1566,Satellite Station,23.02777,72.52087,AMTS,amts,4
+AMC_1567,Harisiddh Society,23.02622,72.52444,AMTS,amts,4
+AMC_1568,Jodhpur Road,23.02525,72.52763,AMTS,amts,10
+AMC_2663,Haridas Park,23.02312,72.53657,AMTS,amts,12
+AMC_2664,Satyakam Society,23.02267,72.54063,AMTS,amts,8
+AMC_9058,Ranchhodji Mandir,23.01919,72.64956,AMTS,amts,2
+AMC_9870,Gaay Circle,23.01622,72.65012,AMTS,amts,2
+AMC_9872,Gaurikunj Society,23.01533,72.64764,AMTS,amts,2
+AMC_9874,Triveni VIdhya Sankul,23.01829,72.64215,AMTS,amts,2
+AMC_8276,Nehrunagar BRTS,23.02254,72.54166,AMTS,amts,22
+AMC_8275,Jhansi ni Rani,23.02307,72.53632,AMTS,amts,22
+AMC_10057,Ghuma BRTS,23.03115,72.44843,AMTS,amts,4
+AMC_2700,Gujarat Botteling,23.01395,72.63296,AMTS,amts,9
+AMC_2699,Maniyar Trailer,23.01759,72.63335,AMTS,amts,9
+AMC_2694,Gujarat Housing Board Office(Bapunagar),23.0314,72.62914,AMTS,amts,11
+AMC_2690,Jamnadas Estate,23.04607,72.63248,AMTS,amts,5
+AMC_4953,Memnagar Tubewell Station,23.04477,72.55075,AMTS,amts,5
+AMC_2927,Kameshwar Twins,23.01546,72.5345,AMTS,amts,5
+AMC_1578,Dr.Shyamaprasad Overbridge,23.00954,72.53161,AMTS,amts,3
+AMC_1330,Jay Ambe Apartment,23.00201,72.6098,AMTS,amts,3
+AMC_5773,Vastral Metro Station,23.00705,72.6682,AMTS,amts,5
+AMC_4948,Gyaspur Gam,22.96687,72.53739,AMTS,amts,2
+AMC_5687,Jamalpur Char Rasta,23.00999,72.58119,AMTS,amts,2
+AMC_5461,Suril Villa,23.02727,72.44502,AMTS,amts,3
+AMC_5460,Krishna Shelbi Hospital (Ghuma),23.02448,72.44208,AMTS,amts,3
+AMC_4967,Swami Vivekanand Flats,23.02228,72.52562,AMTS,amts,6
+AMC_4966,Shubhda Colony,23.01946,72.52515,AMTS,amts,6
+AMC_4964,Jodhpur Gam,23.01702,72.52091,AMTS,amts,6
+AMC_8310,Akshardham Mandir (Gandhinagar),23.23316,72.67439,AMTS,amts,5
+AMC_8308,Namaste Circle Sector-30,23.23407,72.67039,AMTS,amts,5
+AMC_9723,Sector-21,23.2356,72.66766,AMTS,amts,5
+AMC_8306,Yuva Chetna Circle CH-6,23.23753,72.66405,AMTS,amts,5
+AMC_9721,Panchdev Mandir,23.23344,72.6609,AMTS,amts,5
+AMC_8304,Prerna Circle CH-5,23.22918,72.65823,AMTS,amts,5
+AMC_8302,Juna Sachivalay,23.22204,72.65372,AMTS,amts,5
+AMC_9719,Firestation,23.21998,72.65243,AMTS,amts,5
+AMC_8300,Vidhan Sabha - Udhyog Bhavan Crossroad,23.21686,72.65051,AMTS,amts,5
+AMC_9717,Nirmanbhavan Crossroad,23.21567,72.64976,AMTS,amts,5
+AMC_9715,White House,23.2144,72.64895,AMTS,amts,5
+AMC_8298,CH-3 Circle (Sector-11),23.21323,72.64828,AMTS,amts,5
+AMC_9842,Pathikasram,23.21564,72.64252,AMTS,amts,5
+AMC_9840,Vitcos City Bus Stop,23.21525,72.64006,AMTS,amts,5
+AMC_9838,GH road - Sector 6/7,23.20788,72.63559,AMTS,amts,5
+AMC_9836,GH-2,23.20466,72.63348,AMTS,amts,5
+AMC_9834,GH-1.5,23.20166,72.63201,AMTS,amts,5
+AMC_9832,GH-0,23.1971,72.63163,AMTS,amts,5
+AMC_9830,Infocity Club Resort,23.19661,72.63522,AMTS,amts,5
+AMC_8292,CH-Road Indroda CIrcle,23.19465,72.63941,AMTS,amts,5
+AMC_8290,Infocity,23.19133,72.63906,AMTS,amts,5
+AMC_9711,Dholakuva,23.18992,72.63877,AMTS,amts,5
+AMC_8288,Raksha Shakti Circle,23.18517,72.63827,AMTS,amts,5
+AMC_9709,Dholeshwar Mahadev Crossroad,23.18146,72.63781,AMTS,amts,5
+AMC_9707,Ugati Park Kudasan,23.17873,72.63762,AMTS,amts,5
+AMC_8286,City Pulse - Randesan,23.17455,72.6372,AMTS,amts,5
+AMC_9705,Kudasan,23.17195,72.63688,AMTS,amts,5
+AMC_9703,Raysan,23.16652,72.63628,AMTS,amts,5
+AMC_9412,Koba Metro Station,23.1327,72.63141,AMTS,amts,5
+AMC_9701,Narmada Canal,23.12852,72.6262,AMTS,amts,5
+AMC_9410,Sughad Metro Station,23.12538,72.62222,AMTS,amts,5
+AMC_9699,Amiyapur,23.12273,72.61889,AMTS,amts,5
+AMC_9697,Merudham JainTemple,23.12101,72.61679,AMTS,amts,5
+AMC_5835,Tapovan Circle (S.P.Ring Road),23.11866,72.61492,AMTS,amts,8
+AMC_8766,New Maruti Society,23.10422,72.59579,AMTS,amts,5
+AMC_8764,Vishwakarma Mandir,23.10193,72.59287,AMTS,amts,5
+AMC_8849,Visat Circle,23.09906,72.58954,AMTS,amts,5
+AMC_5751,Vinobabhavenagar Cross Road,22.94451,72.64563,AMTS,amts,4
+AMC_3890,Radheshyam Colony,22.95352,72.65353,AMTS,amts,4
+AMC_3897,Kiran Industries,22.96515,72.63043,AMTS,amts,6
+AMC_3899,Bombay Conductors,22.97205,72.62705,AMTS,amts,6
+AMC_3900,Navi Vasahat,22.97463,72.62523,AMTS,amts,6
+AMC_5672,Devima seles corporate,22.97612,72.62364,AMTS,amts,6
+AMC_3902,Vitthalnagar Tekro (Ghodasar Rly. Crossing),22.97714,72.62215,AMTS,amts,6
+AMC_3906,Shree vallabhacharyaji chowk,22.99714,72.60729,AMTS,amts,6
+AMC_1148,Vastrapur Railway Crossing,23.00801,72.52014,AMTS,amts,8
+AMC_1147,Yogeshwar Apartment,23.00828,72.52283,AMTS,amts,8
+AMC_1146,Navkar Apartment,23.00842,72.52419,AMTS,amts,8
+AMC_1145,Alka Park,23.00882,72.52815,AMTS,amts,8
+AMC_1144,Vishwakarma Society,23.00911,72.53111,AMTS,amts,8
+AMC_1142,Shrikunj Society,23.00989,72.53897,AMTS,amts,8
+AMC_1141,Ayojannagar,23.01095,72.54225,AMTS,amts,8
+AMC_1139,Sharda Society,23.01304,72.54858,AMTS,amts,8
+AMC_1138,Sharda Mandir,23.0122,72.55021,AMTS,amts,8
+AMC_1137,Sukhipura,23.01237,72.55368,AMTS,amts,8
+AMC_1136,Jainnagar,23.01347,72.55737,AMTS,amts,8
+AMC_5775,Ved Arced,23.00953,72.66876,AMTS,amts,3
+AMC_5777,Girivar Gelexy,23.01228,72.66944,AMTS,amts,3
+AMC_5779,Flora,23.01513,72.67005,AMTS,amts,3
+AMC_5781,Daskroi Mehsul Bhavan,23.0178,72.67095,AMTS,amts,3
+AMC_5783,Odhav Panjrapol,23.02447,72.6725,AMTS,amts,3
+AMC_5785,Takshshila Bunglows,23.02886,72.67389,AMTS,amts,3
+AMC_5787,Shreya Residency,23.03289,72.67554,AMTS,amts,3
+AMC_5789,Marutinagar,23.03603,72.67679,AMTS,amts,3
+AMC_5791,Odhav Cross Road,23.03856,72.67782,AMTS,amts,3
+AMC_5793,S.P.Ring Road (Odhav-GIDC),23.04284,72.67947,AMTS,amts,3
+AMC_5795,Sahajanand Bussiness Park,23.04535,72.68048,AMTS,amts,3
+AMC_5797,Nikol Kathvada Ring Road,23.04794,72.68159,AMTS,amts,3
+AMC_5799,Sankalp Icon (Power House),23.04993,72.68281,AMTS,amts,3
+AMC_5801,Rasraj Jekport,23.05155,72.68374,AMTS,amts,3
+AMC_5803,Ashirvad Party Plot,23.05398,72.68513,AMTS,amts,3
+AMC_5805,Dastan Auto World,23.05779,72.68777,AMTS,amts,3
+AMC_5811,Shivuagati City,23.07899,72.68757,AMTS,amts,3
+AMC_10116,Shilp Shrushti,23.08145,72.68728,AMTS,amts,3
+AMC_5813,Silver Spring,23.087,72.68709,AMTS,amts,3
+AMC_5815,Dehgam Circle,23.08957,72.68695,AMTS,amts,3
+AMC_5817,Ganesh Icon,23.09344,72.6866,AMTS,amts,3
+AMC_5819,Ranasan TollTex,23.1008,72.68508,AMTS,amts,3
+AMC_5821,Shrinath Estate,23.10542,72.68276,AMTS,amts,3
+AMC_5252,Ranasan Circle,23.11081,72.67285,AMTS,amts,7
+AMC_5825,Karaigam Cross Road,23.11276,72.668,AMTS,amts,3
+AMC_5827,Karai Police Acedemy,23.11454,72.66125,AMTS,amts,3
+AMC_5829,Bhat TollTax,23.11541,72.65073,AMTS,amts,3
+AMC_5831,Sudhhal Circle,23.11507,72.6401,AMTS,amts,3
+AMC_5833,Agora Mall,23.11643,72.63185,AMTS,amts,3
+AMC_5837,Akshar Aford,23.12506,72.60005,AMTS,amts,3
+AMC_5839,Tragad TallTax,23.12794,72.59334,AMTS,amts,3
+AMC_5841,Zundal Circle,23.13035,72.5854,AMTS,amts,4
+AMC_9561,Vashika Aahan,23.13106,72.58046,AMTS,amts,3
+AMC_9563,Shantika Greens,23.13163,72.57726,AMTS,amts,3
+AMC_9565,Savya Skyz,23.13198,72.57448,AMTS,amts,3
+AMC_9567,CBD Mall,23.13264,72.56964,AMTS,amts,3
+AMC_9569,Hotel Hillock,23.13296,72.56719,AMTS,amts,3
+AMC_9571,Swastik Revanta,23.13371,72.56192,AMTS,amts,3
+AMC_9573,Tulsi Heights,23.13408,72.55955,AMTS,amts,3
+AMC_9575,Shaligram Lakeview,23.13507,72.55132,AMTS,amts,3
+AMC_9577,Gala Haven,23.13555,72.54664,AMTS,amts,3
+AMC_4985,Apang Manav Mandal,23.02932,72.54186,AMTS,amts,8
+AMC_4962,I.I.M.,23.03211,72.53804,AMTS,amts,8
+AMC_5443,Manekbag Society,23.02265,72.5406,AMTS,amts,4
+AMC_4965,Panchgini Society,23.01751,72.52303,AMTS,amts,4
+AMC_6017,Kesar Party Plot,23.01526,72.52119,AMTS,amts,4
+AMC_6024,Mumtpura Cross Road,23.00789,72.49177,AMTS,amts,4
+AMC_6026,Kalarav Farm,23.0082,72.48922,AMTS,amts,4
+AMC_6028,Shivam Auto Mall,23.00875,72.48442,AMTS,amts,4
+AMC_6036,Orachid Sky,23.00464,72.4696,AMTS,amts,4
+AMC_6038,Aaviskar Circle,23.00567,72.46683,AMTS,amts,4
+AMC_6040,Sky City,23.00674,72.46297,AMTS,amts,4
+AMC_6042,Aakash Residency,23.00764,72.45938,AMTS,amts,4
+AMC_6044,Samtav Bunglows,23.00734,72.45733,AMTS,amts,4
+AMC_6046,Maher Street (Club O Seven),23.00673,72.45434,AMTS,amts,4
+AMC_6048,Sakar County,23.00596,72.45015,AMTS,amts,4
+AMC_6050,Bopal-Sanand Cross Road,23.00602,72.44792,AMTS,amts,4
+AMC_6052,Orachid Wally,23.00614,72.44395,AMTS,amts,4
+AMC_6054,Shela-Telav Cross Road,23.00623,72.4418,AMTS,amts,4
+AMC_6056,Shela Gam,23.00934,72.4427,AMTS,amts,4
+AMC_8880,Takshshila Hebitet,23.01294,72.66766,AMTS,amts,6
+AMC_8877,Mangalam,23.01539,72.66686,AMTS,amts,6
+AMC_8875,Gokul Nagar,23.01489,72.66383,AMTS,amts,6
+AMC_3202,G.I.D.C. Tanki,23.02095,72.65668,AMTS,amts,6
+AMC_3201,Nari Sanrakshan Gruh,23.021,72.65438,AMTS,amts,6
+AMC_5710,Ugati Lakeview,23.07888,72.50276,AMTS,amts,2
+AMC_3627,Priya Cinema,23.05422,72.64227,AMTS,amts,3
+AMC_3625,Kevdani Chali (Priya Cinema),23.05046,72.64156,AMTS,amts,3
+AMC_3624,Mahavirnagar (Bajarangbapu Ashram),23.0477,72.64114,AMTS,amts,3
+AMC_9442,Vasantnagar,23.04351,72.64065,AMTS,amts,3
+AMC_4976,Sandesh Press,23.04045,72.52479,AMTS,amts,3
+AMC_2151,Chanakya tower,23.03787,72.52305,AMTS,amts,3
+AMC_4975,Lad Society,23.03593,72.52202,AMTS,amts,3
+AMC_4974,Vice Roy Velly,23.0349,72.51532,AMTS,amts,3
+AMC_4973,Shishir Bunglows,23.03378,72.51466,AMTS,amts,3
+AMC_4972,Devashish School,23.03215,72.51208,AMTS,amts,3
+AMC_4971,Satyagrah Chhavani,23.03021,72.51179,AMTS,amts,3
+AMC_3400,Bhadrakali Mandir,23.02415,72.58287,AMTS,amts,1
+AMC_4025,Tin Darwaja,23.02444,72.58432,AMTS,amts,1
+AMC_4026,Pankornaka,23.02439,72.58538,AMTS,amts,1
+AMC_4066,Fuwara,23.02438,72.587,AMTS,amts,1
+AMC_4088,Fatasa Ni Pol,23.0247,72.59017,AMTS,amts,1
+AMC_4089,Bala Hanuman(Khadiya),23.02482,72.59094,AMTS,amts,1
+AMC_4090,Khadiya Char Rasta,23.02487,72.59619,AMTS,amts,1
+AMC_3049,Revdi Bazar,23.02794,72.5986,AMTS,amts,1
+AMC_3048,Zakariya Masjid,23.02777,72.59574,AMTS,amts,1
+AMC_3047,Dhana Sutharni Pol,23.02827,72.59375,AMTS,amts,1
+AMC_3046,Haja Patelni Pol,23.02838,72.59344,AMTS,amts,1
+AMC_3045,Zaverivad,23.02804,72.58998,AMTS,amts,1
+AMC_3044,Krushna Cinema,23.02764,72.58795,AMTS,amts,1
+AMC_3043,Paththar Kuva,23.0264,72.58382,AMTS,amts,1
+AMC_3042,Vijalighar,23.02641,72.58172,AMTS,amts,1
+AMC_9119,G.I.D.C. Gate no.5,23.07879,72.66201,AMTS,amts,4
+AMC_9121,Nilkanth Mahadev,23.08154,72.66537,AMTS,amts,4
+AMC_9123,G.I.D.C. Post Office,23.08324,72.66771,AMTS,amts,4
+AMC_9125,Lions School,23.08493,72.6683,AMTS,amts,4
+AMC_7263,Systronics,23.09023,72.67076,AMTS,amts,4
+AMC_10222,Shrinath Nagar,23.10395,72.66973,AMTS,amts,4
+AMC_7256,Chiloda Octroinaka,23.10684,72.67134,AMTS,amts,4
+AMC_7254,Ranasan,23.11284,72.67423,AMTS,amts,4
+AMC_7253,Wonder Cement,23.11768,72.67661,AMTS,amts,4
+AMC_7252,Limbadiya Gam,23.12732,72.68134,AMTS,amts,4
+AMC_7251,Pancheshwar Mahadev,23.13248,72.68386,AMTS,amts,4
+AMC_7250,Adharshila School,23.13852,72.68772,AMTS,amts,4
+AMC_7249,Valad Highway Cross,23.14344,72.69079,AMTS,amts,4
+AMC_10224,Verai Matanu Mandir,23.14436,72.68794,AMTS,amts,4
+AMC_10225,Matari Matanu Mandir,23.146,72.685,AMTS,amts,4
+AMC_10226,Valad Gam,23.14674,72.68386,AMTS,amts,4
+AMC_10227,Mala Farm (Vad),23.14737,72.69028,AMTS,amts,4
+AMC_7248,Sadhanabhavan Brahmakumari,23.14829,72.69391,AMTS,amts,4
+AMC_7247,Prabhupura,23.1542,72.69799,AMTS,amts,4
+AMC_7246,Gift City Road,23.16067,72.70281,AMTS,amts,4
+AMC_7245,Jethipura,23.16294,72.70435,AMTS,amts,4
+AMC_7244,Quarry Plant,23.1693,72.70776,AMTS,amts,4
+AMC_7243,Dabhoda Highway Cross,23.18047,72.70988,AMTS,amts,4
+AMC_7241,Ugtai Farm,23.17891,72.71828,AMTS,amts,4
+AMC_7240,Otajina Chhapara,23.17888,72.7239,AMTS,amts,4
+AMC_7239,Hiraba Farm,23.17763,72.72774,AMTS,amts,4
+AMC_7238,Hudco Awas,23.17562,72.73494,AMTS,amts,4
+AMC_7237,Tatva Beverage,23.17528,72.73649,AMTS,amts,4
+AMC_7236,Nawa Dhara (Prantiya Fanta),23.17553,72.74291,AMTS,amts,4
+AMC_7235,Ayodhyanagar,23.17483,72.74587,AMTS,amts,4
+AMC_7234,Dabhoda Gam,23.17437,72.74749,AMTS,amts,4
+AMC_5627,Kadva Patidar Samajni Wadi,23.07611,72.66174,AMTS,amts,2
+AMC_5204,New India Colony (Nikol),23.055,72.67442,AMTS,amts,2
+AMC_7360,Sarkari Commerce College,23.0589,72.66475,AMTS,amts,2
+AMC_7361,Shilp -2,23.05884,72.66159,AMTS,amts,2
+AMC_7363,Avni Homes,23.05626,72.65863,AMTS,amts,2
+AMC_2806,Bajarang Ashram,23.04775,72.64153,AMTS,amts,2
+AMC_2294,Gramya Bharati School,22.94408,72.69183,AMTS,amts,2
+AMC_2292,Wanch Gam,22.94174,72.69127,AMTS,amts,2
+AMC_2293,Kharakuvani Bhagol,22.94277,72.69004,AMTS,amts,1
+AMC_5739,Sanjay Nagar,23.03816,72.62158,AMTS,amts,2
+AMC_4263,Annapurna Matanu Mandir,23.0377,72.62407,AMTS,amts,2
+AMC_5060,Chandraprakash Hall,23.03773,72.62709,AMTS,amts,2
+AMC_5058,Swaminarayannagar (Nikol),23.04042,72.65366,AMTS,amts,2
+AMC_5057,Nikol Gam,23.04091,72.66518,AMTS,amts,2
+AMC_5056,Surbhi Residency,23.0413,72.6678,AMTS,amts,2
+AMC_5055,Devratna Residency,23.04078,72.67043,AMTS,amts,2
+AMC_5054,Major Rishikesh Ramani Chowk,23.0393,72.67527,AMTS,amts,2
+AMC_5053,Nikol Kathwada Ring Road,23.03866,72.67753,AMTS,amts,2
+AMC_2244,Pavapuri Society,23.06888,72.53479,AMTS,amts,2
+AMC_3974,Gopalpark Society,23.07071,72.53947,AMTS,amts,6
+AMC_3973,Bhagyoday Society,23.0713,72.54081,AMTS,amts,6
+AMC_3981,Manikamal Society,23.05392,72.5266,AMTS,amts,2
+AMC_3979,Nirant Park (Tilak Park),23.05803,72.52898,AMTS,amts,2
+AMC_3975,Pavapuri,23.06869,72.53481,AMTS,amts,4
+AMC_3966,Adeshnagar (Naranpura Poice Station),23.06553,72.55786,AMTS,amts,4
+AMC_4317,S.P.Ring Road (Kamod),22.92712,72.54091,AMTS,amts,4
+AMC_5123,Devdiwala Farm,22.92276,72.5362,AMTS,amts,4
+AMC_5122,Amjipura Gam (S.T. Stand),22.91911,72.53251,AMTS,amts,4
+AMC_5121,Varsha Farm,22.91692,72.52981,AMTS,amts,4
+AMC_5120,Babuji Farm,22.91502,72.52736,AMTS,amts,4
+AMC_5119,Naklang Mahadev Mandir,22.91296,72.52542,AMTS,amts,4
+AMC_5118,Baliyadev Mandir (Kankaj),22.90493,72.52272,AMTS,amts,4
+AMC_5116,Paldi-Kankaj Gam,22.89869,72.52072,AMTS,amts,4
+AMC_10323,Screenotex,22.89536,72.51892,AMTS,amts,4
+AMC_10325,Pirana crossroad,22.89383,72.5185,AMTS,amts,4
+AMC_10327,Vinod Texspin,22.89155,72.51791,AMTS,amts,4
+AMC_10329,Tirth Industrial Park,22.88882,72.51721,AMTS,amts,4
+AMC_10331,Bhavya Industrial Park,22.88613,72.51587,AMTS,amts,4
+AMC_10335,Pruthvi Industrial Park,22.88091,72.51091,AMTS,amts,4
+AMC_10337,Miroli Crossroad,22.87918,72.50945,AMTS,amts,4
+AMC_10339,Muktidham,22.87659,72.50743,AMTS,amts,4
+AMC_10343,Sukruti Packing,22.86326,72.50202,AMTS,amts,4
+AMC_10345,United Techfab,22.85711,72.50101,AMTS,amts,4
+AMC_10347,Navapura Gam (Gate),22.8533,72.5006,AMTS,amts,4
+AMC_10352,Apparel Park Metro Station (New Cotton Mills),23.01057,72.61805,AMTS,amts,2
+AMC_1312,Dakshini Society,22.99126,72.61455,AMTS,amts,2
+AMC_2255,Shruti Apartment,22.99311,72.62137,AMTS,amts,2
+AMC_2256,Bhaipura,22.99537,72.62271,AMTS,amts,2
+AMC_2549,Swaminarayan Society,23.03167,72.76053,AMTS,amts,2
+AMC_2548,Seva Sahakari Mandali,23.03051,72.76018,AMTS,amts,2
+AMC_317,Maninagar,22.99782,72.61148,AJL,brts,18
+AMC_60,Swaminarayan Mandir,22.9949,72.61173,AJL,brts,9
+AMC_62,Jawahar Chowk,22.99516,72.605,AJL,brts,6
+AMC_64,Bhairavnath Road,22.99549,72.59903,AJL,brts,9
+AMC_66,Mira Cinema Char Rasta,22.99914,72.59325,AJL,brts,9
+AMC_47,Swaminarayan College,23.00142,72.5871,AJL,brts,14
+AMC_45,Vaikunth Dham Mandir,22.99985,72.58291,AJL,brts,14
+AMC_43,Danilimda Char Rasta,22.99668,72.57766,AJL,brts,34
+AMC_41,Khodiyarnagar,22.99563,72.57044,AJL,brts,34
+AMC_39,Chandranagar,22.99976,72.55813,AJL,brts,34
+AMC_37,Anjali,23.00369,72.55392,AJL,brts,34
+AMC_35,Dharnidhar Derasar,23.00821,72.5493,AJL,brts,20
+AMC_33,Manekbaug,23.01827,72.54406,AJL,brts,20
+AMC_31,Nehrunagar,23.02256,72.54172,AJL,brts,41
+AMC_29,Jhansi Ki Rani,23.02305,72.53635,AJL,brts,40
+AMC_27,Shivranjani,23.02433,72.53131,AJL,brts,40
+AMC_269,Ghuma Gam,23.03102,72.44842,AJL,brts,4
+AMC_51,Kankariya Lake Shukla Dada Chowk,23.00321,72.59901,AJL,brts,9
+AMC_53,Rambaug,22.99992,72.60069,AJL,brts,9
+AMC_55,Maninagar Char Rasta,22.9972,72.60645,AJL,brts,9
+AMC_315,Soni ni Chali B,23.02053,72.6384,AJL,brts,17
+AMC_193,Astodiya Chakala,23.01865,72.58864,AJL,brts,16
+AMC_287,M J Library,23.02373,72.57029,AJL,brts,16
+AMC_289,Law Garden,23.02396,72.55902,AJL,brts,16
+AMC_299,Vasundhara Society,23.02781,72.55209,AJL,brts,16
+AMC_235,LD Engg. College,23.03498,72.54888,AJL,brts,26
+AMC_85,Jashodanagar Char Rasta,22.98383,72.62399,AJL,brts,19
+AMC_77,Narol,22.973,72.58956,AJL,brts,21
+AMC_26,Himmatlal Park,23.02981,72.5324,AJL,brts,38
+AMC_23,Andhjan Mandal,23.03467,72.53599,AJL,brts,38
+AMC_21,University,23.03965,72.53854,AJL,brts,38
+AMC_19,Memnagar,23.04557,72.54249,AJL,brts,38
+AMC_17,Shree Valinath Chowk,23.0491,72.54496,AJL,brts,38
+AMC_15,Sola Cross Road,23.05272,72.54691,AJL,brts,38
+AMC_13,Jaimangal,23.05756,72.54933,AJL,brts,45
+AMC_11,Shastrinagar,23.06217,72.55297,AJL,brts,34
+AMC_9,Pragatinagar,23.06458,72.55604,AJL,brts,41
+AMC_7,Akhbarnagar,23.06752,72.56376,AJL,brts,41
+AMC_5,Bhavsar Hostel,23.06758,72.5686,AJL,brts,40
+AMC_3,Ranip Cross Road,23.0676,72.57565,AJL,brts,37
+AMC_318,R.T.O. Circle,23.06842,72.58113,AJL,brts,31
+AMC_275,Vasna,23.00219,72.54791,AJL,brts,14
+AMC_374,Pravinnagar,22.99805,72.54231,AJL,brts,7
+AMC_376,Maktampura Ward Office,22.99575,72.53509,AJL,brts,7
+AMC_378,Juhapura Road,22.99457,72.53009,AJL,brts,7
+AMC_380,Khurshid Park,22.99103,72.51833,AJL,brts,7
+AMC_382,Ambar Tower,22.98892,72.51241,AJL,brts,7
+AMC_384,Sarkhej Circle,22.98752,72.50306,AJL,brts,7
+AMC_348,Sanand Circle,22.98799,72.49531,AJL,brts,11
+AMC_123,N R Patel Park,23.06629,72.57173,AJL,brts,14
+AMC_125,Ramapir No Tekaro,23.06164,72.57174,AJL,brts,14
+AMC_127,Juna Vadaj,23.05676,72.57171,AJL,brts,9
+AMC_406,Gayatri Mandir,23.06199,72.59532,AJL,brts,4
+AMC_386,Hanuman Camp,23.06631,72.60059,AJL,brts,4
+AMC_1001,Ahmedabad Domestic Airport,23.07177,72.62108,AJL,brts,4
+AMC_388,Airport Circle,23.08132,72.6164,AJL,brts,2
+AMC_342,Karnavati Club,23.0198,72.50519,AJL,brts,4
+AMC_345,Prahalad Nagar Cross Road,23.0125,72.50252,AJL,brts,2
+AMC_346,Makarba Road,23.00003,72.49904,AJL,brts,4
+AMC_372,Basant Bahar,23.02865,72.46696,AJL,brts,4
+AMC_370,Chittavan,23.02424,72.47043,AJL,brts,4
+AMC_352,SOBO Center,23.01772,72.47498,AJL,brts,4
+AMC_354,Sukhasan Char Rasta,23.01611,72.46901,AJL,brts,4
+AMC_356,South Bopal BRTS Terminus,23.01609,72.46567,AJL,brts,4
+AMC_233,Gulbai Tekra Approach,23.02938,72.54712,AJL,brts,16
+AMC_186,R.T.O. Extension,23.06893,72.58143,AJL,brts,9
+AMC_173,Sabarmati Power House,23.07394,72.59258,AJL,brts,20
+AMC_175,Rathi Apartment,23.07855,72.59504,AJL,brts,20
+AMC_177,Sabarmati Municipal Swimming pool,23.08148,72.59338,AJL,brts,20
+AMC_179,Sabarmati Police Station,23.08604,72.5919,AJL,brts,20
+AMC_181,Motera Cross Road,23.09193,72.59015,AJL,brts,20
+AMC_183,Visat -Gandhinagar Junction,23.09736,72.5886,AJL,brts,17
+AMC_219,ONGC Avani Bhavan,23.10351,72.58667,AJL,brts,20
+AMC_221,Jantanagar,23.10824,72.58519,AJL,brts,20
+AMC_223,Shiv Shaktinagar,23.11213,72.58397,AJL,brts,20
+AMC_225,Chandkheda Gam,23.11648,72.58267,AJL,brts,20
+AMC_251,Sarthi Bungalows,23.12292,72.58276,AJL,brts,20
+AMC_253,DCIS Circle,23.1292,72.58447,AJL,brts,20
+AMC_396,Kalpataru Park,23.13646,72.58636,AJL,brts,8
+AMC_410,Swagat City,23.16015,72.58783,AJL,brts,8
+AMC_398,Adalaj Circle,23.16694,72.58692,AJL,brts,8
+AMC_400,Adalaj S.T. Stand,23.1753,72.57514,AJL,brts,8
+AMC_402,Trimandir,23.17682,72.57273,AJL,brts,8
+AMC_418,Prabha Hanuman,23.18158,72.56585,AJL,brts,8
+AMC_408,Amba Township,23.18972,72.57631,AJL,brts,8
+AMC_366,Hanspura Ring Road,23.08826,72.68588,AJL,brts,10
+AMC_394,Hanspura Gam,23.08526,72.68045,AJL,brts,10
+AMC_364,Sthapatya Eligance,23.08295,72.67528,AJL,brts,10
+AMC_392,G.E.B (Naroda),23.08056,72.67225,AJL,brts,10
+AMC_362,Swaminarayan Park,23.07306,72.6747,AJL,brts,10
+AMC_360,Haridarshan Char Rasta,23.07022,72.67281,AJL,brts,10
+AMC_358,Muktidham Naroda,23.07676,72.66429,AJL,brts,10
+AMC_390,Naroda Bazaar,23.07468,72.65619,AJL,brts,10
+AMC_319,Naroda Gam,23.07707,72.65583,AJL,brts,21
+AMC_271,Bethak,23.07187,72.64923,AJL,brts,21
+AMC_121,Naroda S. T. Workshop,23.06419,72.64297,AJL,brts,25
+AMC_119,Dhanush Dhari Mandir,23.05978,72.64299,AJL,brts,15
+AMC_117,Krishna nagar,23.05494,72.64251,AJL,brts,15
+AMC_115,Vijay Park,23.05132,72.64185,AJL,brts,15
+AMC_113,Hirawadi,23.04558,72.641,AJL,brts,15
+AMC_111,Thakkar Nagar Approach,23.04114,72.64056,AJL,brts,15
+AMC_281,Sarkari Litho Press Cabin,23.03941,72.58628,AJL,brts,16
+AMC_133,Sarkari Litho Press,23.0417,72.58522,AJL,brts,14
+AMC_131,Hanumanpura,23.04491,72.58377,AJL,brts,14
+AMC_129,Gurudwara,23.04852,72.58241,AJL,brts,14
+AMC_266,Vishvakarma Engineering College,23.10497,72.59659,AJL,brts,4
+AMC_243,Ashok Mill,23.04656,72.61915,AJL,brts,11
+AMC_245,Jeening Press,23.04434,72.61605,AJL,brts,11
+AMC_283,Prem Darwaja,23.03727,72.59486,AJL,brts,12
+AMC_169,Sola Bridge,23.0649,72.52972,AJL,brts,15
+AMC_171,Science City Approach,23.07002,72.52302,AJL,brts,11
+AMC_325,Shukan Mall,23.07228,72.51612,AJL,brts,8
+AMC_420,RK Royal,23.07464,72.51123,AJL,brts,8
+AMC_327,Galaxy Signature,23.07698,72.50641,AJL,brts,8
+AMC_329,Science City,23.08032,72.49953,AJL,brts,8
+AMC_332,Bhadaj Circle,23.08291,72.49532,AJL,brts,8
+AMC_320,Sola Bhagwat,23.08619,72.52783,AJL,brts,7
+AMC_800,Gota Cross Road,23.09872,72.5317,AJL,brts,7
+AMC_339,Gota Vasant Nagar Township,23.10631,72.52496,AJL,brts,7
+AMC_285,Kalupur Ghee Bazar,23.03139,72.59991,AJL,brts,1
+AMC_203,Kalupur,23.02688,72.60035,AJL,brts,1
+GTSL_25,Pathikashram,23.21606,72.63977,GTSL,gtsl_bus,10
+GTSL_45,Sector-6/7,23.2122,72.63835,GTSL,gtsl_bus,2
+GTSL_46,Gh-2,23.20886,72.63632,GTSL,gtsl_bus,2
+GTSL_47,Gh Dedh (1.5),23.20447,72.63354,GTSL,gtsl_bus,2
+GTSL_49,Gh-1,23.20186,72.63221,GTSL,gtsl_bus,2
+GTSL_132,Infocity (Gh-0),23.19726,72.63099,GTSL,gtsl_bus,2
+GTSL_96,R T O,23.19654,72.62396,GTSL,gtsl_bus,2
+GTSL_97,Sargasan Chokdi,23.19268,72.61505,GTSL,gtsl_bus,2
+GTSL_98,Tarapur,23.18373,72.59829,GTSL,gtsl_bus,2
+GTSL_99,Uvarsad Chokdi,23.17709,72.58576,GTSL,gtsl_bus,2
+GTSL_100,Adalaj Chokdi ( Trimandir),23.17529,72.57552,GTSL,gtsl_bus,2
+GTSL_101,Manekbag,23.16916,72.58548,GTSL,gtsl_bus,2
+GTSL_102,Adalaj (Balapir),23.16689,72.58701,GTSL,gtsl_bus,2
+GTSL_103,Shreenath Swagat,23.16128,72.58779,GTSL,gtsl_bus,2
+GTSL_104,Central Warehouse,23.15269,72.5876,GTSL,gtsl_bus,2
+GTSL_105,Canal,23.14466,72.58733,GTSL,gtsl_bus,2
+GTSL_106,Kalpataru,23.13625,72.58642,GTSL,gtsl_bus,2
+GTSL_107,Jundal,23.1335,72.58577,GTSL,gtsl_bus,2
+GTSL_131,Ring Road (Chandkheda),23.12957,72.58458,GTSL,gtsl_bus,2
+GTSL_108,Shupat,23.12248,72.58265,GTSL,gtsl_bus,2
+GTSL_109,Chandkheda,23.11601,72.58278,GTSL,gtsl_bus,2
+GTSL_24,Unava,23.33343,72.65786,GTSL,gtsl_bus,2
+GTSL_23,Vaasniya Hanuman,23.32594,72.64126,GTSL,gtsl_bus,2
+GTSL_22,Bapu College,23.31441,72.63949,GTSL,gtsl_bus,2
+GTSL_21,Raandhej Gam,23.29196,72.6406,GTSL,gtsl_bus,2
+GTSL_20,Raandhej Patiya,23.29478,72.64519,GTSL,gtsl_bus,2
+GTSL_19,Raandhej Chokdi,23.28316,72.64538,GTSL,gtsl_bus,2
+GTSL_18,Hotel Ghunghat,23.26987,72.64305,GTSL,gtsl_bus,2
+GTSL_17,K-7,23.26082,72.6415,GTSL,gtsl_bus,2
+GTSL_16,Videocon,23.25785,72.63976,GTSL,gtsl_bus,2
+GTSL_15,D Mart,23.2546,72.63773,GTSL,gtsl_bus,2
+GTSL_14,Tata Chokdi (K-6),23.25269,72.63656,GTSL,gtsl_bus,4
+GTSL_13,Polytechnic,23.25156,72.63757,GTSL,gtsl_bus,4
+GTSL_12,Jay Prakash,23.24962,72.64118,GTSL,gtsl_bus,4
+GTSL_11,Sector-24-25 Chokadi (Kh-6),23.2481,72.64394,GTSL,gtsl_bus,4
+GTSL_10,Sai Baba,23.24684,72.64633,GTSL,gtsl_bus,4
+GTSL_9,24 Chokdi (G-6),23.24531,72.64914,GTSL,gtsl_bus,4
+GTSL_7,Gh-6,23.24086,72.65631,GTSL,gtsl_bus,6
+GTSL_6,Gh-5/5,23.23752,72.65417,GTSL,gtsl_bus,6
+GTSL_5,Gh-5,23.23369,72.65181,GTSL,gtsl_bus,6
+GTSL_4,Gh-4/5,23.22836,72.64849,GTSL,gtsl_bus,6
+GTSL_3,Gh-4 Udhyog Bhavan,23.22586,72.64689,GTSL,gtsl_bus,6
+GTSL_181,Kalol,23.24421,72.4978,GTSL,gtsl_bus,2
+GTSL_180,Sherth Nu Paru,23.27331,72.52087,GTSL,gtsl_bus,2
+GTSL_159,Dhamasana,23.28046,72.52758,GTSL,gtsl_bus,2
+GTSL_158,Jalund,23.26913,72.5511,GTSL,gtsl_bus,2
+GTSL_157,Adraj Moti,23.26265,72.56746,GTSL,gtsl_bus,2
+GTSL_78,Kolavada,23.26156,72.60974,GTSL,gtsl_bus,2
+GTSL_77,Kolavada Three Rasta,23.26006,72.6117,GTSL,gtsl_bus,2
+GTSL_186,Pethapur,23.26432,72.67209,GTSL,gtsl_bus,2
+GTSL_126,Pethapur Chokdi,23.2668,72.66757,GTSL,gtsl_bus,2
+GTSL_68,Geb Chokdi,23.25678,72.66328,GTSL,gtsl_bus,2
+GTSL_112,Press Circle (Gh-7),23.24941,72.66218,GTSL,gtsl_bus,2
+GTSL_67,Gh-6/5,23.24564,72.65929,GTSL,gtsl_bus,2
+GTSL_2,Collector Office,23.22134,72.64406,GTSL,gtsl_bus,2
+GTSL_1,Civil Hospital,23.21944,72.64282,GTSL,gtsl_bus,2
+GTSL_26,Ch-3,23.21467,72.64417,GTSL,gtsl_bus,2
+GTSL_27,Suman Tower,23.21635,72.65035,GTSL,gtsl_bus,2
+GTSL_28,Vidhan Sabha,23.22045,72.6529,GTSL,gtsl_bus,2
+GTSL_29,Jilla Panchayat,23.22613,72.65646,GTSL,gtsl_bus,2
+GTSL_30,Ch-5,23.22999,72.65887,GTSL,gtsl_bus,2
+GTSL_31,Panchdev Temple,23.23412,72.66148,GTSL,gtsl_bus,2
+GTSL_32,Ch-6,23.23727,72.66427,GTSL,gtsl_bus,2
+GTSL_33,21/30,23.2352,72.66814,GTSL,gtsl_bus,2
+GTSL_35,Akshardham Parking,23.23339,72.67256,GTSL,gtsl_bus,2
+GTSL_36,Akshardham,23.23342,72.67579,GTSL,gtsl_bus,2
+GTSL_37,Borij,23.23512,72.67584,GTSL,gtsl_bus,2
+GTSL_38,30 Circle,23.24234,72.67583,GTSL,gtsl_bus,2
+GTSL_39,Lekwada,23.2466,72.69039,GTSL,gtsl_bus,2
+GTSL_40,Crpf,23.2472,72.69461,GTSL,gtsl_bus,2
+GTSL_41,Bsf,23.24623,72.69802,GTSL,gtsl_bus,2
+GTSL_42,Alampur,23.2401,72.70827,GTSL,gtsl_bus,2
+GTSL_43,Army,23.23294,72.72008,GTSL,gtsl_bus,2
+GTSL_44,Chiloda,23.22672,72.73047,GTSL,gtsl_bus,2
