@@ -1,4 +1,5 @@
-"""Ranked bar chart: green share within 500 m of every metro station.
+"""Ranked bar chart: green share within 500 m of every metro station
+(the CSV covers metro, BRTS and AMTS; this chart plots the metro line).
 
 One horizontal bar per station, same RdYlGn scale as the map, grouped by line.
 Output: BTH/out/station_green_ranking.png
@@ -17,7 +18,9 @@ LINE_COLOR = {"blue": "#1f77b4", "red": "#d62728", "violet": "#7f4fc9"}
 
 
 def main():
-    stats = pd.read_csv(STATS).sort_values("green_share_500m")
+    stats = (pd.read_csv(STATS)
+             .query("mode == 'metro'")
+             .sort_values("green_share_500m"))
     shares = stats["green_share_500m"]
 
     fig, ax = plt.subplots(figsize=(8, 12), dpi=150)
@@ -38,7 +41,7 @@ def main():
     handles = [Polygon([(0, 0), (1, 0), (1, 1), (0, 1)], closed=True,
                        color=c, alpha=0.85) for c in LINE_COLOR.values()]
     ax.legend(handles + [ax.lines[0]],
-              [*[f"{l.capitalize()} line" for l in LINE_COLOR], ax.lines[0].get_label()],
+              [*[f"{l.capitalize()} line" for l in LINE_COLOR], str(ax.lines[0].get_label())],
               loc="lower right", fontsize=9, framealpha=0.9)
 
     fig.tight_layout()
