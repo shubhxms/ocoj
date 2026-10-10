@@ -1,0 +1,25 @@
+check,input,expected,got,status
+amts boundary,amts_fare(0),5,5,ok
+amts boundary,amts_fare(2.99),5,5,ok
+amts boundary,amts_fare(3.0),10,10,ok
+amts boundary,amts_fare(5.0),15,15,ok
+amts boundary,amts_fare(10.9),20,20,ok
+amts boundary,amts_fare(11.0),20,20,ok
+amts boundary,amts_fare(44.0),30,30,ok
+amts boundary,amts_fare(50.0),30,30,ok
+amts boundary,amts_fare(-1),5,5,ok
+brts area pair,"brts_fare('AMC_318', 'AMC_3')",5,5,ok
+brts area pair,"brts_fare('AMC_318', 'AMC_1001')",50,50,ok
+brts same-area pair,"brts_fare('AMC_318', 'AMC_318')",raises ValueError,"ValueError: no adult fare rule for BRTS areas BRTS_AREA_1 <-> BRTS_AREA_1 (stops 'AMC_318', 'AMC_318')",expected_error
+brts stop outside areas,"brts_fare('AMC_315', 'AMC_318')",raises ValueError,ValueError: BRTS stop 'AMC_315' belongs to no fare area (191 of the GTFS stops are in areas),expected_error
+brts AMTS-only stop,"brts_fare('AMC_6161', 'AMC_318')",raises ValueError,ValueError: BRTS stop 'AMC_6161' belongs to no fare area (191 of the GTFS stops are in areas),expected_error
+metro id pair,"metro_fare(1, 6)","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}",ok
+metro reversed pair,"metro_fare(6, 1)","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}",ok
+metro GMRC-string ids,"metro_fare('GMRC_01', 'GMRC_06')","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}",ok
+metro name lookup,"metro_fare('apparel park', 'vastral gam')","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}","{""distance_km"": 5.33, ""fare_inr"": 10, ""interchange"": ""0"", ""stations_travelled"": 6, ""travel_time_min"": 11}",ok
+metro unknown name,"metro_fare('Not A Station', 1)",raises KeyError,"KeyError: ""unknown metro station name 'Not A Station' (origin)""",expected_error
+dispatcher metro,"fare('metro', 1, 6)",10,10,ok
+dispatcher brts,"fare('brts', 'AMC_318', 'AMC_3')",5,5,ok
+dispatcher amts,"fare('amts', None, None, dist_km=3.0)",10,10,ok
+dispatcher amts missing dist,"fare('amts', None, None)",raises ValueError,ValueError: mode 'amts' is distance-based: pass dist_km,expected_error
+dispatcher unknown mode,"fare('tram', 1, 2)",raises ValueError,"ValueError: unknown mode 'tram': expected 'amts', 'brts' or 'metro'",expected_error
