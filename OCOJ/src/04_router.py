@@ -15,7 +15,9 @@ Inputs (all produced upstream):
 
 Design choices (documented, not silent):
   - GTSL legs excluded by default: no fare data exists for Gandhinagar buses
-    (0% area coverage); include_gtsl=True admits them with fare=inf (time-only).
+    (0% area coverage); NOTE: include_gtsl=True is currently a no-op in practice —
+    GTSL legs price at inf and FARE_CAP prunes them, so they can never appear in
+    a journey. Kept for a future time-only mode (validation anomaly #1).
   - AMTS stage distance = haversine along the route's stop sequence * CIRCUITY
     (1.3) — GTFS has no shapes.txt; straight-line underestimates road distance.
   - Zero/negative inter-stop deltas (GTFS minute granularity) are normalized to a
@@ -73,10 +75,6 @@ def sec_to_hhmm(s: int) -> str:
 class Pattern:
     """One RAPTOR 'route': a unique stop sequence + its trips (dep times per stop)."""
 
-    pid: int
-    route_id: str
-    agency: str
-    stops: list[int]  # stop indices in visit order
     pid: int
     route_id: str
     agency: str
@@ -207,7 +205,6 @@ class Router:
         for pat in self.patterns:
             pat.trips.sort(key=lambda t: t[0])
             pat.dep_cols = [list(col) for col in zip(*pat.trips)] if pat.trips else []
-            pat.trips.sort(key=lambda t: t[0])
         self.at_stop: list[list[tuple[Pattern, int]]] = [[] for _ in self.stop_ids]
         for pat in self.patterns:
             for pos, s in enumerate(pat.stops):
@@ -273,6 +270,8 @@ class Router:
             raise KeyError(f"unknown origin stop {origin!r}")
         if dest not in self.idx_of:
             raise KeyError(f"unknown destination stop {dest!r}")
+        if origin == dest:
+            raise ValueError(f"origin and destination are the same stop {origin!r}")
         oi, di = self.idx_of[origin], self.idx_of[dest]
         t0 = hhmm_to_sec(dep_after) if isinstance(dep_after, str) else int(dep_after)
 
