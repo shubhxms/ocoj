@@ -16,3 +16,4 @@ metro-hacks-data-FULL.zip
 # OS junk
 .DS_Store
 .ruff_cache/
+OCOJ/out/*.log

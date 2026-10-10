@@ -1,0 +1,6 @@
+group,radius_m,n,unreachable,share_tradeoff,median_fast_min,median_cheap_fare,median_extra_min,median_fare_saved,metro_in_fast_share,brts_in_fast_share,median_fast_transfers
+ALL,500.0,100,0,0.52,25.0,15.0,10.5,5.0,0.04,0.92,0.0
+src=od_weighted,500.0,100,0,0.52,25.0,15.0,10.5,5.0,0.04,0.92,0.0
+peak=evening_peak,500.0,25,0,0.64,32.0,20.0,17.5,10.0,0.04,0.92,1.0
+peak=midday,500.0,26,0,0.423,24.0,12.5,12.0,10.0,0.077,0.885,0.0
+peak=morning_peak,500.0,49,0,0.51,21.0,10.0,8.0,5.0,0.02,0.939,0.0
