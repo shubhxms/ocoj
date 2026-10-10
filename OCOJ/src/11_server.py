@@ -134,6 +134,18 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self) -> None:  # noqa: N802 (stdlib naming)
         u = urlparse(self.path)
+        if u.path.startswith("/ui/") or u.path.startswith("/vendor/"):
+            rel = u.path.lstrip("/")
+            base = ROOT / "OCOJ"
+            cand = (base / rel).resolve()
+            if cand.is_file() and str(cand).startswith(str(base)):  # no traversal
+                ctype = "text/css" if cand.suffix == ".css" else (
+                    "application/javascript" if cand.suffix == ".js" else "application/octet-stream"
+                )
+                self._send(200, cand.read_bytes(), ctype)
+            else:
+                self._json(404, {"error": f"no static {u.path}"})
+            return
         if u.path == "/" or u.path == "/index.html":
             if UI.exists():
                 self._send(200, UI.read_bytes(), "text/html; charset=utf-8")
