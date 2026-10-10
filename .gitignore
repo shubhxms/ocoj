@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# data pack (350MB, regenerable from public sources; see metro-hacks-data/START_HERE.md)
+metro-hacks-data/
+metro-hacks-data-FULL.zip
+
+# OS junk
+.DS_Store
+.ruff_cache/
