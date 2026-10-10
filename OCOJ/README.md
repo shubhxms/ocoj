@@ -97,16 +97,50 @@ Steps run in order; each is a standalone script with a `main()` writing to `out/
 Outputs per cell: median/mean time, fare, distance, transfers, walk; share of journeys
 where cheapest ≠ fastest (the interesting number); network stats vs r (fragmentation).
 
+## Results (interim, n=252 rides at r800 + 100-ride radius sweep)
+
+| radius | cheapest≠fastest | median extra min if cheapest | median saved | median cheapest fare |
+|---|---|---|---|---|
+| 300 m | 38% | 14 | ₹10 | ₹15 |
+| 500 m | 52% | 10.5 | ₹5 | ₹15 |
+| 800 m | 81% | 12 | ₹5 | ₹10 |
+| 1200 m | 92% | 17 | ₹5 | ₹10 |
+
+- Walking further to transfer buys real money: cheapest median fare halves from ₹15 to
+  ₹10 once a 800 m walk radius is allowed — but the time price of cheapness rises
+  (12→17 extra minutes at 1200 m).
+- 0 unreachable rides at any radius ≥300 m in this sample.
+- Fastest journeys are BRTS-dominated (short-hop 2015 demand); metro appears in ~10%.
+- Structural finding: fares are per-leg with no inter-operator integration — every
+  transfer re-pays a base fare (₹5-15), so speed costs money by construction.
+
+## Exposure layer (BTH join)
+
+`10_exposure.py` joins `BTH/out/stop_exposure.csv` (CPCB AQI + NASA POWER
+shade-adjusted UV + ESA WorldCover tree share, 5,108 scraped stops) onto router
+stops by nearest coordinate (90.1% matched ≤150 m, median distance 1 m; unmatched
+get city medians, flagged). Exposure index per stop: 0.6·AQI/300 + 0.4·UV/11
+(trees only enter via UV, which BTH already shade-adjusts — no double counting).
+City baseline: AQI ~108, midday UV ~5.3, tree share ~5.6%.
+
+`11_server.py` (stdlib http.server) exposes `/api/stops` + `/api/plan`; with
+`shade=1`, footpath seconds scale by 1 + mean endpoint exposure — the router then
+penalises walking through hot, unshady stops. UI: `OCOJ/ui/index.html` (native
+brutalist, talks to the server on 127.0.0.1:8787).
+
 ## Known traps
 
 - AMTS stage table is 2023 vintage; GTFS BRTS fares differ (₹5–50, area-based). Keep both, label vintage, don't mix silently.
 - GTFS `calendar.txt` is a single service day; fine — we route on a generic weekday.
 - 2015 BRTS OD is old demand; use as weights, not truth. Say so in any output.
 - Metro OD matrix covers operational pairs only (53 stations).
-- `hello.py` at repo root is not ours to keep; OCOJ stays self-contained.
+- GTSL has no fare data; excluded from routing (see 04_router docstring).
+- Exposure spread across stops is narrow (AQI interpolated from 12 monitors);
+  shade mode reranks borderline walks, it does not transform routes.
 
 ## Run
 
 ```
 uv run python src/01_stops.py   # etc., in order
+uv run python src/11_server.py  # UI + API on http://127.0.0.1:8787
 ```
