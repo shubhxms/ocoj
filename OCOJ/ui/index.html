@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OCOJ — fare↔time pareto router · ahmedabad</title>
+<style>
+  :root{
+    --ink:#111;
+    --paper:#fafaf7;
+    --accent:#ff3b00;
+    --metro:#1f77b4;
+    --brts:#ff7f0e;
+    --amts:#2ca02c;
+    --shadow:5px 5px 0 #111;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{background:var(--paper)}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.45;
+    padding:24px clamp(12px,4vw,48px) 40px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .mono,input[type=time],td.num,output,.sub,.t,.p,.striplegend,.explg,.resulthead,#errmsg,footer{
+    font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  h1{font-size:clamp(56px,10vw,96px);font-weight:800;letter-spacing:-.03em;line-height:.95}
+  .sub{font-size:14px;margin-top:6px;letter-spacing:.02em}
+  .sub b{background:var(--ink);color:var(--paper);padding:0 6px}
+  header{margin-bottom:24px}
+  fieldset{border:2px solid var(--ink);padding:16px;box-shadow:var(--shadow);background:#fff;margin:0}
+  legend{font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:12px;padding:0 8px}
+  .controls{
+    display:grid;
+    grid-template-columns:1fr auto 1fr auto auto auto;
+    gap:12px;align-items:end;
+  }
+  .field{display:flex;flex-direction:column;gap:4px}
+  .field label,.lbl{
+    text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:700;
+  }
+  input[type=text],input[type=time]{
+    border:2px solid var(--ink);border-radius:0;padding:8px 10px;font-size:15px;
+    background:#fff;color:var(--ink);width:100%;min-width:0;
+  }
+  input[type=text]:focus,input[type=time]:focus{outline:3px solid var(--accent);outline-offset:2px}
+  input[type=range]{width:160px;accent-color:var(--ink)}
+  .radwrap{display:flex;flex-direction:column;gap:2px}
+  .radwrap output{color:var(--accent);font-weight:700}
+  button{
+    font-family:system-ui,sans-serif;
+    border:2px solid var(--ink);border-radius:0;background:#fff;color:var(--ink);
+    padding:9px 14px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
+    cursor:pointer;box-shadow:3px 3px 0 var(--ink);
+  }
+  button:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--ink)}
+  button.primary{background:var(--ink);color:var(--paper);box-shadow:3px 3px 0 var(--accent)}
+  .check{display:flex;align-items:center;gap:8px;padding-bottom:8px}
+  .check input{width:18px;height:18px;accent-color:var(--accent)}
+  .check label{display:flex;align-items:center;gap:8px}
+  .check span{font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;max-width:150px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;align-items:center}
+  .chips .lbl{margin-right:4px}
+  .chip{font-size:12px;padding:5px 10px;box-shadow:2px 2px 0 var(--ink)}
+  .chip:disabled{opacity:.4;cursor:not-allowed}
+  .status{margin:20px 0 0;display:none;border:2px solid var(--ink);padding:12px 16px;background:#fff;box-shadow:var(--shadow);align-items:center;gap:12px}
+  .status.on{display:flex}
+  .status progress{width:180px;height:14px;accent-color:var(--accent)}
+  .status .msg{font-family:ui-monospace,Menlo,monospace;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+  .loud{margin:20px 0 0;border:2px solid var(--ink);border-left:12px solid var(--accent);padding:14px 18px;background:#fff;box-shadow:var(--shadow)}
+  .loud h2{font-size:15px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px}
+  .loud p{font-size:13px}
+  .results{margin-top:20px;display:none}
+  .results.on{display:block}
+  .resulthead{
+    font-size:12px;text-transform:uppercase;letter-spacing:.06em;
+    margin-bottom:10px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;
+  }
+  .resulthead b{background:var(--ink);color:var(--paper);padding:1px 6px}
+  table{width:100%;border-collapse:collapse;border:2px solid var(--ink);box-shadow:var(--shadow);background:#fff}
+  caption{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.14em;font-weight:700;padding:8px 10px;border-bottom:2px solid var(--ink)}
+  th{
+    text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.12em;
+    border-bottom:2px solid var(--ink);padding:8px 10px;background:var(--ink);color:var(--paper);
+  }
+  th.num{text-align:right}
+  td{padding:8px 10px;border-bottom:1px solid var(--ink);vertical-align:top;font-size:14px}
+  td.num{text-align:right;white-space:nowrap}
+  tr.jr{cursor:pointer}
+  tr.jr:hover,tr.jr.open{background:#ffefe9}
+  tr.jx > td{padding:0;border-bottom:2px solid var(--ink);background:#fff}
+  tr.jx details{display:none}
+  tr.jx.open details{display:block}
+  .tag{
+    display:inline-block;background:var(--accent);color:#fff;font-size:10px;font-weight:800;
+    text-transform:uppercase;letter-spacing:.1em;padding:1px 6px;margin-top:3px;margin-right:4px;
+  }
+  details.legs{padding:12px 14px}
+  details.legs summary{
+    cursor:pointer;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.14em;
+    user-select:none;list-style:none;
+  }
+  details.legs summary::-webkit-details-marker{display:none}
+  details.legs summary::before{content:"▸ ";color:var(--accent)}
+  details.legs[open] summary::before{content:"▾ "}
+  .depline{font-size:12px;margin:8px 0;color:var(--ink)}
+  .strip{display:flex;border:2px solid var(--ink);height:26px;margin:10px 0 4px;background:#fff}
+  .strip .leg{border-right:2px solid var(--ink);min-width:6px}
+  .strip .leg.walk{background:repeating-linear-gradient(45deg,#111 0 4px,#fff 4px 8px)}
+  .striplegend{font-size:10px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+  .striplegend i{display:inline-block;width:10px;height:10px;border:1px solid var(--ink);margin:0 3px 0 10px;vertical-align:middle;font-style:normal}
+  ol.leglist{list-style:none}
+  ol.leglist li{
+    font-size:13px;padding:6px 0;border-top:1px dashed var(--ink);
+    display:grid;grid-template-columns:110px 170px 1fr auto;gap:8px;align-items:baseline;
+  }
+  ol.leglist li.walkleg{background:#f3f3ef}
+  ol.leglist .t{font-size:12px}
+  ol.leglist .r{font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  ol.leglist .p{font-size:12px;white-space:nowrap}
+  .explg{font-size:11px;margin-top:8px}
+  td .b{font-weight:800}
+  footer{
+    margin-top:36px;border-top:2px solid var(--ink);padding-top:10px;font-size:11px;
+  }
+  @media (max-width:900px){
+    .controls{grid-template-columns:1fr 1fr}
+    ol.leglist li{grid-template-columns:100px 1fr;grid-auto-flow:row}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>OCOJ</h1>
+  <p class="sub">fare<b>↔</b>time pareto router · ahmedabad · <b>metro</b>+<b>brts</b>+<b>amts</b></p>
+</header>
+
+<form id="planform">
+  <fieldset>
+    <legend>Plan a journey</legend>
+    <div class="controls">
+      <div class="field">
+        <label for="from">From</label>
+        <input type="text" id="from" list="stops" autocomplete="off" spellcheck="false" placeholder="e.g. R.T.O. Circle">
+      </div>
+      <button type="button" id="swap" title="swap origin and destination" style="margin-bottom:2px">⇄</button>
+      <div class="field">
+        <label for="to">To</label>
+        <input type="text" id="to" list="stops" autocomplete="off" spellcheck="false" placeholder="e.g. Jivraj Park">
+      </div>
+      <div class="field">
+        <label for="at">Depart</label>
+        <input type="time" id="at" value="09:00">
+      </div>
+      <div class="field radwrap">
+        <label for="radius">Walk radius <output id="radout" for="radius">800 m</output></label>
+        <input type="range" id="radius" min="300" max="1200" step="100" value="800">
+      </div>
+      <div class="field check">
+        <input type="checkbox" id="shade">
+        <label for="shade"><span>penalise unshady walks (aqi+uv)</span></label>
+      </div>
+      <button type="submit" class="primary" id="routebtn">Route</button>
+    </div>
+    <div class="chips">
+      <span class="lbl">Presets</span>
+      <button type="button" class="chip" data-o="AMC_318" data-d="GMRC_20">RTO Circle → Jivraj Park</button>
+      <button type="button" class="chip" data-o="AMC_83" data-d="AMC_27">Ghodasar → Shivranjani</button>
+      <button type="button" class="chip" data-o="GMRC_01" data-d="GMRC_12">Vastral Gam → Stadium</button>
+    </div>
+  </fieldset>
+</form>
+
+<datalist id="stops"></datalist>
+
+<div class="status" id="status" role="status" aria-live="polite">
+  <progress></progress>
+  <span class="msg" id="statusmsg">Querying…</span>
+</div>
+
+<div class="loud" id="empty" style="display:none">
+  <h2>— No journey found</h2>
+  <p id="emptymsg">No pareto-optimal journey exists for this query. Try a larger walk radius, a different departure time, or other stops.</p>
+</div>
+
+<div class="loud" id="error" style="display:none">
+  <h2>× Error</h2>
+  <p class="mono" id="errmsg"></p>
+</div>
+
+<section class="results" id="results">
+  <div class="resulthead" id="resulthead"></div>
+  <table id="restable">
+    <caption>Journeys — pareto front, one row per journey · click a row for the leg breakdown</caption>
+    <thead>
+      <tr>
+        <th>Arrive</th><th class="num">Min</th><th class="num">₹ Fare</th>
+        <th class="num">Xfr</th><th class="num">Walk km</th><th class="num">Exposure</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <p class="explg">exposure = walk-km × (aqi+uv) index, lower is better</p>
+</section>
+
+<footer>
+  data = GTFS buses (AMTS/AJL/GTSL) + GMRC fares/headways + CPCB AQI + NASA POWER UV + ESA WorldCover trees · fares per-leg, no integration · McRAPTOR pareto front
+</footer>
+
+<script>
+"use strict";
+
+var API = "";
+var nameToId = Object.create(null);   // lowercase exact name -> stop id
+var idToStop = Object.create(null);   // stop id -> stop record
+var currentFetch = null;
+
+var MODE_COLORS = { metro:"#1f77b4", brts:"#ff7f0e", amts:"#2ca02c", walk:"#111", gtsl_bus:"#555" };
+
+function $(id){ return document.getElementById(id); }
+
+/* tiny DOM builder: el(tag, {attr:value,...}, ...children)
+   children may be Nodes or strings (set via textContent — never parsed as HTML) */
+function el(tag, attrs, children){
+  var n = document.createElement(tag);
+  if (attrs){
+    for (var k in attrs){
+      if (k === "class") n.className = attrs[k];
+      else if (k === "text") n.textContent = attrs[k];
+      else n.setAttribute(k, attrs[k]);
+    }
+  }
+  if (children){
+    for (var i = 2; i < arguments.length; i++){
+      var c = arguments[i];
+      if (c === null || c === undefined) continue;
+      n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    }
+  }
+  return n;
+}
+
+function minOf(hhmm){
+  var p = String(hhmm).split(":");
+  return (parseInt(p[0],10)*60) + parseInt(p[1],10);
+}
+
+function num(v, digits, suffix){
+  if (v === null || v === undefined) return "—";
+  return v.toFixed(digits) + (suffix || "");
+}
+
+function isWalkLeg(L){ return L.kind === "walk" || L.mode === "walk"; }
+
+/* ---------- stops datalist ---------- */
+
+function loadStops(){
+  setStatus("Loading 3,288 stops…");
+  fetch(API + "/api/stops")
+    .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function(stops){
+      var frag = document.createDocumentFragment();
+      for (var i = 0; i < stops.length; i++){
+        var s = stops[i];
+        idToStop[s.id] = s;
+        var key = String(s.name).toLowerCase();
+        if (!(key in nameToId)) nameToId[key] = s.id;
+        frag.appendChild(el("option", { value: s.name, text: String(s.mode).toUpperCase() }));
+      }
+      $("stops").appendChild(frag);
+      $("status").classList.remove("on");
+      wirePresets();
+    })
+    .catch(function(e){
+      $("status").classList.remove("on");
+      showError("could not load /api/stops: " + e.message);
+    });
+}
+
+function wirePresets(){
+  var stadium = null;
+  for (var id in idToStop){
+    var s = idToStop[id];
+    if (s.mode === "metro" && String(s.name).indexOf("Stadium") !== -1){ stadium = id; break; }
+  }
+  if (stadium){
+    var c = document.querySelector('.chip[data-d="GMRC_12"]');
+    if (c) c.setAttribute("data-d", stadium);
+  }
+  var chips = document.querySelectorAll(".chip");
+  for (var i = 0; i < chips.length; i++){
+    var o = chips[i].getAttribute("data-o"), d = chips[i].getAttribute("data-d");
+    if (!idToStop[o] || !idToStop[d]) chips[i].disabled = true;
+  }
+}
+
+/* ---------- stop resolution ---------- */
+
+function resolveStop(text){
+  var t = String(text).trim();
+  if (!t) return null;
+  var id = nameToId[t.toLowerCase()];
+  return id !== undefined ? id : t;
+}
+
+/* ---------- query ---------- */
+
+function hideAll(){
+  $("status").classList.remove("on");
+  $("empty").style.display = "none";
+  $("error").style.display = "none";
+  $("results").classList.remove("on");
+}
+
+function setStatus(msg){
+  $("statusmsg").textContent = msg;
+  $("status").classList.add("on");
+}
+
+function showError(msg){
+  $("errmsg").textContent = msg;
+  $("error").style.display = "block";
+}
+
+function plan(overrideO, overrideD){
+  var fromTxt = overrideO !== undefined ? overrideO : $("from").value;
+  var toTxt   = overrideD !== undefined ? overrideD : $("to").value;
+  var o = resolveStop(fromTxt);
+  var d = resolveStop(toTxt);
+
+  hideAll();
+  if (o === null || d === null){
+    showError("set both FROM and TO stops");
+    return;
+  }
+
+  var params = new URLSearchParams({
+    o: o, d: d,
+    at: $("at").value || "09:00",
+    radius: $("radius").value,
+    shade: $("shade").checked ? "1" : "0"
+  });
+
+  if (currentFetch) currentFetch.abort();
+  var ctrl = new AbortController();
+  currentFetch = ctrl;
+
+  setStatus("Querying pareto front… " + o + " → " + d);
+
+  fetch(API + "/api/plan?" + params.toString(), { signal: ctrl.signal })
+    .then(function(r){
+      return r.json().then(function(j){
+        if (!r.ok || j.error) throw new Error(j.error || ("HTTP " + r.status));
+        return j;
+      });
+    })
+    .then(render)
+    .catch(function(e){
+      if (e.name === "AbortError") return;
+      hideAll();
+      showError(e.message);
+    });
+}
+
+/* ---------- render ---------- */
+
+function legStrip(j){
+  var strip = el("div", { class: "strip" });
+  for (var i = 0; i < j.legs.length; i++){
+    var L = j.legs[i];
+    var mins = Math.max(1, minOf(L.t1) - minOf(L.t0));
+    var walk = isWalkLeg(L);
+    var label = walk ? "WALK" : (L.mode + (L.route ? "/" + L.route : ""));
+    var block = el("div", { class: "leg" + (walk ? " walk" : "") });
+    block.style.flexGrow = String(mins);
+    if (!walk) block.style.background = MODE_COLORS[L.mode] || "#555";
+    block.title = L.t0 + "→" + L.t1 + " " + label + " · " + L.from_name + " → " + L.to_name;
+    strip.appendChild(block);
+  }
+  var legend = el("div", { class: "striplegend", text: "trip strip" });
+  var modes = [
+    ["metro", "#1f77b4"], ["brts", "#ff7f0e"], ["amts", "#2ca02c"],
+    ["walk", "repeating-linear-gradient(45deg,#111 0 4px,#fff 4px 8px)"]
+  ];
+  for (var m = 0; m < modes.length; m++){
+    var sw = el("i");
+    sw.style.background = modes[m][1];
+    legend.appendChild(sw);
+    legend.appendChild(document.createTextNode(modes[m][0]));
+  }
+  var wrap = document.createDocumentFragment();
+  wrap.appendChild(strip);
+  wrap.appendChild(legend);
+  return wrap;
+}
+
+function legList(j){
+  var ol = el("ol", { class: "leglist" });
+  for (var i = 0; i < j.legs.length; i++){
+    var L = j.legs[i];
+    var walk = isWalkLeg(L);
+    var routeTxt = walk ? "WALK" : String(L.mode || "?").toUpperCase() + (L.route ? "/" + L.route : "");
+    ol.appendChild(el("li", { class: walk ? "walkleg" : null },
+      el("span", { class: "t", text: L.t0 + "→" + L.t1 }),
+      el("span", { class: "r", text: routeTxt }),
+      el("span", null, L.from_name, " → ", L.to_name),
+      el("span", { class: "p", text: "₹" + num(L.fare, 0) + " · " + num(L.km, 2) + " km" })
+    ));
+  }
+  return ol;
+}
+
+function render(j){
+  hideAll();
+  var q = j.query || {};
+  var radiusTxt = q.radius_m != null ? String(q.radius_m) : "";
+  $("resulthead").textContent = "";
+  $("resulthead").appendChild(
+    el("span", null, el("b", null, q.o_name || q.o), " → ", el("b", null, q.d_name || q.d)));
+  $("resulthead").appendChild(
+    el("span", null,
+      "dep " + (q.at || "") + " · walk radius " + radiusTxt + " m · shade " + (q.shade ? "on" : "off") +
+      " · ", el("b", null, String(j.n)), " journey" + (j.n === 1 ? "" : "s")));
+
+  if (!j.n || !j.journeys.length){
+    $("empty").style.display = "block";
+    return;
+  }
+
+  var minDur = Infinity, minFare = Infinity;
+  for (var i = 0; i < j.journeys.length; i++){
+    var jr = j.journeys[i];
+    if (jr.dur_min < minDur) minDur = jr.dur_min;
+    if (jr.fare !== null && jr.fare !== undefined && jr.fare < minFare) minFare = jr.fare;
+  }
+
+  var tbody = $("tbody");
+  tbody.textContent = "";
+  for (var k = 0; k < j.journeys.length; k++){
+    var J = j.journeys[k];
+
+    var arrCell = el("td", null, J.arr);
+    if (J.dur_min === minDur) arrCell.appendChild(el("span", { class: "tag", text: "▸ fastest" }));
+    if (J.fare !== null && J.fare !== undefined && J.fare === minFare)
+      arrCell.appendChild(el("span", { class: "tag", text: "▸ cheapest" }));
+
+    var expCell;
+    if (J.exposure === null || J.exposure === undefined){
+      expCell = el("td", { class: "num", text: "—" });
+    } else if (J.exposure > 0){
+      expCell = el("td", { class: "num" }, el("span", { class: "b", text: J.exposure.toFixed(1) }));
+    } else {
+      expCell = el("td", { class: "num", text: J.exposure.toFixed(1) });
+    }
+
+    var row = el("tr", { class: "jr", tabindex: "0", "aria-expanded": "false" },
+      arrCell,
+      el("td", { class: "num", text: String(J.dur_min) }),
+      el("td", { class: "num", text: num(J.fare, 0) }),
+      el("td", { class: "num", text: String(J.transfers) }),
+      el("td", { class: "num", text: num(J.walk_km, 2) }),
+      expCell
+    );
+    row.setAttribute("data-i", String(k));
+
+    var det = el("details", { class: "legs" },
+      el("summary", { text: "Leg breakdown · dep " + J.dep }),
+      legStrip(J),
+      legList(J)
+    );
+    var xrow = el("tr", { class: "jx" }, el("td", { colspan: "6" }, det));
+    xrow.setAttribute("data-x", String(k));
+
+    tbody.appendChild(row);
+    tbody.appendChild(xrow);
+
+    row.addEventListener("click", toggleRow(row, xrow, det));
+    row.addEventListener("keydown", rowKey(row));
+  }
+  $("results").classList.add("on");
+}
+
+function toggleRow(row, xrow, det){
+  return function(){
+    var open = !row.classList.contains("open");
+    row.classList.toggle("open", open);
+    row.setAttribute("aria-expanded", open ? "true" : "false");
+    xrow.classList.toggle("open", open);
+    det.open = open;
+  };
+}
+
+function rowKey(row){
+  return function(ev){
+    if (ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); row.click(); }
+  };
+}
+
+/* ---------- wiring ---------- */
+
+$("planform").addEventListener("submit", function(ev){ ev.preventDefault(); plan(); });
+
+$("swap").addEventListener("click", function(){
+  var f = $("from").value;
+  $("from").value = $("to").value;
+  $("to").value = f;
+});
+
+$("radius").addEventListener("input", function(){
+  $("radout").textContent = this.value + " m";
+});
+
+var chips = document.querySelectorAll(".chip");
+for (var i = 0; i < chips.length; i++){
+  chips[i].addEventListener("click", function(){
+    var o = this.getAttribute("data-o"), d = this.getAttribute("data-d");
+    var so = idToStop[o], sd = idToStop[d];
+    $("from").value = so ? so.name : o;
+    $("to").value = sd ? sd.name : d;
+    plan(o, d);
+  });
+}
+
+loadStops();
+</script>
+</body>
+</html>
