@@ -17,9 +17,10 @@ environmental-exposure view.
 
 `out/metro_tree_cover.html` — self-contained (map + vegetation raster embedded
 as base64). Works fully offline; the Esri basemap needs network and simply
-doesn't load without it. The layer control switches the metro colour view:
-**green share (default) / CPCB AQI / UV exposure**. Click a metro station for
-class shares, AQI and UV; hover any stop for all three numbers.
+doesn't load without it. Stations are one layer per mode; the **"Colour stops
+by" buttons (green share / AQI / UV)** restyle the same markers in place.
+Click a metro station for class shares, AQI and UV; hover any stop for all
+three numbers.
 
 ## Pipeline
 

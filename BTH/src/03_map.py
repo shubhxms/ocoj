@@ -1,13 +1,11 @@
 """Combined map: vegetation cover + AQI/UV + Ahmedabad Metro/BRTS/AMTS stops.
 
-Renders the 10 m class raster to an RGBA PNG — transparent everywhere except
-vegetated classes — and builds a folium map:
-  - vegetation overlay + Esri basemap (toggleable)
-  - metro stations in three toggleable colour views (green share / CPCB AQI /
-    shade-adjusted UV), green view on by default; rings + detailed popups
-  - BRTS and AMTS stops as small dots (green-share colours, rich tooltips)
-Reads BTH/out/station_green_cover.csv and BTH/out/stop_exposure.csv.
+Geometry and metrics are kept separate: ONE marker layer per transport mode;
+a colour-mode switcher (green share / CPCB AQI / UV exposure) restyles the
+same markers in place. Renders the 10 m class raster to an RGBA PNG —
+transparent everywhere except vegetated classes — under everything.
 
+Reads BTH/out/station_green_cover.csv and BTH/out/stop_exposure.csv.
 Output: BTH/out/metro_tree_cover.html (self-contained) + landcover_amd_gnr.png.
 """
 from pathlib import Path
@@ -27,9 +25,7 @@ EXPOSURE = HERE / "out/stop_exposure.csv"
 OUT_HTML = HERE / "out/metro_tree_cover.html"
 OUT_PNG = HERE / "out/landcover_amd_gnr.png"
 
-# Vegetated classes only get a tint; built-up / crop / bare / water stay
-# transparent so the basemap shows through.
-VEG_STYLE = {
+VEG_STYLE = {                              # only vegetated classes get a tint
     10: ("#1b7a1b", "Tree"),
     20: ("#4e9a3f", "Shrub"),
     30: ("#8fca66", "Grass"),
@@ -43,9 +39,61 @@ AQI_BAND_COLOR = [("Good", "#2e7d32"), ("Satisfactory", "#9ccc65"),
                   ("Moderate", "#ffca28"), ("Poor", "#ef6c00"),
                   ("Very Poor", "#b71c1c"), ("Severe", "#6a1b9a")]
 
+# @@MAP@@ is replaced with the folium map's JS variable name at build time.
+UI_TEMPLATE = """
+<div style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:9999;
+            background:rgba(255,255,255,.95);padding:8px 14px;border-radius:6px;
+            box-shadow:0 1px 5px rgba(0,0,0,.3);font-family:sans-serif">
+  <b style="font-size:15px">BTH &middot; Tree cover, AQI &amp; UV —
+  Ahmedabad Metro, BRTS &amp; AMTS stops</b><br>
+  <span style="font-size:11px;color:#555">5,108 stops &middot; one station layer, colour switched
+  by metric &middot; green tint = vegetation (WorldCover 2021)</span>
+</div>
+<div style="position:fixed;top:78px;left:50%;transform:translateX(-50%);z-index:9999;
+            background:rgba(255,255,255,.95);padding:5px 8px;border-radius:6px;
+            box-shadow:0 1px 5px rgba(0,0,0,.3);font-family:sans-serif;font-size:12px">
+  <span style="color:#555;margin-right:6px">Colour stops by</span>
+  <button class="bth-mode-btn active" data-mode="green" onclick="setMetricMode('green')">Green share</button>
+  <button class="bth-mode-btn" data-mode="aqi" onclick="setMetricMode('aqi')">AQI (winter)</button>
+  <button class="bth-mode-btn" data-mode="uv" onclick="setMetricMode('uv')">UV (midday)</button>
+</div>
+<style>
+  .bth-mode-btn {border:1px solid #bbb;border-radius:4px;background:#fff;
+    padding:2px 10px;cursor:pointer;font-size:12px}
+  .bth-mode-btn.active {background:#2b2b2b;color:#fff;border-color:#2b2b2b}
+</style>
+<div style="position:fixed;bottom:16px;left:10px;z-index:9999;background:rgba(255,255,255,.95);
+            padding:8px 10px;border-radius:6px;box-shadow:0 1px 5px rgba(0,0,0,.3);
+            font-size:11px;font-family:sans-serif;line-height:1.7">
+  <b>Vegetation</b><br>@@VEG@@<br>
+  <div id="leg-green" class="bth-leg"><b style="display:block;margin-top:4px">Green share, 500 m</b>
+    @@GREEN_SCALE@@<span style="float:right">70&nbsp;%</span>0&nbsp;%</div>
+  <div id="leg-aqi" class="bth-leg" style="display:none"><b style="display:block;margin-top:4px">CPCB AQI (winter mean)</b>
+    @@AQI_SWATCHES@@</div>
+  <div id="leg-uv" class="bth-leg" style="display:none"><b style="display:block;margin-top:4px">UV exposure, midday</b>
+    @@UV_SCALE@@<span style="float:right">UVI&nbsp;7</span>UVI&nbsp;1</div>
+  <b style="display:block;margin-top:4px">Stops</b>@@DOTS@@
+</div>
+<script>
+  function setMetricMode(mode) {
+    @@MAP@@.eachLayer(function (layer) {
+      var t = layer.options && layer.options.tags;
+      if (t && t["m_" + mode]) {
+        layer.setStyle({fillColor: t["m_" + mode]});
+      }
+    });
+    document.querySelectorAll(".bth-mode-btn").forEach(function (b) {
+      b.classList.toggle("active", b.dataset.mode === mode);
+    });
+    document.querySelectorAll(".bth-leg").forEach(function (el) {
+      el.style.display = el.id === "leg-" + mode ? "block" : "none";
+    });
+  }
+</script>
+"""
+
 
 def aqi_color(aqi):
-    """CPCB band colours for a winter-mean AQI value."""
     for hi, col in [(50, "#2e7d32"), (100, "#9ccc65"), (200, "#ffca28"),
                     (300, "#ef6c00"), (400, "#b71c1c")]:
         if aqi <= hi:
@@ -53,11 +101,18 @@ def aqi_color(aqi):
     return "#6a1b9a"
 
 
-def scale_color(share, cmap_name, vmin, vmax):
-    """Continuous colour from a matplotlib ramp."""
-    t = min(max((share - vmin) / (vmax - vmin), 0.0), 1.0)
+def scale_color(value, cmap_name, vmin, vmax):
+    t = min(max((value - vmin) / (vmax - vmin), 0.0), 1.0)
     r, g, b, _ = plt.get_cmap(cmap_name)(t)
     return f"#{int(r * 255):02x}{int(g * 255):02x}{int(b * 255):02x}"
+
+
+def metric_colors(row):
+    """The three fill colours, carried on every marker via the `tags` option
+    (folium drops arbitrary kwargs; `tags` passes through, Leaflet ignores it)."""
+    return {"tags": {"m_green": scale_color(row["green_share_500m"], "RdYlGn", 0.0, 0.70),
+                     "m_aqi": aqi_color(row["aqi_winter_est"]),
+                     "m_uv": scale_color(row["uv_exposure_midday"], "YlOrRd", 1.0, 7.0)}}
 
 
 def render_landcover():
@@ -113,6 +168,13 @@ def metro_popup(row):
                mon=row["nearest_monitor"], mdist=row["monitor_dist_m"]))
 
 
+def stop_tooltip(row):
+    return (f"{row['name']} — {MODE_LABEL[row['mode']]} · green "
+            f"{row['green_share_500m']:.0%} · AQI ~{row['aqi_winter_est']:.0f} "
+            f"({row['aqi_winter_band']}) · UV midday "
+            f"{row['uv_exposure_midday']:.1f}")
+
+
 def main():
     rgba, lat_bounds, lon_bounds = render_landcover()
     green = pd.read_csv(GREEN)
@@ -145,110 +207,56 @@ def main():
 
     rings500 = folium.FeatureGroup(name="Metro 500 m walkshed", show=True)
     rings1000 = folium.FeatureGroup(name="Metro 1,000 m walkshed", show=False)
-
-    # ---- metro stations: three toggleable colour views -------------------
-    def add_metro_view(name, show, colour_fn, tooltip_fn):
-        grp = folium.FeatureGroup(name=name, show=show)
-        for row in stats[stats["mode"] == "metro"].to_dict(orient="records"):
-            folium.CircleMarker(
-                (row["lat"], row["lon"]), radius=MODE_RADIUS["metro"],
-                color="#ffffff", weight=1.5, fill=True,
-                fill_color=colour_fn(row), fill_opacity=0.95,
-                tooltip=tooltip_fn(row),
-                popup=folium.Popup(metro_popup(row), max_width=330),
-            ).add_to(grp)
-        grp.add_to(m)
-
-    add_metro_view(
-        "Metro — colour: green share 500 m (default)", True,
-        lambda r: scale_color(r["green_share_500m"], "RdYlGn", 0.0, 0.70),
-        lambda r: (f"{r['name']} — green 500 m: {r['green_share_500m']:.1%}, "
-                   f"AQI winter ~{r['aqi_winter_est']:.0f}, "
-                   f"UV midday {r['uv_exposure_midday']:.1f}"))
-    add_metro_view(
-        "Metro — colour: AQI (winter mean)", False,
-        lambda r: aqi_color(r["aqi_winter_est"]),
-        lambda r: (f"{r['name']} — AQI winter ~{r['aqi_winter_est']:.0f} "
-                   f"({r['aqi_winter_band']}), nearest: {r['nearest_monitor']}"))
-    add_metro_view(
-        "Metro — colour: UV exposure (midday)", False,
-        lambda r: scale_color(r["uv_exposure_midday"], "YlOrRd", 1.0, 7.0),
-        lambda r: (f"{r['name']} — UV midday {r['uv_exposure_midday']:.1f} UVI "
-                   f"(open-sky {r['uv_ambient_day']:.1f})"))
-
-    # ---- BRTS / AMTS dots (green-share colours, rich tooltip) ------------
-    mode_groups = {}
-    for mode in ("brts", "amts"):
-        n = (stats["mode"] == mode).sum()
-        mode_groups[mode] = folium.FeatureGroup(name=f"{MODE_LABEL[mode]} stops ({n})")
-    for row in stats[stats["mode"] != "metro"].to_dict(orient="records"):
-        folium.CircleMarker(
-            (row["lat"], row["lon"]), radius=MODE_RADIUS[row["mode"]],
-            color="#333333" if row["mode"] == "brts" else scale_color(
-                row["green_share_500m"], "RdYlGn", 0.0, 0.70),
-            weight=0.5, fill=True,
-            fill_color=scale_color(row["green_share_500m"], "RdYlGn", 0.0, 0.70),
-            fill_opacity=0.9,
-            tooltip=(f"{row['name']} — {MODE_LABEL[row['mode']]} · green "
-                     f"{row['green_share_500m']:.0%} · AQI "
-                     f"~{row['aqi_winter_est']:.0f} · UV "
-                     f"{row['uv_exposure_midday']:.1f}"),
-        ).add_to(mode_groups[row["mode"]])
-    for grp in mode_groups.values():
-        grp.add_to(m)
-
-    for grp in (rings500, rings1000):
-        grp.add_to(m)
     for row in stats[stats["mode"] == "metro"].to_dict(orient="records"):
-        colour = scale_color(row["green_share_500m"], "RdYlGn", 0.0, 0.70)
-        folium.Circle((row["lat"], row["lon"]), radius=500, color=colour,
-                      weight=1.5, fill=False, opacity=0.8).add_to(rings500)
+        folium.Circle((row["lat"], row["lon"]), radius=500, color="#777777",
+                      weight=1.2, fill=False, opacity=0.7).add_to(rings500)
         folium.Circle((row["lat"], row["lon"]), radius=1000, color="#555555",
                       weight=1, dash_array="4,6", fill=False,
-                      opacity=0.6).add_to(rings1000)
+                      opacity=0.5).add_to(rings1000)
+
+    # ---- ONE marker layer per mode; colour switched via m_* options ------
+    groups = {mode: folium.FeatureGroup(
+                  name=f"{MODE_LABEL[mode]} stops "
+                       f"({(stats['mode'] == mode).sum()})",
+                  show=mode == "metro")
+              for mode in MODE_LABEL}
+    for row in stats.to_dict(orient="records"):
+        folium.CircleMarker(
+            (row["lat"], row["lon"]), radius=MODE_RADIUS[row["mode"]],
+            color="#ffffff" if row["mode"] == "metro" else "#333333",
+            weight=1.5 if row["mode"] == "metro" else 0.5,
+            fill=True, fill_opacity=0.95,
+            tooltip=stop_tooltip(row),
+            popup=(folium.Popup(metro_popup(row), max_width=330)
+                   if row["mode"] == "metro" else None),
+            **metric_colors(row),
+        ).add_to(groups[row["mode"]])
+    for grp in (rings500, rings1000, *groups.values()):
+        grp.add_to(m)
     folium.LayerControl(collapsed=False).add_to(m)
 
-    # ---- title + legends -------------------------------------------------
-    swatches = "".join(
-        f'<span style="background:{hexc};margin-right:4px">&nbsp;&nbsp;&nbsp;</span>{label}&nbsp;&nbsp;'
-        for hexc, label in VEG_STYLE.values())
-    green_scale = "".join(
-        f'<span style="background:{scale_color(s, "RdYlGn", 0.0, 0.70)}">&nbsp;&nbsp;&nbsp;</span>'
-        for s in np.linspace(0.0, 0.70, 8))
-    aqi_swatches = "".join(
-        f'<span style="background:{col};margin-right:3px">&nbsp;&nbsp;&nbsp;</span>{lab}&nbsp;&nbsp;'
-        for lab, col in AQI_BAND_COLOR)
-    uv_scale = "".join(
-        f'<span style="background:{scale_color(u, "YlOrRd", 1.0, 7.0)}">&nbsp;&nbsp;&nbsp;</span>'
-        for u in np.linspace(1, 7, 7))
-    dots = "".join(
-        f'<span style="display:inline-block;border-radius:50%;width:{r * 2}px;height:{r * 2}px;'
-        f'background:#888;border:1px solid #fff;vertical-align:middle;margin-right:4px"></span>'
-        f'{MODE_LABEL[mode]}&nbsp;&nbsp;&nbsp;'
-        for mode, r in MODE_RADIUS.items())
-    legend = folium.Element("""
-      <div style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:9999;
-                  background:rgba(255,255,255,.95);padding:8px 14px;border-radius:6px;
-                  box-shadow:0 1px 5px rgba(0,0,0,.3);font-family:sans-serif">
-        <b style="font-size:15px">BTH &middot; Tree cover, AQI &amp; UV exposure —
-        Ahmedabad Metro, BRTS &amp; AMTS stops</b><br>
-        <span style="font-size:11px;color:#555">switch the metro colour view in the layer
-        control &middot; green tint = vegetation (WorldCover 2021) &middot; untinted = no cover</span>
-      </div>
-      <div style="position:fixed;bottom:16px;left:10px;z-index:9999;background:rgba(255,255,255,.95);
-                  padding:8px 10px;border-radius:6px;box-shadow:0 1px 5px rgba(0,0,0,.3);
-                  font-size:11px;font-family:sans-serif;line-height:1.7">
-        <b>Vegetation</b><br>{swatches}<br>
-        <b style="display:block;margin-top:4px">Green share, 500 m</b>{green_scale}
-        <span style="float:right">70&nbsp;%</span>0&nbsp;%
-        <b style="display:block;margin-top:4px">CPCB AQI (winter mean)</b>{aqi_swatches}
-        <b style="display:block;margin-top:4px">UV exposure, midday</b>{uv_scale}
-        <span style="float:right">UVI&nbsp;7</span>UVI&nbsp;1
-        <b style="display:block;margin-top:4px">Stops</b>{dots}
-      </div>
-    """.format(swatches=swatches, green_scale=green_scale,
-               aqi_swatches=aqi_swatches, uv_scale=uv_scale, dots=dots))
-    m.get_root().html.add_child(legend)  # type: ignore[attr-defined]  # folium untyped
+    # ---- colour-mode switcher + legends ----------------------------------
+    ui_html = (UI_TEMPLATE
+               .replace("@@MAP@@", m.get_name())
+               .replace("@@VEG@@", "".join(
+                   f'<span style="background:{h};margin-right:4px">&nbsp;&nbsp;&nbsp;</span>{lab}&nbsp;&nbsp;'
+                   for h, lab in VEG_STYLE.values()))
+               .replace("@@GREEN_SCALE@@", "".join(
+                   f'<span style="background:{scale_color(s, "RdYlGn", 0.0, 0.70)}">&nbsp;&nbsp;&nbsp;</span>'
+                   for s in np.linspace(0.0, 0.70, 8)))
+               .replace("@@AQI_SWATCHES@@", "".join(
+                   f'<span style="background:{c};margin-right:3px">&nbsp;&nbsp;&nbsp;</span>{lab}&nbsp;&nbsp;'
+                   for lab, c in AQI_BAND_COLOR))
+               .replace("@@UV_SCALE@@", "".join(
+                   f'<span style="background:{scale_color(u, "YlOrRd", 1.0, 7.0)}">&nbsp;&nbsp;&nbsp;</span>'
+                   for u in np.linspace(1, 7, 7)))
+               .replace("@@DOTS@@", "".join(
+                   f'<span style="display:inline-block;border-radius:50%;width:{r * 2}px;'
+                   f'height:{r * 2}px;background:#888;border:1px solid #fff;'
+                   f'vertical-align:middle;margin-right:4px"></span>'
+                   f'{MODE_LABEL[mode]}&nbsp;&nbsp;&nbsp;'
+                   for mode, r in MODE_RADIUS.items())))
+    m.get_root().html.add_child(folium.Element(ui_html))  # type: ignore[attr-defined]
 
     m.save(OUT_HTML)
     print(f"wrote {OUT_HTML}  ({OUT_HTML.stat().st_size / 1e6:.1f} MB, self-contained)")
