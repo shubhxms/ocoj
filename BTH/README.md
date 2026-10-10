@@ -13,7 +13,7 @@ green-cover view.
 ## Open this first
 
 `out/metro_tree_cover.html` — self-contained (map + land-cover raster embedded
-as base64). Works fully offline; the OpenStreetMap basemap needs network and
+as base64). Works fully offline; the Esri basemap needs network and
 simply doesn't load without it. Toggle layers top-right; click a station for
 its 500 m / 1 km class shares and green rank.
 

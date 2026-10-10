@@ -99,8 +99,22 @@ def main():
 
     m = folium.Map(location=(23.05, 72.58), zoom_start=12, tiles=None,
                    control_scale=True)
-    folium.TileLayer("OpenStreetMap", name="Basemap (online)",
-                     attr="&copy; OpenStreetMap contributors").add_to(m)
+    # Esri's keyless ArcGIS canvas tiles. OSM's tile server started blocking
+    # keyless file:// apps ("not following the tile usage policy"), Carto now
+    # demands an API key; ArcGIS canvas is the reliable keyless option.
+    basemap = folium.FeatureGroup(name="Basemap (Esri light gray, online)")
+    folium.TileLayer(
+        tiles=("https://server.arcgisonline.com/ArcGIS/rest/services/"
+               "Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"),
+        attr="Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ",
+        max_zoom=16,
+    ).add_to(basemap)
+    folium.TileLayer(
+        tiles=("https://server.arcgisonline.com/ArcGIS/rest/services/"
+               "Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"),
+        attr="Labels &copy; Esri", max_zoom=16, transparent=True,
+    ).add_to(basemap)
+    basemap.add_to(m)
 
     ImageOverlay(image=rgb, bounds=(lat_bounds, lon_bounds), opacity=0.85,
                  mercator_project=True, show=True,
